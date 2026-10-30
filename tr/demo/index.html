@@ -1,0 +1,601 @@
+<!doctype html>
+<html lang="tr" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <title>Canlı demo — Webyapar</title>
+  <meta name="description" content="Temayı masaüstü, tablet ve mobil görünümde canlı deneyin." />
+  <meta name="keywords" content="canlı demo, tema önizleme" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://yeni.webyapar.com/tr/demo/" />
+  <link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/demo/" />
+  <link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/demo/" />
+  <link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/demo/" />
+  <link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/demo/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Canlı demo — Webyapar" />
+  <meta property="og:description" content="Temayı masaüstü, tablet ve mobil görünümde canlı deneyin." />
+  <meta property="og:url" content="https://yeni.webyapar.com/tr/demo/" />
+  <meta property="og:image" content="https://yeni.webyapar.com/img/logo.png" />
+  <meta property="og:image:alt" content="Canlı demo" />
+  <meta property="og:site_name" content="Webyapar" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="ar_SA" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Canlı demo — Webyapar" />
+  <meta name="twitter:description" content="Temayı masaüstü, tablet ve mobil görünümde canlı deneyin." />
+  <meta name="twitter:image" content="https://yeni.webyapar.com/img/logo.png" />
+
+  <meta name="theme-color" content="#CC1F1B" />
+  <meta name="mx-api-base" content="none" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/fonts/inter.css?v=dcluz" />
+  <link rel="stylesheet" href="/src/fonts/poppins.css?v=dcluz" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=dcluz" />
+  <link rel="stylesheet" href="/src/rubik.css?v=dcluz" />
+  <link rel="stylesheet" href="/src/css.css?v=dcluz" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=dcluz" />
+  
+  <link rel="stylesheet" href="/src/mx-ui.css?v=dcluz" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=dcluz" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=dcluz" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=dcluz" />
+  <link rel="shortcut icon" href="/img/icon.png?v=dcluz" type="image/png" />
+  <link rel="apple-touch-icon" href="/img/icon.png" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://yeni.webyapar.com/#website",
+      "url": "https://yeni.webyapar.com/",
+      "name": "Webyapar",
+      "description": "Webyapar: 10 sektör için hazır kurumsal, e-ticaret ve galeri web sitesi temaları. Canlı demo, Türkçe · İngilizce · Arapça, mobil uyumlu.",
+      "inLanguage": "tr",
+      "publisher": {
+        "@id": "https://yeni.webyapar.com/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://yeni.webyapar.com/#organization",
+      "name": "Webyapar",
+      "url": "https://yeni.webyapar.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://yeni.webyapar.com/img/logo.png"
+      },
+      "image": "https://yeni.webyapar.com/img/logo.png",
+      "description": "Webyapar: 10 sektör için hazır kurumsal, e-ticaret ve galeri web sitesi temaları. Canlı demo, Türkçe · İngilizce · Arapça, mobil uyumlu.",
+      "telephone": "0531 679 10 14",
+      "email": "info@webyapar.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "0531 679 10 14",
+        "email": "info@webyapar.com"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://yeni.webyapar.com/tr/demo/#webpage",
+      "url": "https://yeni.webyapar.com/tr/demo/",
+      "name": "Canlı demo",
+      "description": "Temayı masaüstü, tablet ve mobil görünümde canlı deneyin.",
+      "inLanguage": "tr",
+      "isPartOf": {
+        "@id": "https://yeni.webyapar.com/#website"
+      },
+      "about": {
+        "@id": "https://yeni.webyapar.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://yeni.webyapar.com/img/logo.png"
+      },
+      "dateModified": "2026-10-30T21:01:05.055Z",
+      "breadcrumb": {
+        "@id": "https://yeni.webyapar.com/tr/demo/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://yeni.webyapar.com/tr/demo/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Webyapar",
+          "item": "https://yeni.webyapar.com/tr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Canlı demo",
+          "item": "https://yeni.webyapar.com/tr/demo/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+  
+<link rel="stylesheet" href="style.css?v=dcluz">
+</head>
+
+<body>
+  <a class="mx-skip-link" href="#content">İçeriğe atla</a>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
+  <div id="header"><header class="h0000" role="banner">
+  <div class="h0000title" role="region" aria-label="Dil Seçici">
+    <div class="h0000titlebody">
+      <nav class="h0000titlebodylang" aria-label="Dil Seçici">
+        <ul role="list">
+          <li role="none"><a href="/tr/demo/" hreflang="tr" aria-current="true" title="true" aria-label="Dil Seçici: tr" lang="tr">tr</a></li><li role="none"><a href="/en/demo/" hreflang="en" title="true" aria-label="Dil Seçici: en" lang="en">en</a></li><li role="none"><a href="/ar/demo/" hreflang="ar" title="true" aria-label="Dil Seçici: ar" lang="ar">ar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="h0000Children">
+    <div class="h0000body">
+      <a href="/tr/" aria-label="Anasayfa - Webyapar" title="Anasayfa - Webyapar">
+        <img src="/img/logo.png?v=pu9xn" class="h0000bodylogo" alt="Webyapar Logo" loading="lazy" />
+      </a>
+    </div>
+    <button class="h0000menumobil" type="button" aria-label="Menüyü Aç/Kapat" aria-expanded="false" aria-controls="h0000menulist">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+    <div class="h0000menuoverlay" id="h0000menuoverlay" aria-hidden="true"></div>
+    <nav class="h0000menulist" id="h0000menulist" role="navigation" aria-label="Navigasyon">
+      <button class="h0000menuclose" type="button" aria-label="Menüyü Kapat" aria-controls="h0000menulist">
+        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+      </button>
+      <ul role="menubar">
+        <a href="/tr/" class="h0000menuitem" role="menuitem" title="Anasayfa - Webyapar" aria-label="Anasayfa">Anasayfa</a><a href="/tr/temalar/" class="h0000menuitem" role="menuitem" title="Temalar" aria-label="Temalar">Temalar</a><a href="/tr/sektorler/" class="h0000menuitem" role="menuitem" title="Sektörler" aria-label="Sektörler">Sektörler</a><a href="/tr/hizmetler/" class="h0000menuitem" role="menuitem" title="Hizmetler" aria-label="Hizmetler">Hizmetler</a><a href="/tr/fiyatlar/" class="h0000menuitem" role="menuitem" title="Fiyatlar" aria-label="Fiyatlar">Fiyatlar</a><a href="/tr/iletisim/" class="h0000menuitem" role="menuitem" title="İletişim" aria-label="İletişim">İletişim</a>
+      </ul>
+      <div class="h0000menulang" aria-label="Dil Seçici">
+        <ul role="list">
+          <li role="none"><a href="/tr/demo/" hreflang="tr" aria-current="true" title="true" aria-label="Dil Seçici: tr" lang="tr">tr</a></li><li role="none"><a href="/en/demo/" hreflang="en" title="true" aria-label="Dil Seçici: en" lang="en">en</a></li><li role="none"><a href="/ar/demo/" hreflang="ar" title="true" aria-label="Dil Seçici: ar" lang="ar">ar</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<script>
+  setTimeout(function() {
+    var menuButton = document.querySelector(".h0000menumobil");
+    var menu = document.querySelector(".h0000menulist");
+    var overlay = document.querySelector(".h0000menuoverlay");
+    var closeButton = document.querySelector(".h0000menuclose");
+    function openMenu() {
+      if (menu && overlay) {
+        menu.classList.add("active");
+        overlay.classList.add("active");
+        overlay.setAttribute("aria-hidden", "false");
+        if (menuButton) {
+          menuButton.setAttribute("aria-expanded", "true");
+        }
+        document.body.style.overflow = "hidden";
+      }
+    }
+    
+    function closeMenu() {
+      if (menu && overlay) {
+        menu.classList.remove("active");
+        overlay.classList.remove("active");
+        overlay.setAttribute("aria-hidden", "true");
+        if (menuButton) {
+          menuButton.setAttribute("aria-expanded", "false");
+        }
+        document.body.style.overflow = "";
+        if (menuButton) {
+          menuButton.focus();
+        }
+      }
+    }
+    
+    if (menuButton && menu && overlay) {
+      menuButton.addEventListener("click", function () {
+        var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+        if (isExpanded) {
+          closeMenu();
+        } else {
+          openMenu();
+        }
+      });
+      if (closeButton) {
+        closeButton.addEventListener("click", function () {
+          closeMenu();
+        });
+      }
+      overlay.addEventListener("click", function () {
+        closeMenu();
+      });
+      menuButton.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+          if (isExpanded) {
+            closeMenu();
+          } else {
+            openMenu();
+          }
+        }
+      });
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
+          closeMenu();
+        }
+      });
+    }
+  }, 100);
+</script>
+</div>
+  <div id="content"><section class="b0000-dc" id="dc-y55xlg" role="region" aria-label="Canlı demo önizleme" data-dc-root>
+  <header class="b0000-dc-bar">
+    <div class="b0000-dc-id">
+      <a class="b0000-dc-back" href="/tr/temalar/">
+        <span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_back</span>
+        <span class="b0000-dc-backtext">Tüm temalar</span>
+      </a>
+      <h1 class="b0000-dc-name" data-dc-name></h1>
+    </div>
+
+    <div class="b0000-dc-nav" role="group" aria-label="Tema gezintisi" data-dc-nav>
+      <button type="button" class="b0000-dc-icon" data-dc-prev aria-label="Önceki tema" title="Önceki tema">
+        <span class="material-symbols-outlined mx-flip" aria-hidden="true">chevron_left</span>
+      </button>
+      <span class="b0000-dc-counter" data-dc-counter><bdi dir="ltr" data-dc-counter-n></bdi></span>
+      <button type="button" class="b0000-dc-icon" data-dc-next aria-label="Sonraki tema" title="Sonraki tema">
+        <span class="material-symbols-outlined mx-flip" aria-hidden="true">chevron_right</span>
+      </button>
+    </div>
+
+    <div class="b0000-dc-devices" role="group" aria-label="Cihaz önizlemesi"><button type="button" class="b0000-dc-dev" data-dc-dev="desktop" aria-pressed="false" title="Masaüstü"><span class="material-symbols-outlined" aria-hidden="true">desktop_windows</span><span class="b0000-dc-devtext">Masaüstü</span></button><button type="button" class="b0000-dc-dev" data-dc-dev="tablet" aria-pressed="false" title="Tablet"><span class="material-symbols-outlined" aria-hidden="true">tablet_mac</span><span class="b0000-dc-devtext">Tablet</span></button><button type="button" class="b0000-dc-dev" data-dc-dev="mobile" aria-pressed="false" title="Mobil"><span class="material-symbols-outlined" aria-hidden="true">smartphone</span><span class="b0000-dc-devtext">Mobil</span></button></div>
+
+    <div class="b0000-dc-actions">
+      <a class="b0000-dc-open" href="#" target="_blank" rel="noopener noreferrer" data-dc-open>
+        <span class="material-symbols-outlined" aria-hidden="true">open_in_new</span>
+        <span class="b0000-dc-opentext">Yeni sekmede aç</span>
+      </a>
+      <a class="mx-btn mx-btn--primary b0000-dc-request" href="#" data-dc-request>
+        <span>Bu temayı iste</span>
+      </a>
+    </div>
+  </header>
+
+  <p class="mx-visually-hidden" aria-live="polite" data-dc-live></p>
+
+  <div class="b0000-dc-stage" data-dc-stage>
+    <div class="b0000-dc-box" data-dc-box dir="ltr">
+      <iframe class="b0000-dc-frame" data-dc-frame title="" sandbox="allow-scripts allow-same-origin allow-forms" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="b0000-dc-loading" data-dc-loading role="status">
+      <span class="b0000-dc-spin" aria-hidden="true"></span>
+      <span>Demo yükleniyor…</span>
+    </div>
+
+    <div class="b0000-dc-fallback" data-dc-fallback role="alert" hidden>
+      <span class="material-symbols-outlined" aria-hidden="true">web_asset_off</span>
+      <p class="b0000-dc-fbtitle">Demo çerçevede açılamadı</p>
+      <p class="b0000-dc-fbtext">Bu site çerçeve içinde gösterilmeye izin vermiyor ya da zamanında yanıt vermedi. Demoyu yeni sekmede açabilirsiniz.</p>
+      <a class="mx-btn mx-btn--primary b0000-dc-fbbtn" href="#" target="_blank" rel="noopener noreferrer" data-dc-open2>
+        <span class="material-symbols-outlined" aria-hidden="true">open_in_new</span>
+        <span>Yeni sekmede aç</span>
+      </a>
+    </div>
+
+    <div class="b0000-dc-empty" data-dc-empty hidden>
+      <span class="material-symbols-outlined" aria-hidden="true">devices</span>
+      <p>Gösterilecek tema yok.</p>
+    </div>
+  </div>
+
+  <p class="b0000-dc-hint" data-dc-hint>Önizleme görünmüyorsa demoyu yeni sekmede açın.</p>
+  <script type="application/json" id="dc-y55xlg-veri">{"lang":"tr","themes":[{"slug":"restoran","name":"Kervan Sofrası","url":"https://restoran.webyapar.com/tr/"},{"slug":"klinik","name":"Berrak Tıp Merkezi","url":"https://klinik.webyapar.com/tr/"},{"slug":"emlak","name":"Anka Gayrimenkul","url":"https://emlak.webyapar.com/tr/"},{"slug":"sanayi","name":"Orvak Makina","url":"https://sanayi.webyapar.com/tr/"},{"slug":"dekor","name":"Meşe Ev","url":"https://dekor.webyapar.com/tr/"},{"slug":"kuyumcu","name":"Zümra Kuyum","url":"https://kuyumcu.webyapar.com/tr/"},{"slug":"gida","name":"Yeşil Kervan","url":"https://gida.webyapar.com/tr/"},{"slug":"insaat","name":"Kalesu Yapı","url":"https://insaat.webyapar.com/tr/"},{"slug":"guzellik","name":"Sedef Studio","url":"https://guzellik.webyapar.com/tr/"},{"slug":"portfolyo","name":"Deniz Altan","url":"https://portfolyo.webyapar.com/tr/"}],"devices":[{"id":"desktop","w":1440,"h":0},{"id":"tablet","w":820,"h":1180},{"id":"mobile","w":390,"h":844}],"theme":"","request":"/tr/iletisim/","timeout":9000,"t":{"backText":"Tüm temalar","deviceLabel":"Cihaz önizlemesi","deviceDesktop":"Masaüstü","deviceTablet":"Tablet","deviceMobile":"Mobil","navLabel":"Tema gezintisi","prevText":"Önceki tema","nextText":"Sonraki tema","counterAria":"Tema {n} / {total}","openText":"Yeni sekmede aç","requestText":"Bu temayı iste","frameTitle":"{name} — canlı demo önizlemesi","loadingText":"Demo yükleniyor…","fallbackTitle":"Demo çerçevede açılamadı","fallbackText":"Önizleme görünmüyorsa demoyu yeni sekmede açın.","fallbackLong":"Bu site çerçeve içinde gösterilmeye izin vermiyor ya da zamanında yanıt vermedi. Demoyu yeni sekmede açabilirsiniz.","emptyText":"Gösterilecek tema yok.","ariaLabel":"Canlı demo önizleme"}}</script>
+</section>
+
+
+
+<script>
+  
+  (function () {
+    
+    
+    function olcekHesapla(c, sw, sh, bosluk) {
+      var aw = Math.max(1, sw - 2 * bosluk);
+      var ah = Math.max(1, sh - 2 * bosluk);
+      var s;
+      if (!(c.h > 0)) {
+        s = Math.min(1, aw / c.w);
+        return { scale: s, w: c.w, h: Math.round(ah / s), boxW: Math.round(c.w * s), boxH: ah };
+      }
+      s = Math.min(1, aw / c.w, ah / c.h);
+      return { scale: s, w: c.w, h: c.h, boxW: Math.round(c.w * s), boxH: Math.round(c.h * s) };
+    }
+
+    
+    function temaIndeksi(liste, slug) {
+      if (!liste || !liste.length) {
+        return -1;
+      }
+      for (var i = 0; i < liste.length; i++) {
+        if (liste[i].slug === slug) {
+          return i;
+        }
+      }
+      return 0;
+    }
+
+    
+    function komsu(i, adim, toplam) {
+      if (toplam <= 0) {
+        return -1;
+      }
+      return (i + adim + toplam) % toplam;
+    }
+
+    function sorguTema(arama) {
+      var m = /[?&]t=([^&#]*)/.exec(String(arama || ""));
+      if (!m) {
+        return "";
+      }
+      try {
+        return decodeURIComponent(m[1].replace(/\+/g, " ")).replace(/[^a-zA-Z0-9_.-]/g, "");
+      } catch (e) {
+        return "";
+      }
+    }
+
+    
+    function doldur(sablon, harita) {
+      return String(sablon == null ? "" : sablon).replace(/\{(\w+)\}/g, function (tam, ad) {
+        return Object.prototype.hasOwnProperty.call(harita, ad) ? String(harita[ad]) : tam;
+      });
+    }
+
+    window.mxDemoCerceveLib = window.mxDemoCerceveLib || {
+      olcekHesapla: olcekHesapla,
+      temaIndeksi: temaIndeksi,
+      komsu: komsu,
+      sorguTema: sorguTema,
+      doldur: doldur
+    };
+
+    
+    var kok = document.getElementById("dc-y55xlg");
+    if (!kok) {
+      return;
+    }
+    var cfg = {};
+    try {
+      cfg = JSON.parse(document.getElementById("dc-y55xlg-veri").textContent);
+    } catch (e) {
+      cfg = {};
+    }
+    var T = cfg.t || {};
+    var temalar = cfg.themes || [];
+    var cihazlar = cfg.devices || [];
+    var durum = { i: -1, cihaz: "", zamanlayici: null, yuklendi: false };
+
+    function q(sel) {
+      return kok.querySelector(sel);
+    }
+
+    function qa(sel) {
+      return kok.querySelectorAll(sel);
+    }
+
+    function rtlMi() {
+      return document.documentElement.getAttribute("dir") === "rtl";
+    }
+
+    function cihazBul(id) {
+      for (var i = 0; i < cihazlar.length; i++) {
+        if (cihazlar[i].id === id) {
+          return cihazlar[i];
+        }
+      }
+      return cihazlar[0] || null;
+    }
+
+    function yerlestir() {
+      var c = cihazBul(durum.cihaz);
+      var stage = q("[data-dc-stage]");
+      if (!c || !stage) {
+        return;
+      }
+      var cs = window.getComputedStyle(stage);
+      var bosluk = parseFloat(cs.paddingTop) || 0;
+      var kutu = q("[data-dc-box]");
+      
+      var bez = c.id === "desktop" || !(c.h > 0) ? 0 : 8;
+      var o = olcekHesapla(c, stage.clientWidth - 2 * bez, stage.clientHeight - 2 * bez, bosluk);
+      kutu.setAttribute("data-dc-device", c.id);
+      kutu.style.width = o.boxW + 2 * bez + "px";
+      kutu.style.height = o.boxH + 2 * bez + "px";
+      var fr = q("[data-dc-frame]");
+      fr.style.width = o.w + "px";
+      fr.style.height = o.h + "px";
+      fr.style.transform = "scale(" + o.scale + ")";
+    }
+
+    function cihazSec(id) {
+      durum.cihaz = id;
+      var d = qa("[data-dc-dev]");
+      for (var i = 0; i < d.length; i++) {
+        d[i].setAttribute("aria-pressed", d[i].getAttribute("data-dc-dev") === id ? "true" : "false");
+      }
+      yerlestir();
+    }
+
+    function yedekGoster(goster) {
+      q("[data-dc-fallback]").hidden = !goster;
+      
+      q("[data-dc-box]").style.visibility = goster ? "hidden" : "";
+      if (goster) {
+        q("[data-dc-loading]").hidden = true;
+      }
+    }
+
+    function temaYukle(i) {
+      var t = temalar[i];
+      durum.i = i;
+      durum.yuklendi = false;
+      if (durum.zamanlayici) {
+        clearTimeout(durum.zamanlayici);
+      }
+      yedekGoster(false);
+      q("[data-dc-loading]").hidden = false;
+      q("[data-dc-name]").textContent = t.name;
+      var cn = q("[data-dc-counter-n]");
+      cn.textContent = i + 1 + " / " + temalar.length;
+      q("[data-dc-counter]").setAttribute("aria-label", doldur(T.counterAria, { n: i + 1, total: temalar.length }));
+      var fr = q("[data-dc-frame]");
+      fr.setAttribute("title", doldur(T.frameTitle, { name: t.name }));
+      var acik = q("[data-dc-open]");
+      acik.setAttribute("href", t.url);
+      q("[data-dc-open2]").setAttribute("href", t.url);
+      var ist = q("[data-dc-request]");
+      if (cfg.request) {
+        ist.setAttribute("href", cfg.request + "?tema=" + encodeURIComponent(t.slug));
+      } else {
+        ist.hidden = true;
+      }
+      fr.setAttribute("src", t.url);
+      q("[data-dc-live]").textContent = t.name;
+      durum.zamanlayici = setTimeout(function () {
+        if (!durum.yuklendi) {
+          yedekGoster(true);
+          q("[data-dc-live]").textContent = T.fallbackTitle;
+        }
+      }, cfg.timeout);
+      try {
+        var u = new window.URL(window.location.href);
+        u.searchParams.set("t", t.slug);
+        window.history.replaceState(null, "", u.pathname + u.search + u.hash);
+      } catch (e) {
+        
+      }
+    }
+
+    function baslat() {
+      if (!temalar.length || !cihazlar.length) {
+        q("[data-dc-empty]").hidden = false;
+        q("[data-dc-loading]").hidden = true;
+        q("[data-dc-box]").hidden = true;
+        q("[data-dc-nav]").hidden = true;
+        q("[data-dc-hint]").hidden = true;
+        return;
+      }
+      var fr = q("[data-dc-frame]");
+      fr.addEventListener("load", function () {
+        
+        if (!fr.getAttribute("src")) {
+          return;
+        }
+        durum.yuklendi = true;
+        q("[data-dc-loading]").hidden = true;
+        yedekGoster(false);
+      });
+      fr.addEventListener("error", function () {
+        yedekGoster(true);
+      });
+      var istenen = sorguTema(window.location.search) || cfg.theme;
+      var baslangic = temaIndeksi(temalar, istenen);
+      var kucuk = window.matchMedia && window.matchMedia("(max-width: 768px)").matches;
+      var ilkCihaz = kucuk ? (cihazBul("mobile") || cihazlar[0]).id : cihazlar[0].id;
+      cihazSec(ilkCihaz);
+      temaYukle(baslangic);
+
+      q("[data-dc-prev]").addEventListener("click", function () {
+        temaYukle(komsu(durum.i, -1, temalar.length));
+      });
+      q("[data-dc-next]").addEventListener("click", function () {
+        temaYukle(komsu(durum.i, 1, temalar.length));
+      });
+      
+      q("[data-dc-nav]").addEventListener("keydown", function (ev) {
+        var k = ev.key;
+        if (k !== "ArrowLeft" && k !== "ArrowRight") {
+          return;
+        }
+        var ileri = (k === "ArrowRight") !== rtlMi();
+        ev.preventDefault();
+        temaYukle(komsu(durum.i, ileri ? 1 : -1, temalar.length));
+      });
+      var dugmeler = qa("[data-dc-dev]");
+      for (var i = 0; i < dugmeler.length; i++) {
+        dugmeler[i].addEventListener("click", function (ev) {
+          var b = ev.currentTarget;
+          cihazSec(b.getAttribute("data-dc-dev"));
+        });
+      }
+      window.addEventListener("resize", yerlestir);
+      if (window.ResizeObserver) {
+        new window.ResizeObserver(yerlestir).observe(q("[data-dc-stage]"));
+      }
+    }
+
+    baslat();
+  })();
+</script>
+</div>
+  <div id="footer"><footer class="footer">
+  <div class="footer-top">
+    <div class="footer-logo">
+      <img src="/img/logo.png" height="60"   alt="Webyapar Logo"  loading="lazy"/>
+    </div>
+    <ul class="menu">
+      <li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/">Anasayfa</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/temalar/">Temalar</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/sektorler/">Sektörler</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/hizmetler/">Hizmetler</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/fiyatlar/">Fiyatlar</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/iletisim/">İletişim</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/portfolyo-web-sitesi/">Fotoğrafçı portfolyo web sitesi</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/guzellik-merkezi-web-sitesi/">Güzellik merkezi web sitesi</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/insaat-web-sitesi/">İnşaat web sitesi</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/gida-eticaret-sitesi/">Gıda e-ticaret sitesi</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/kuyumcu-eticaret-sitesi/">Kuyumcu e-ticaret sitesi</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/dekorasyon-eticaret-sitesi/">Dekorasyon e-ticaret sitesi</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/sanayi-web-sitesi/">Sanayi web sitesi</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/emlak-web-sitesi/">Emlak web sitesi</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/klinik-web-sitesi/">Klinik web sitesi</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/restoran-web-sitesi/">Restoran web sitesi</a></li><li class="f0000-menu__item"><a class="f0000-menu_link" href="/tr/demo/">Canlı demo</a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    <nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/demo/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/demo/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/demo/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
+    <p>&copy; Webyapar 2026. Tüm hakları saklıdır.</p>
+  </div>
+</footer>
+
+</div>
+
+  <script>(function(){try{var s=new URLSearchParams(location.search).get("tema");var N={"restoran":"Kervan Sofrası","klinik":"Berrak Tıp Merkezi","emlak":"Anka Gayrimenkul","sanayi":"Orvak Makina","dekor":"Meşe Ev","kuyumcu":"Zümra Kuyum","gida":"Yeşil Kervan","insaat":"Kalesu Yapı","guzellik":"Sedef Studio","portfolyo":"Deniz Altan"};if(!s||!N[s])return;var d=(document.documentElement.lang||"tr").slice(0,2);var M={tr:"Merhaba, “"+N[s]+"” temasını istiyorum.",en:"Hello, I would like the “"+N[s]+"” theme.",ar:"مرحبًا، أودّ الحصول على قالب «"+N[s]+"»."};var t=encodeURIComponent(M[d]||M.tr);var a=document.querySelectorAll('a[href^="https://wa.me/"]');for(var i=0;i<a.length;i++){a[i].href="https://wa.me/905316791014?text="+t;}}catch(e){}})();</script>
+
+  <script defer src="/src/swiper-bundle.min.js"></script>
+  <script defer src="/src/mx-ui.js?v=dcluz"></script>
+  <script defer src="/src/mx-store.js?v=dcluz"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=dcluz"></script>
+  <script defer src="/src/cookie.js?v=dcluz"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,862 @@
+# Webyapar
+
+> Webyapar: 10 sektör için hazır kurumsal, e-ticaret ve galeri web sitesi temaları. Canlı demo, Türkçe · İngilizce · Arapça, mobil uyumlu.
+
+---
+
+## Webyapar
+https://yeni.webyapar.com/tr/
+
+Webyapar: 10 sektör için hazır kurumsal, e-ticaret ve galeri web sitesi temaları. Canlı demo, Türkçe · İngilizce · Arapça, mobil uyumlu.
+
+Hazır web sitesi temaları
+Sektörünüze hazır web sitesi — canlı deneyin
+10 sektör için tasarlanmış kurumsal, e-ticaret ve galeri temaları. Üç dilde (TR · EN · AR), mobil uyumlu; beğendiğinizi markanıza uyarlıyoruz.
+Temaları gör Sektörler
+10
+Sektör teması
+3
+Dil
+3
+Tür
+100
+% statik
+Tema ara
+Sırala En yeni Ad (A–Z) Sektör (A–Z) Tür
+Tür
+Sektör
+Restoran Kurumsal
+Kervan Sofrası
+Menü, alerjen bilgisi, galeri ve masa rezervasyonlu restoran sitesi.
+Dahil olanlar
+Randevu
+QR menü
+Alerjen bilgisi
+Galeri
+Harita
+7 sayfa
+Demoyu gör Bu temayı iste
+Klinik Kurumsal
+Berrak Tıp Merkezi
+Hekim kartları, tedaviler ve randevu talebi olan sakin bir klinik sitesi.
+Dahil olanlar
+Randevu
+Galeri
+Harita
+7 sayfa
+Demoyu gör Bu temayı iste
+Dekorasyon E-ticaret
+Meşe Ev
+Sepet ve demo ödeme akışıyla uçtan uca denenebilen dekorasyon mağazası.
+Dahil olanlar
+Randevu
+Sepet
+Demo ödeme
+Galeri
+Harita
+4 sayfa
+Demoyu gör Bu temayı iste
+Kuyumcu E-ticaret
+Zümra Kuyum
+Altın fiyat bandı, koleksiyonlar ve sepetli kuyumcu mağazası.
+Dahil olanlar
+Randevu
+Sepet
+Demo ödeme
+Galeri
+Harita
+6 sayfa
+Demoyu gör Bu temayı iste
+İnşaat Galeri
+Kalesu Yapı
+Proje filtreli portföy, ilerleme galerisi ve teklif formu olan inşaat sitesi.
+Dahil olanlar
+Galeri
+Proje filtresi
+Harita
+10 sayfa
+Demoyu gör Bu temayı iste
+Portfolyo Galeri
+Deniz Altan
+Kategori filtreli galeri, paketler ve çekim rezervasyonlu fotoğrafçı portfolyosu.
+Dahil olanlar
+Randevu
+Galeri
+Harita
+7 sayfa
+Demoyu gör Bu temayı iste
+Eşleşen tema yok
+Aramanızı değiştirin ya da filtreleri temizleyin.
+Nasıl çalışır?
+Dört adımda, sürprizsiz bir akış.
+1. Temayı canlı deneyin
+Sektörünüze uygun temayı seçin; masaüstü, tablet ve mobilde gerçek siteyi gezin.
+2. Markanıza uyarlayın
+Logo, renk, metin ve görseller sizin olur; üç dilde (TR · EN · AR) hazır gelir.
+3. Yayına alın
+Statik, hızlı ve https’li site; kendi alan adınız bağlanır.
+4. Birlikte büyüyün
+Yeni sayfa, yeni modül ve bakım için yanınızdayız.
+0
+Sektör teması
+0
+Dil: TR · EN · AR
+0
+Tür: kurumsal · e-ticaret · galeri
+0 %
+Statik, hızlı yayın
+SSS
+Sık sorulanlar
+Temalar ve yayın hakkında kısa cevaplar.
+Evet. Logo, renk paleti, metinler ve görseller değiştirilir; sayfa ve modüller ihtiyacınıza göre eklenir ya da çıkarılır.
+Hayır. E-ticaret demolarında sepet tarayıcıda tutulur ve ödeme adımı simülasyondur; gerçek ödeme kurulum sırasında seçtiğiniz sağlayıcıya bağlanır.
+Evet. Arapça sayfalar tam RTL’dir: yerleşim aynalanır, Arapça yazı tipi kullanılır, fiyat ve telefon numaraları Latin hanelerle okunur kalır.
+Evet. Siteler statik olarak yayınlanır ve alan adınız CNAME kaydıyla bağlanır; https sertifikası otomatik gelir.
+Sektörünüze uygun temayı seçin
+Canlı demoları gezin, beğendiğinizi isteyin; kalanını biz hallederiz.
+Temaları gör Teklif al
+
+---
+
+## Temalar
+https://yeni.webyapar.com/tr/temalar/
+
+Kurumsal, e-ticaret ve galeri türünde 10 sektör teması; tür ve sektöre göre süzün, canlı demoyu deneyin.
+
+Tema ara
+Sırala En yeni Ad (A–Z) Sektör (A–Z) Tür
+Tür
+Sektör
+Restoran Kurumsal
+Kervan Sofrası
+Menü, alerjen bilgisi, galeri ve masa rezervasyonlu restoran sitesi.
+Dahil olanlar
+Randevu
+QR menü
+Alerjen bilgisi
+Galeri
+Harita
+7 sayfa
+Demoyu gör Bu temayı iste
+Klinik Kurumsal
+Berrak Tıp Merkezi
+Hekim kartları, tedaviler ve randevu talebi olan sakin bir klinik sitesi.
+Dahil olanlar
+Randevu
+Galeri
+Harita
+7 sayfa
+Demoyu gör Bu temayı iste
+Emlak Kurumsal
+Anka Gayrimenkul
+Filtreli ilan listesi, danışmanlar ve değerleme talebi olan emlak sitesi.
+Dahil olanlar
+Randevu
+Galeri
+Proje filtresi
+Harita
+8 sayfa
+Demoyu gör Bu temayı iste
+Sanayi Kurumsal
+Orvak Makina
+Ürün grupları, kalite belgeleri, katalog ve teklif formu olan sanayi sitesi.
+Dahil olanlar
+Randevu
+Galeri
+Proje filtresi
+Harita
+9 sayfa
+Demoyu gör Bu temayı iste
+Dekorasyon E-ticaret
+Meşe Ev
+Sepet ve demo ödeme akışıyla uçtan uca denenebilen dekorasyon mağazası.
+Dahil olanlar
+Randevu
+Sepet
+Demo ödeme
+Galeri
+Harita
+4 sayfa
+Demoyu gör Bu temayı iste
+Kuyumcu E-ticaret
+Zümra Kuyum
+Altın fiyat bandı, koleksiyonlar ve sepetli kuyumcu mağazası.
+Dahil olanlar
+Randevu
+Sepet
+Demo ödeme
+Galeri
+Harita
+6 sayfa
+Demoyu gör Bu temayı iste
+Gıda E-ticaret
+Yeşil Kervan
+Kategori filtreli ürün listesi ve sepetli paketli gıda mağazası.
+Dahil olanlar
+Sepet
+Demo ödeme
+Galeri
+Proje filtresi
+Harita
+5 sayfa
+Demoyu gör Bu temayı iste
+İnşaat Galeri
+Kalesu Yapı
+Proje filtreli portföy, ilerleme galerisi ve teklif formu olan inşaat sitesi.
+Dahil olanlar
+Galeri
+Proje filtresi
+Harita
+10 sayfa
+Demoyu gör Bu temayı iste
+Güzellik Galeri
+Sedef Studio
+Hizmet ve fiyat listesi, ekip, öncesi-sonrası ve online randevulu güzellik sitesi.
+Dahil olanlar
+Randevu
+Galeri
+Harita
+10 sayfa
+Demoyu gör Bu temayı iste
+Portfolyo Galeri
+Deniz Altan
+Kategori filtreli galeri, paketler ve çekim rezervasyonlu fotoğrafçı portfolyosu.
+Dahil olanlar
+Randevu
+Galeri
+Harita
+7 sayfa
+Demoyu gör Bu temayı iste
+Eşleşen tema yok
+Aramanızı değiştirin ya da filtreleri temizleyin.
+Sektörünüze uygun temayı seçin
+Canlı demoları gezin, beğendiğinizi isteyin; kalanını biz hallederiz.
+Temaları gör Teklif al
+
+---
+
+## Sektörler
+https://yeni.webyapar.com/tr/sektorler/
+
+Restoran, klinik, emlak, sanayi, dekorasyon, kuyumcu, gıda, inşaat, güzellik ve portfolyo için hazır web sitesi temaları.
+
+Sektörünüze uygun temayı seçin
+Canlı demoları gezin, beğendiğinizi isteyin; kalanını biz hallederiz.
+Temaları gör Teklif al
+
+---
+
+## Hizmetler
+https://yeni.webyapar.com/tr/hizmetler/
+
+Hazır tema, özel tasarım, e-ticaret kurulumu, yayın ve bakım hizmetleri.
+
+Hizmetlerimiz
+Hazır temadan özel projeye, yayından bakıma.
+Hazır tema
+10 sektör için tasarlanmış, üç dilli ve mobil uyumlu temalardan biri markanıza uyarlanır.
+Özel tasarım
+Markanıza özel sayfa yapısı, modüller ve görsel dil; sıfırdan ya da bir temadan türetilerek.
+E-ticaret kurulumu
+Ürün vitrini, sepet ve sipariş akışı; ödeme sağlayıcısı ihtiyacınıza göre ayrıca bağlanır.
+Yayın ve bakım
+Alan adı bağlama, https, içerik güncellemeleri ve yeni sayfa/modül eklemeleri.
+Sektörünüze uygun temayı seçin
+Canlı demoları gezin, beğendiğinizi isteyin; kalanını biz hallederiz.
+Temaları gör Teklif al
+
+---
+
+## Fiyatlar
+https://yeni.webyapar.com/tr/fiyatlar/
+
+Hazır tema, özel tasarım ve e-ticaret kurulumu için teklif al.
+
+Fiyatlar
+Size uygun paketi seçin
+Kapsama göre hazırlanan teklifler; fiyat listesi yayımlandığında burada yer alacak.
+Hazır tema
+—
+Fiyat için teklif alın
+Sektörünüze uygun tema
+Üç dil: TR · EN · AR
+Logo, renk ve metin uyarlaması
+Mobil uyumlu statik site
+Alan adı bağlama
+Teklif al
+En çok sorulan
+Özel tasarım
+—
+Kapsama göre teklif
+Markaya özel sayfa yapısı
+Yeni modül tasarımı
+Özgün görsel üretimi
+Üç dil ve RTL
+Yayın ve eğitim
+Teklif al
+E-ticaret kurulumu
+—
+Ürün sayısına göre teklif
+Ürün vitrini ve kategoriler
+Sepet ve sipariş akışı
+Üyelik ve adres sayfaları
+Ödeme sağlayıcısı entegrasyonu (ayrı)
+Yasal sayfalar
+Teklif al
+SSS
+Fiyatlandırma hakkında
+Teklif süreci.
+Kapsam (sayfa, dil, e-ticaret, özel tasarım) fiyatı belirlediği için teklifi ihtiyacınıza göre hazırlıyoruz. Fiyat listesi yayımlandığında bu sayfada yer alacak.
+WhatsApp ya da e-posta ile ilettiğiniz talebe en kısa sürede dönüş yapılır.
+Bize yazın
+Hangi temayı istediğinizi ya da nasıl bir siteye ihtiyacınız olduğunu kısaca yazın; en kısa sürede dönüş yapalım.
+WhatsApp ile yaz E-posta gönder
+
+---
+
+## İletişim
+https://yeni.webyapar.com/tr/iletisim/
+
+Webyapar ile WhatsApp, telefon ya da e-posta üzerinden iletişime geçin.
+
+Bize ulaşın
+0531 679 10 14
+WhatsApp
+info@webyapar.com
+Gaziantep, Türkiye
+Bize yazın
+Hangi temayı istediğinizi ya da nasıl bir siteye ihtiyacınız olduğunu kısaca yazın; en kısa sürede dönüş yapalım.
+WhatsApp ile yaz E-posta gönder
+
+---
+
+## Fotoğrafçı portfolyo web sitesi
+https://yeni.webyapar.com/tr/portfolyo-web-sitesi/
+
+Kategori filtreli galeri, tam ekran görüntüleyici, çekim paketleri ve rezervasyon: işleriniz ön planda, ürün satan değil sanat gösteren bir site.
+
+Portfolyo
+Fotoğrafçı portfolyo web sitesi
+Kategori filtreli galeri, tam ekran görüntüleyici, çekim paketleri ve rezervasyon: işleriniz ön planda, ürün satan değil sanat gösteren bir site.
+Canlı demoyu gör Bu temayı iste
+Önerilen sayfalar
+Bu sektör için temada hazır gelen sayfalar.
+Projeler
+Kategori çipleri ve masonry galeri.
+Paketler
+Çekim paketleri ve sık sorulan sorular.
+Rezervasyon
+Çekim türü, gün ve saat seçimli talep.
+Hakkımda
+Kısa biyografi ve çalışma biçimi.
+Tema ara
+Sırala En yeni Ad (A–Z) Sektör (A–Z) Tür
+Tür
+Sektör
+Portfolyo Galeri
+Deniz Altan
+Kategori filtreli galeri, paketler ve çekim rezervasyonlu fotoğrafçı portfolyosu.
+Dahil olanlar
+Randevu
+Galeri
+Harita
+7 sayfa
+Demoyu gör Bu temayı iste
+Eşleşen tema yok
+Aramanızı değiştirin ya da filtreleri temizleyin.
+SSS
+Bilmeniz gerekenler
+Yasal not ve sık sorulan sorular.
+Fotoğrafta telif hakkı eser sahibindedir; çekilen kişilerin rızası ve görsel kullanım lisansı açıkça yazılmalıdır. Demodaki fotoğraflar yapay zekâ ile üretilmiştir ve başkasının eseri değildir.
+Görseller WebP biçiminde, boyutlara uygun üretilir; galeri hızlı açılır ve kalite korunur.
+Statik sitede parola korumalı galeri yoktur; müşteri teslimi için ayrı bir bağlantı ya da hizmet önerilir.
+Sektörünüze uygun temayı seçin
+Canlı demoları gezin, beğendiğinizi isteyin; kalanını biz hallederiz.
+Temaları gör Teklif al
+
+---
+
+## Güzellik merkezi web sitesi
+https://yeni.webyapar.com/tr/guzellik-merkezi-web-sitesi/
+
+Hizmet listesi ve fiyatlar, uzman ekip, öncesi-sonrası galeri ve randevu: güzellik merkezi için sıcak ve şık bir vitrin.
+
+Güzellik
+Güzellik merkezi web sitesi
+Hizmet listesi ve fiyatlar, uzman ekip, öncesi-sonrası galeri ve randevu: güzellik merkezi için sıcak ve şık bir vitrin.
+Canlı demoyu gör Bu temayı iste
+Önerilen sayfalar
+Bu sektör için temada hazır gelen sayfalar.
+Hizmetler ve fiyatlar
+Kategorili hizmet listesi, süre ve fiyat.
+Ekibimiz
+Ekip kartları ve uzmanlık alanları.
+Öncesi-sonrası
+Çalışma örnekleri ve öncesi-sonrası galerisi.
+Online randevu
+Hizmet, uzman, gün ve saat seçimli randevu.
+Tema ara
+Sırala En yeni Ad (A–Z) Sektör (A–Z) Tür
+Tür
+Sektör
+Güzellik Galeri
+Sedef Studio
+Hizmet ve fiyat listesi, ekip, öncesi-sonrası ve online randevulu güzellik sitesi.
+Dahil olanlar
+Randevu
+Galeri
+Harita
+10 sayfa
+Demoyu gör Bu temayı iste
+Eşleşen tema yok
+Aramanızı değiştirin ya da filtreleri temizleyin.
+SSS
+Bilmeniz gerekenler
+Yasal not ve sık sorulan sorular.
+Estetik ve bakım hizmetlerinde sağlık beyanı ve «öncesi-sonrası» görselleri için ilgili düzenlemeler geçerlidir; kişi görselleri izinle kullanılmalıdır. Demodaki kişiler kurgusaldır.
+Hayır; fiyat alanı isteğe bağlıdır, boş bırakılırsa yalnızca hizmet ve süre görünür.
+Evet; randevu formu hizmeti ve uzmanı birlikte seçtirir.
+Sektörünüze uygun temayı seçin
+Canlı demoları gezin, beğendiğinizi isteyin; kalanını biz hallederiz.
+Temaları gör Teklif al
+
+---
+
+## İnşaat web sitesi
+https://yeni.webyapar.com/tr/insaat-web-sitesi/
+
+Proje portföyü, filtreli referanslar, öncesi-sonrası ilerleme galerisi ve teknik tablolar: işinizi görerek anlatın.
+
+İnşaat
+İnşaat web sitesi
+Proje portföyü, filtreli referanslar, öncesi-sonrası ilerleme galerisi ve teknik tablolar: işinizi görerek anlatın.
+Canlı demoyu gör Bu temayı iste
+Önerilen sayfalar
+Bu sektör için temada hazır gelen sayfalar.
+Projeler
+Durum ve türe göre süzülen proje kartları.
+İnşaat ilerleme
+Öncesi-sonrası kaydırıcı ve tam ekran görüntüleyici.
+Kat planları
+Kat planı görselleri ve teknik tablo.
+Teklif al
+Keşif ve teklif talebi, harita ve WhatsApp.
+Tema ara
+Sırala En yeni Ad (A–Z) Sektör (A–Z) Tür
+Tür
+Sektör
+İnşaat Galeri
+Kalesu Yapı
+Proje filtreli portföy, ilerleme galerisi ve teklif formu olan inşaat sitesi.
+Dahil olanlar
+Galeri
+Proje filtresi
+Harita
+10 sayfa
+Demoyu gör Bu temayı iste
+Eşleşen tema yok
+Aramanızı değiştirin ya da filtreleri temizleyin.
+SSS
+Bilmeniz gerekenler
+Yasal not ve sık sorulan sorular.
+Müteahhitlik ve yetki belgesi bilgisi yalnızca geçerli belgelerle yazılmalıdır; proje görselleri ve «teslim edildi» iddiaları gerçeği yansıtmalıdır. Demodaki projeler kurgusaldır.
+Görseller yönetim panelinden yüklenir; galeri ve öncesi-sonrası modülleri otomatik dizilir.
+Evet; proje kartlarında «devam ediyor / tamamlandı» durumu seçilir ve süzülebilir.
+Sektörünüze uygun temayı seçin
+Canlı demoları gezin, beğendiğinizi isteyin; kalanını biz hallederiz.
+Temaları gör Teklif al
+
+---
+
+## Gıda e-ticaret sitesi
+https://yeni.webyapar.com/tr/gida-eticaret-sitesi/
+
+Kategori filtreli ürün listesi, içerik ve alerjen etiketi, sepet ve demo ödeme: paketli gıda satışı için hazır vitrin.
+
+Gıda
+Gıda e-ticaret sitesi
+Kategori filtreli ürün listesi, içerik ve alerjen etiketi, sepet ve demo ödeme: paketli gıda satışı için hazır vitrin.
+Canlı demoyu gör Bu temayı iste
+Önerilen sayfalar
+Bu sektör için temada hazır gelen sayfalar.
+Ürünler
+Kategori süzgeci, ürün kartı ve detay sayfası.
+Üretim süreci
+Üretimden sofraya adım adım anlatım.
+Sepet ve ödeme
+Sepet, adres ve sahte ödeme adımı.
+Tarifler ve toptan satış
+Ürünlü tarifler ve toptan satış başvurusu.
+Tema ara
+Sırala En yeni Ad (A–Z) Sektör (A–Z) Tür
+Tür
+Sektör
+Gıda E-ticaret
+Yeşil Kervan
+Kategori filtreli ürün listesi ve sepetli paketli gıda mağazası.
+Dahil olanlar
+Sepet
+Demo ödeme
+Galeri
+Proje filtresi
+Harita
+5 sayfa
+Demoyu gör Bu temayı iste
+Eşleşen tema yok
+Aramanızı değiştirin ya da filtreleri temizleyin.
+SSS
+Bilmeniz gerekenler
+Yasal not ve sık sorulan sorular.
+Paketli gıdada içerik, alerjen, net miktar ve son tüketim bilgisi zorunludur; ürün etiketi alanları bu bilgileri sayfada gösterecek biçimde hazırdır. Metinleri güncel gıda mevzuatına göre doğrulayın.
+Ürün etiketi modülü her ürün sayfasında içerik ve alerjen rozetlerini gösterir.
+Teslimat ve saklama notları ürün ve sepet sayfalarına metin olarak eklenir.
+Sektörünüze uygun temayı seçin
+Canlı demoları gezin, beğendiğinizi isteyin; kalanını biz hallederiz.
+Temaları gör Teklif al
+
+---
+
+## Kuyumcu e-ticaret sitesi
+https://yeni.webyapar.com/tr/kuyumcu-eticaret-sitesi/
+
+Ürün vitrini, altın fiyat bandı, sepet ve demo ödeme: değerli ürünler için sade ve güven veren bir mağaza.
+
+Kuyumcu
+Kuyumcu e-ticaret sitesi
+Ürün vitrini, altın fiyat bandı, sepet ve demo ödeme: değerli ürünler için sade ve güven veren bir mağaza.
+Canlı demoyu gör Bu temayı iste
+Önerilen sayfalar
+Bu sektör için temada hazır gelen sayfalar.
+Koleksiyonlar
+Tür ve ayar bilgisiyle ürün vitrini.
+Altın fiyatları
+Üst fiyat bandı ve fiyat sayfası (demoda örnek veri).
+Sepet ve ödeme
+Sepet ve sahte ödeme adımı.
+Yüzük ölçüsü
+Ölçü rehberi ve kişiye özel sipariş bilgisi.
+Tema ara
+Sırala En yeni Ad (A–Z) Sektör (A–Z) Tür
+Tür
+Sektör
+Kuyumcu E-ticaret
+Zümra Kuyum
+Altın fiyat bandı, koleksiyonlar ve sepetli kuyumcu mağazası.
+Dahil olanlar
+Randevu
+Sepet
+Demo ödeme
+Galeri
+Harita
+6 sayfa
+Demoyu gör Bu temayı iste
+Eşleşen tema yok
+Aramanızı değiştirin ya da filtreleri temizleyin.
+SSS
+Bilmeniz gerekenler
+Yasal not ve sık sorulan sorular.
+Değerli maden satışında ayar, gram ve fiyat bilgisi doğru ve açık verilmelidir; canlı fiyat akışı için ayrı bir veri kaynağı gerekir, demodaki fiyatlar örnektir.
+Demoda sabit örnek değerdir. Canlı akış için bir fiyat kaynağı bağlanır ve bu ayrıca planlanır.
+Demo görselleri yerel olarak üretilmiştir; kendi ürün fotoğraflarınızla değiştirilir.
+Sektörünüze uygun temayı seçin
+Canlı demoları gezin, beğendiğinizi isteyin; kalanını biz hallederiz.
+Temaları gör Teklif al
+
+---
+
+## Dekorasyon e-ticaret sitesi
+https://yeni.webyapar.com/tr/dekorasyon-eticaret-sitesi/
+
+Ürün vitrini, sepet ve ödeme akışıyla uçtan uca denenebilen statik mağaza; sepet tarayıcıda tutulur.
+
+Dekorasyon
+Dekorasyon e-ticaret sitesi
+Ürün vitrini, sepet ve ödeme akışıyla uçtan uca denenebilen statik mağaza; sepet tarayıcıda tutulur.
+Canlı demoyu gör Bu temayı iste
+Önerilen sayfalar
+Bu sektör için temada hazır gelen sayfalar.
+Ürünler
+Kategori vitrini, ürün kartları ve ürün detayı.
+Sepet
+Adet, toplam ve kargo özeti.
+Ödeme
+Adres, teslimat ve ödeme adımı (demoda gerçek ödeme alınmaz).
+Showroom ve tasarım hizmeti
+Showroom bilgisi, tasarım hizmeti ve teslimat koşulları.
+Tema ara
+Sırala En yeni Ad (A–Z) Sektör (A–Z) Tür
+Tür
+Sektör
+Dekorasyon E-ticaret
+Meşe Ev
+Sepet ve demo ödeme akışıyla uçtan uca denenebilen dekorasyon mağazası.
+Dahil olanlar
+Randevu
+Sepet
+Demo ödeme
+Galeri
+Harita
+4 sayfa
+Demoyu gör Bu temayı iste
+Eşleşen tema yok
+Aramanızı değiştirin ya da filtreleri temizleyin.
+SSS
+Bilmeniz gerekenler
+Yasal not ve sık sorulan sorular.
+Mesafeli satışta ön bilgilendirme, iade/cayma hakkı ve satış sözleşmesi metinleri zorunludur; temadaki metinler örnektir. Canlı mağazada gerçek ödeme altyapısı ve hukuki metinler ayrıca kurulmalıdır.
+Hayır. Ödeme adımı simülasyondur; hiçbir veri sunucuya gitmez, sipariş tarayıcıda kalır.
+Kurulum aşamasında seçtiğiniz ödeme sağlayıcısına bağlanır; bu ayrı bir hizmet kalemidir.
+Sektörünüze uygun temayı seçin
+Canlı demoları gezin, beğendiğinizi isteyin; kalanını biz hallederiz.
+Temaları gör Teklif al
+
+---
+
+## Sanayi web sitesi
+https://yeni.webyapar.com/tr/sanayi-web-sitesi/
+
+Ürün grupları, teknik tablolar, sertifikalar ve teklif talebi: kurumsal alıcıya aradığı bilgiyi baştan verin.
+
+Sanayi
+Sanayi web sitesi
+Ürün grupları, teknik tablolar, sertifikalar ve teklif talebi: kurumsal alıcıya aradığı bilgiyi baştan verin.
+Canlı demoyu gör Bu temayı iste
+Önerilen sayfalar
+Bu sektör için temada hazır gelen sayfalar.
+Ürün grupları
+Kategori kartları ve ürün sayfaları.
+Kalite belgeleri
+Belge ve sertifika gösterimi, teknik özellik tabloları.
+Katalog
+İndirilebilir katalog ve proje referansları.
+Teklif al
+Ürün, adet ve termin bilgisiyle teklif formu.
+Tema ara
+Sırala En yeni Ad (A–Z) Sektör (A–Z) Tür
+Tür
+Sektör
+Sanayi Kurumsal
+Orvak Makina
+Ürün grupları, kalite belgeleri, katalog ve teklif formu olan sanayi sitesi.
+Dahil olanlar
+Randevu
+Galeri
+Proje filtresi
+Harita
+9 sayfa
+Demoyu gör Bu temayı iste
+Eşleşen tema yok
+Aramanızı değiştirin ya da filtreleri temizleyin.
+SSS
+Bilmeniz gerekenler
+Yasal not ve sık sorulan sorular.
+Belge ve sertifika (ISO, CE vb.) iddiaları yalnızca elinizdeki geçerli belgelerle yapılmalıdır; tema yalnızca gösterim alanı sağlar, belge uydurmaz.
+Evet, indirilebilir PDF bağlantısı eklenir; dosya sitenizle birlikte yayınlanır.
+Temalar Türkçe, İngilizce ve Arapça gelir; ek diller aynı yapıyla eklenebilir.
+Sektörünüze uygun temayı seçin
+Canlı demoları gezin, beğendiğinizi isteyin; kalanını biz hallederiz.
+Temaları gör Teklif al
+
+---
+
+## Emlak web sitesi
+https://yeni.webyapar.com/tr/emlak-web-sitesi/
+
+İlan listesi, filtre, harita ve talep formu: alıcı aradığı ilanı hızlıca bulsun, siz de nitelikli talep alın.
+
+Emlak
+Emlak web sitesi
+İlan listesi, filtre, harita ve talep formu: alıcı aradığı ilanı hızlıca bulsun, siz de nitelikli talep alın.
+Canlı demoyu gör Bu temayı iste
+Önerilen sayfalar
+Bu sektör için temada hazır gelen sayfalar.
+İlanlar
+Tür, oda sayısı ve fiyata göre süzülen ilan listesi.
+Danışmanlarımız
+Danışman kartları ve iletişim.
+Değerleme talebi
+Mülkü satmak ya da kiralamak isteyenler için form.
+Ofislerimiz
+Ofis adresi, harita, telefon ve WhatsApp.
+Tema ara
+Sırala En yeni Ad (A–Z) Sektör (A–Z) Tür
+Tür
+Sektör
+Emlak Kurumsal
+Anka Gayrimenkul
+Filtreli ilan listesi, danışmanlar ve değerleme talebi olan emlak sitesi.
+Dahil olanlar
+Randevu
+Galeri
+Proje filtresi
+Harita
+8 sayfa
+Demoyu gör Bu temayı iste
+Eşleşen tema yok
+Aramanızı değiştirin ya da filtreleri temizleyin.
+SSS
+Bilmeniz gerekenler
+Yasal not ve sık sorulan sorular.
+Gayrimenkul ilanlarında yetki belgesi bilgisi ve fiyat/ölçü doğruluğu istenebilir; ilan başına bu alanlar hazırdır. Yetki belgesi ve vergi bilgilerini güncel mevzuata göre ekleyin.
+İlanlar sayfa kayıtlarıdır; fiyat, görsel ve durum alanları yönetim panelinden değişir.
+Temalardaki harita yerel bir görseldir; üçüncü taraf isteği yapmaz. İsterseniz gömülü harita da eklenebilir.
+Sektörünüze uygun temayı seçin
+Canlı demoları gezin, beğendiğinizi isteyin; kalanını biz hallederiz.
+Temaları gör Teklif al
+
+---
+
+## Klinik web sitesi
+https://yeni.webyapar.com/tr/klinik-web-sitesi/
+
+Branşlar, hekim tanıtımı ve randevu talebi güven veren, sakin bir tasarımda; hasta bilgilendirmesi açık ve anlaşılır.
+
+Klinik
+Klinik web sitesi
+Branşlar, hekim tanıtımı ve randevu talebi güven veren, sakin bir tasarımda; hasta bilgilendirmesi açık ve anlaşılır.
+Canlı demoyu gör Bu temayı iste
+Önerilen sayfalar
+Bu sektör için temada hazır gelen sayfalar.
+Hekimlerimiz
+Unvan ve uzmanlık alanıyla hekim kartları.
+Tedaviler
+Her branş ve tedavi için kısa, anlaşılır tanıtım.
+Randevu
+Branş, hekim, gün ve saat seçimli randevu talebi.
+Hasta hakları
+Hasta hakları ve erişilebilirlik bilgilendirmesi.
+Tema ara
+Sırala En yeni Ad (A–Z) Sektör (A–Z) Tür
+Tür
+Sektör
+Klinik Kurumsal
+Berrak Tıp Merkezi
+Hekim kartları, tedaviler ve randevu talebi olan sakin bir klinik sitesi.
+Dahil olanlar
+Randevu
+Galeri
+Harita
+7 sayfa
+Demoyu gör Bu temayı iste
+Eşleşen tema yok
+Aramanızı değiştirin ya da filtreleri temizleyin.
+SSS
+Bilmeniz gerekenler
+Yasal not ve sık sorulan sorular.
+Sağlık hizmeti tanıtımında reklam ve hasta hakları düzenlemeleri geçerlidir; «garantili sonuç» ya da karşılaştırmalı iddialardan kaçınılır. Metinleri yayından önce yetkili kurum mevzuatına göre doğrulayın.
+Hekim kartlarına ad, unvan, uzmanlık ve fotoğraf girilir; sıralama sizin kararınızdır.
+Form KVKK aydınlatma onayı ister; veriyi nasıl ileteceğinizi (WhatsApp, e-posta) siz seçersiniz.
+Sektörünüze uygun temayı seçin
+Canlı demoları gezin, beğendiğinizi isteyin; kalanını biz hallederiz.
+Temaları gör Teklif al
+
+---
+
+## Restoran web sitesi
+https://yeni.webyapar.com/tr/restoran-web-sitesi/
+
+Menü, alerjen bilgisi, masa rezervasyonu ve şubeler tek yerde: misafirleriniz ne yiyeceğini ve nasıl yer ayırtacağını saniyeler içinde bulsun.
+
+Restoran
+Restoran web sitesi
+Menü, alerjen bilgisi, masa rezervasyonu ve şubeler tek yerde: misafirleriniz ne yiyeceğini ve nasıl yer ayırtacağını saniyeler içinde bulsun.
+Canlı demoyu gör Bu temayı iste
+Önerilen sayfalar
+Bu sektör için temada hazır gelen sayfalar.
+Menü
+Kategorili, fiyatlı ve alerjen rozetli menü; QR ile masadan açılır.
+Rezervasyon
+Kişi sayısı, gün ve saat seçimli masa talebi.
+Şubeler
+Adres, çalışma saati ve harita.
+Galeri
+Mekân ve tabak fotoğrafları, tam ekran görüntüleyici.
+Tema ara
+Sırala En yeni Ad (A–Z) Sektör (A–Z) Tür
+Tür
+Sektör
+Restoran Kurumsal
+Kervan Sofrası
+Menü, alerjen bilgisi, galeri ve masa rezervasyonlu restoran sitesi.
+Dahil olanlar
+Randevu
+QR menü
+Alerjen bilgisi
+Galeri
+Harita
+7 sayfa
+Demoyu gör Bu temayı iste
+Eşleşen tema yok
+Aramanızı değiştirin ya da filtreleri temizleyin.
+SSS
+Bilmeniz gerekenler
+Yasal not ve sık sorulan sorular.
+Gıda sunumunda alerjen bilgisi ve fiyat/servis ücreti açıklaması istenebilir; temada alerjen sayfası ve rozetleri hazırdır. Güncel yükümlülükler için yetkili kurum ya da danışmanınıza başvurun.
+Evet. Menü sayfanızın adresi QR koda dönüştürülür; ayrı bir uygulama gerekmez.
+Demoda talep WhatsApp ya da e-posta ile iletilir; gerçek kurulumda sizin kanalınıza bağlanır.
+Sektörünüze uygun temayı seçin
+Canlı demoları gezin, beğendiğinizi isteyin; kalanını biz hallederiz.
+Temaları gör Teklif al
+
+---
+
+## Canlı demo
+https://yeni.webyapar.com/tr/demo/
+
+Temayı masaüstü, tablet ve mobil görünümde canlı deneyin.
+
+Demo yükleniyor…
+Demo çerçevede açılamadı
+Bu site çerçeve içinde gösterilmeye izin vermiyor ya da zamanında yanıt vermedi. Demoyu yeni sekmede açabilirsiniz.
+Yeni sekmede aç
+Gösterilecek tema yok.
+Önizleme görünmüyorsa demoyu yeni sekmede açın.
+
+---
+
+## Misyon
+https://yeni.webyapar.com/tr/misyon/
+
+Misyon
+
+---
+
+## Vizyon
+https://yeni.webyapar.com/tr/vizyon/
+
+Vizyon
+
+---
+
+## Kalite Politikamız
+https://yeni.webyapar.com/tr/kalitepolitikamiz/
+
+Kalite politikamız
+
+---
+
+## Gizlilik Politikası
+https://yeni.webyapar.com/tr/gizlilikpolitikasi/
+
+Gizlilik politikası
+
+---
+
+## Kişisel Veriler
+https://yeni.webyapar.com/tr/kisiselveriler/
+
+Kişisel verilerin korunması
+
+---
+
+## Kullanıcı Hakları
+https://yeni.webyapar.com/tr/kullanicahaklari/
+
+Kullanıcı hakları
+
+---
+
+## Yasal Uyarı
+https://yeni.webyapar.com/tr/yasaluyari/
+
+Yasal uyarı

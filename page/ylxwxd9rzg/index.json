@@ -1,0 +1,41 @@
+{
+  "id": "ylxwxd9rzg",
+  "name": {
+    "tr": "Fiyatlar",
+    "en": "Pricing",
+    "ar": "الأسعار"
+  },
+  "description": {
+    "tr": "Hazır tema, özel tasarım ve e-ticaret kurulumu için teklif al.",
+    "en": "Get a quote for a ready-made theme, custom design or e-commerce setup.",
+    "ar": "احصل على عرض سعر لقالب جاهز أو تصميم مخصّص أو تركيب متجر."
+  },
+  "keyword": {
+    "tr": "web sitesi fiyatları, teklif",
+    "en": "website pricing, quote",
+    "ar": "أسعار المواقع، عرض سعر"
+  },
+  "path": "fiyatlar",
+  "icon": "sell",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "1x83he",
+      "ulrcmg",
+      "u8pk02"
+    ],
+    "footer": []
+  },
+  "index": 3,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Fiyatlar — Webyapar",
+    "en": "Pricing — Webyapar",
+    "ar": "الأسعار — ويب ياپار"
+  },
+  "date": "2026-10-30T20:48:20.533Z",
+  "update": "2026-10-30T21:01:05.035Z"
+}

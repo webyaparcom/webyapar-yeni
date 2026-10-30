@@ -1,0 +1,43 @@
+{
+  "id": "py91qexy1j",
+  "name": {
+    "tr": "Emlak web sitesi",
+    "en": "Real estate website",
+    "ar": "موقع إلكتروني لمكتب عقارات"
+  },
+  "description": {
+    "tr": "İlan listesi, filtre, harita ve talep formu: alıcı aradığı ilanı hızlıca bulsun, siz de nitelikli talep alın.",
+    "en": "Listings, filters, map and enquiry form: buyers find the right listing fast and you receive qualified enquiries.",
+    "ar": "قائمة العقارات والتصفية والخريطة ونموذج الطلب، ليجد المشتري العقار المناسب بسرعة وتتلقى طلبات جادة."
+  },
+  "keyword": {
+    "tr": "emlak web sitesi, hazır tema, webyapar",
+    "en": "real estate website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني لمكتب عقارات، قالب جاهز، ويب ياپار"
+  },
+  "path": "emlak-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "bc4dvt",
+      "pd0sl0",
+      "5fcr1d",
+      "zsoxk6",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 12,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Emlak web sitesi — Webyapar",
+    "en": "Real estate website — Webyapar",
+    "ar": "موقع إلكتروني لمكتب عقارات — Webyapar"
+  },
+  "date": "2026-10-30T20:48:20.575Z",
+  "update": "2026-10-30T21:01:05.081Z"
+}

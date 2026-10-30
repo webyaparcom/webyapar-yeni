@@ -1,0 +1,140 @@
+
+
+
+.mx-reveal {
+  opacity: 0;
+  transform: translateY(22px);
+}
+
+.mx-reveal-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+
+.mx-ui-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 28px;
+  transform: translateX(-50%) translateY(16px);
+  background: #1e293b;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 99990;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  max-width: 90vw;
+  box-sizing: border-box;
+}
+
+.mx-ui-toast.mx-ui-toast-error {
+  background: #b91c1c;
+}
+
+.mx-ui-toast.mx-ui-toast-show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+
+.mx-ui-confirm-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99991;
+  animation: mxUiFade 0.25s ease;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.mx-ui-confirm-box {
+  background: #fff;
+  color: #1e293b;
+  border-radius: 14px;
+  padding: 26px 24px;
+  max-width: 380px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: mxUiPop 0.3s ease;
+  box-sizing: border-box;
+}
+
+.mx-ui-confirm-title {
+  font-size: 17px;
+  font-weight: 800;
+  margin: 0 0 8px;
+}
+
+.mx-ui-confirm-text {
+  font-size: 14px;
+  color: #475569;
+  margin: 0 0 18px;
+}
+
+.mx-ui-confirm-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.mx-ui-confirm-buttons button {
+  min-height: 44px;
+  min-width: 110px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: filter 0.2s ease;
+}
+
+.mx-ui-confirm-buttons button:hover {
+  filter: brightness(1.08);
+}
+
+.mx-ui-confirm-cancel {
+  background: #e2e8f0;
+  color: #1e293b;
+}
+
+.mx-ui-confirm-ok {
+  background: #e53935;
+  color: #fff;
+}
+
+@keyframes mxUiFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes mxUiPop {
+  from { opacity: 0; transform: scale(0.92); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  .mx-reveal {
+    opacity: 1;
+    transform: none;
+  }
+
+  .mx-reveal-in,
+  .mx-ui-toast,
+  .mx-ui-confirm-overlay,
+  .mx-ui-confirm-box {
+    transition: none !important;
+    animation: none !important;
+  }
+}

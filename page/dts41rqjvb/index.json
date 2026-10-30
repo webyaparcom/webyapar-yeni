@@ -1,0 +1,43 @@
+{
+  "id": "dts41rqjvb",
+  "name": {
+    "tr": "Dekorasyon e-ticaret sitesi",
+    "en": "Interior decor online store",
+    "ar": "متجر إلكتروني للديكور"
+  },
+  "description": {
+    "tr": "Ürün vitrini, sepet ve ödeme akışıyla uçtan uca denenebilen statik mağaza; sepet tarayıcıda tutulur.",
+    "en": "A static store you can try end to end with a showcase, cart and checkout flow; the cart lives in the browser.",
+    "ar": "متجر ثابت يمكن تجربته من البداية إلى النهاية بواجهة منتجات وسلة وعملية دفع، وتُحفظ السلة في المتصفح."
+  },
+  "keyword": {
+    "tr": "dekorasyon e-ticaret sitesi, hazır tema, webyapar",
+    "en": "interior decor online store, ready-made theme, webyapar",
+    "ar": "متجر إلكتروني للديكور، قالب جاهز، ويب ياپار"
+  },
+  "path": "dekorasyon-eticaret-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "mrxsbr",
+      "3fj1z9",
+      "1zp9b4",
+      "54ozh6",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 10,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Dekorasyon e-ticaret sitesi — Webyapar",
+    "en": "Interior decor online store — Webyapar",
+    "ar": "متجر إلكتروني للديكور — Webyapar"
+  },
+  "date": "2026-10-30T20:48:20.609Z",
+  "update": "2026-10-30T21:01:05.090Z"
+}

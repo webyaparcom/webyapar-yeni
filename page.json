@@ -1,0 +1,452 @@
+{
+  "data": [
+    {
+      "id": "3tapu9dfm1",
+      "name": {
+        "tr": "Temalar",
+        "en": "Themes",
+        "ar": "القوالب"
+      },
+      "description": {
+        "tr": "Kurumsal, e-ticaret ve galeri türünde 10 sektör teması; tür ve sektöre göre süzün, canlı demoyu deneyin.",
+        "en": "10 industry themes of the corporate, e-commerce and gallery types; filter by type and industry and try the live demo.",
+        "ar": "10 قوالب لقطاعات من الأنواع المؤسسي والمتجر والمعرض؛ صفِّ حسب النوع والقطاع وجرّب العرض المباشر."
+      },
+      "path": "temalar",
+      "icon": "grid_view",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "9zy8xj",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "id": "js97mgjeat",
+      "name": {
+        "tr": "Sektörler",
+        "en": "Industries",
+        "ar": "القطاعات"
+      },
+      "description": {
+        "tr": "Restoran, klinik, emlak, sanayi, dekorasyon, kuyumcu, gıda, inşaat, güzellik ve portfolyo için hazır web sitesi temaları.",
+        "en": "Ready-made website themes for restaurants, clinics, real estate, industry, decor, jewelry, food, construction, beauty and portfolios.",
+        "ar": "قوالب مواقع جاهزة للمطاعم والعيادات والعقارات والصناعة والديكور والمجوهرات والأغذية والمقاولات والتجميل ومعارض الأعمال."
+      },
+      "path": "sektorler",
+      "icon": "domain",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "cai4evgziq",
+      "name": {
+        "tr": "Hizmetler",
+        "en": "Services",
+        "ar": "الخدمات"
+      },
+      "description": {
+        "tr": "Hazır tema, özel tasarım, e-ticaret kurulumu, yayın ve bakım hizmetleri.",
+        "en": "Ready-made themes, custom design, e-commerce setup, publishing and maintenance.",
+        "ar": "قوالب جاهزة وتصميم مخصّص وتركيب المتاجر والنشر والصيانة."
+      },
+      "path": "hizmetler",
+      "icon": "build",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "juvx2v",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "ylxwxd9rzg",
+      "name": {
+        "tr": "Fiyatlar",
+        "en": "Pricing",
+        "ar": "الأسعار"
+      },
+      "description": {
+        "tr": "Hazır tema, özel tasarım ve e-ticaret kurulumu için teklif al.",
+        "en": "Get a quote for a ready-made theme, custom design or e-commerce setup.",
+        "ar": "احصل على عرض سعر لقالب جاهز أو تصميم مخصّص أو تركيب متجر."
+      },
+      "path": "fiyatlar",
+      "icon": "sell",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "1x83he",
+          "ulrcmg",
+          "u8pk02"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 4,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "k9ct01",
+          "u8pk02"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Webyapar ile WhatsApp, telefon ya da e-posta üzerinden iletişime geçin.",
+        "en": "Reach Webyapar by WhatsApp, phone or e-mail.",
+        "ar": "تواصل مع ويب ياپار عبر واتساب أو الهاتف أو البريد الإلكتروني."
+      }
+    },
+    {
+      "id": "fd89pql7vb",
+      "name": {
+        "tr": "Fotoğrafçı portfolyo web sitesi",
+        "en": "Photographer portfolio website",
+        "ar": "موقع معرض أعمال لمصوّر"
+      },
+      "description": {
+        "tr": "Kategori filtreli galeri, tam ekran görüntüleyici, çekim paketleri ve rezervasyon: işleriniz ön planda, ürün satan değil sanat gösteren bir site.",
+        "en": "A category-filtered gallery, full-screen viewer, shoot packages and booking: your work takes centre stage.",
+        "ar": "معرض بتصفية الفئات وعارض بملء الشاشة وباقات تصوير وحجز: أعمالك في الواجهة."
+      },
+      "path": "portfolyo-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "r6qxrr",
+          "dzx9bd",
+          "4v4cuc",
+          "0z6mwg",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 5
+    },
+    {
+      "id": "26gy0i243u",
+      "name": {
+        "tr": "Güzellik merkezi web sitesi",
+        "en": "Beauty salon website",
+        "ar": "موقع إلكتروني لمركز تجميل"
+      },
+      "description": {
+        "tr": "Hizmet listesi ve fiyatlar, uzman ekip, öncesi-sonrası galeri ve randevu: güzellik merkezi için sıcak ve şık bir vitrin.",
+        "en": "A service list with prices, the team, before-and-after gallery and booking: a warm, polished showcase for a beauty centre.",
+        "ar": "قائمة خدمات وأسعار وفريق وخبراء ومعرض قبل وبعد وحجز: واجهة أنيقة ودافئة لمركز تجميل."
+      },
+      "path": "guzellik-merkezi-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "6liieb",
+          "8q41bf",
+          "xlyg1f",
+          "rjn8g4",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 6
+    },
+    {
+      "id": "id5tjdalze",
+      "name": {
+        "tr": "İnşaat web sitesi",
+        "en": "Construction website",
+        "ar": "موقع إلكتروني لشركة مقاولات"
+      },
+      "description": {
+        "tr": "Proje portföyü, filtreli referanslar, öncesi-sonrası ilerleme galerisi ve teknik tablolar: işinizi görerek anlatın.",
+        "en": "A project portfolio, filtered references, before-and-after progress galleries and technical tables: show your work.",
+        "ar": "محفظة مشاريع ومراجع قابلة للتصفية ومعارض تقدّم قبل وبعد وجداول فنية: اعرض عملك بالصور."
+      },
+      "path": "insaat-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "ynbnbr",
+          "r0wsui",
+          "nlvqzs",
+          "9h3z2t",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 7
+    },
+    {
+      "id": "e4royep1tn",
+      "name": {
+        "tr": "Gıda e-ticaret sitesi",
+        "en": "Food online store",
+        "ar": "متجر إلكتروني للأغذية"
+      },
+      "description": {
+        "tr": "Kategori filtreli ürün listesi, içerik ve alerjen etiketi, sepet ve demo ödeme: paketli gıda satışı için hazır vitrin.",
+        "en": "A category-filtered product list, ingredient and allergen labels, cart and demo checkout: a ready showcase for packaged food.",
+        "ar": "قائمة منتجات بتصفية الفئات وملصقات المكونات والحساسية وسلة ودفع تجريبي: واجهة جاهزة لبيع الأغذية المعبأة."
+      },
+      "path": "gida-eticaret-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "fj57yl",
+          "zttqwc",
+          "4b23mz",
+          "1ax5v6",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 8
+    },
+    {
+      "id": "ftw2vfnqam",
+      "name": {
+        "tr": "Kuyumcu e-ticaret sitesi",
+        "en": "Jewelry online store",
+        "ar": "متجر إلكتروني للمجوهرات"
+      },
+      "description": {
+        "tr": "Ürün vitrini, altın fiyat bandı, sepet ve demo ödeme: değerli ürünler için sade ve güven veren bir mağaza.",
+        "en": "A showcase, gold-price ribbon, cart and demo checkout: a clean, trust-building store for valuable goods.",
+        "ar": "واجهة منتجات وشريط أسعار الذهب وسلة ودفع تجريبي: متجر بسيط يبعث على الثقة للمنتجات الثمينة."
+      },
+      "path": "kuyumcu-eticaret-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "lsqc5k",
+          "m7il61",
+          "dk3aai",
+          "t3bu73",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 9
+    },
+    {
+      "id": "dts41rqjvb",
+      "name": {
+        "tr": "Dekorasyon e-ticaret sitesi",
+        "en": "Interior decor online store",
+        "ar": "متجر إلكتروني للديكور"
+      },
+      "description": {
+        "tr": "Ürün vitrini, sepet ve ödeme akışıyla uçtan uca denenebilen statik mağaza; sepet tarayıcıda tutulur.",
+        "en": "A static store you can try end to end with a showcase, cart and checkout flow; the cart lives in the browser.",
+        "ar": "متجر ثابت يمكن تجربته من البداية إلى النهاية بواجهة منتجات وسلة وعملية دفع، وتُحفظ السلة في المتصفح."
+      },
+      "path": "dekorasyon-eticaret-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "mrxsbr",
+          "3fj1z9",
+          "1zp9b4",
+          "54ozh6",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 10
+    },
+    {
+      "id": "hsu9rx8r0m",
+      "name": {
+        "tr": "Sanayi web sitesi",
+        "en": "Industrial website",
+        "ar": "موقع إلكتروني لشركة صناعية"
+      },
+      "description": {
+        "tr": "Ürün grupları, teknik tablolar, sertifikalar ve teklif talebi: kurumsal alıcıya aradığı bilgiyi baştan verin.",
+        "en": "Product groups, technical tables, certificates and quote requests: give corporate buyers the information they need up front.",
+        "ar": "مجموعات المنتجات والجداول الفنية والشهادات وطلب عرض السعر، لتزوّد المشتري المؤسسي بما يحتاجه من البداية."
+      },
+      "path": "sanayi-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "ta8vot",
+          "u0dcwj",
+          "qzfuqj",
+          "8tjr0m",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 11
+    },
+    {
+      "id": "py91qexy1j",
+      "name": {
+        "tr": "Emlak web sitesi",
+        "en": "Real estate website",
+        "ar": "موقع إلكتروني لمكتب عقارات"
+      },
+      "description": {
+        "tr": "İlan listesi, filtre, harita ve talep formu: alıcı aradığı ilanı hızlıca bulsun, siz de nitelikli talep alın.",
+        "en": "Listings, filters, map and enquiry form: buyers find the right listing fast and you receive qualified enquiries.",
+        "ar": "قائمة العقارات والتصفية والخريطة ونموذج الطلب، ليجد المشتري العقار المناسب بسرعة وتتلقى طلبات جادة."
+      },
+      "path": "emlak-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "bc4dvt",
+          "pd0sl0",
+          "5fcr1d",
+          "zsoxk6",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 12
+    },
+    {
+      "id": "cbdrpbgx7m",
+      "name": {
+        "tr": "Klinik web sitesi",
+        "en": "Clinic website",
+        "ar": "موقع إلكتروني لعيادة"
+      },
+      "description": {
+        "tr": "Branşlar, hekim tanıtımı ve randevu talebi güven veren, sakin bir tasarımda; hasta bilgilendirmesi açık ve anlaşılır.",
+        "en": "Departments, physician profiles and appointment requests in a calm, trustworthy design with clear patient information.",
+        "ar": "الأقسام وتعريف الأطباء وطلب الموعد بتصميم هادئ يبعث على الثقة ومعلومات واضحة للمريض."
+      },
+      "path": "klinik-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "usnpjg",
+          "1x6tte",
+          "7yku12",
+          "x523gx",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 13
+    },
+    {
+      "id": "22swzjv00u",
+      "name": {
+        "tr": "Restoran web sitesi",
+        "en": "Restaurant website",
+        "ar": "موقع إلكتروني لمطعم"
+      },
+      "description": {
+        "tr": "Menü, alerjen bilgisi, masa rezervasyonu ve şubeler tek yerde: misafirleriniz ne yiyeceğini ve nasıl yer ayırtacağını saniyeler içinde bulsun.",
+        "en": "Menu, allergen information, table booking and branches in one place: guests find what to eat and how to book within seconds.",
+        "ar": "القائمة ومعلومات مسببات الحساسية وحجز الطاولات والفروع في مكان واحد، ليجد ضيوفك ما يأكلونه وكيف يحجزون في ثوانٍ."
+      },
+      "path": "restoran-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "lomtqj",
+          "y9uh5b",
+          "e7upv5",
+          "idaong",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 14
+    },
+    {
+      "id": "auxjis3v12",
+      "name": {
+        "tr": "Canlı demo",
+        "en": "Live demo",
+        "ar": "العرض المباشر"
+      },
+      "description": {
+        "tr": "Temayı masaüstü, tablet ve mobil görünümde canlı deneyin.",
+        "en": "Try the theme live in desktop, tablet and mobile views.",
+        "ar": "جرّب القالب مباشرةً بعرض الحاسوب واللوحي والجوال."
+      },
+      "path": "demo",
+      "icon": "devices",
+      "category": "3tapu9dfm1",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "y55xlg"
+        ],
+        "footer": []
+      },
+      "index": 15
+    }
+  ],
+  "desc": []
+}

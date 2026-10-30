@@ -1,0 +1,43 @@
+{
+  "id": "fd89pql7vb",
+  "name": {
+    "tr": "Fotoğrafçı portfolyo web sitesi",
+    "en": "Photographer portfolio website",
+    "ar": "موقع معرض أعمال لمصوّر"
+  },
+  "description": {
+    "tr": "Kategori filtreli galeri, tam ekran görüntüleyici, çekim paketleri ve rezervasyon: işleriniz ön planda, ürün satan değil sanat gösteren bir site.",
+    "en": "A category-filtered gallery, full-screen viewer, shoot packages and booking: your work takes centre stage.",
+    "ar": "معرض بتصفية الفئات وعارض بملء الشاشة وباقات تصوير وحجز: أعمالك في الواجهة."
+  },
+  "keyword": {
+    "tr": "fotoğrafçı portfolyo web sitesi, hazır tema, webyapar",
+    "en": "photographer portfolio website, ready-made theme, webyapar",
+    "ar": "موقع معرض أعمال لمصوّر، قالب جاهز، ويب ياپار"
+  },
+  "path": "portfolyo-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "r6qxrr",
+      "dzx9bd",
+      "4v4cuc",
+      "0z6mwg",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 5,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Fotoğrafçı portfolyo web sitesi — Webyapar",
+    "en": "Photographer portfolio website — Webyapar",
+    "ar": "موقع معرض أعمال لمصوّر — Webyapar"
+  },
+  "date": "2026-10-30T20:48:20.690Z",
+  "update": "2026-10-30T21:01:05.132Z"
+}

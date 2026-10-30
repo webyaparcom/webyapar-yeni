@@ -1,0 +1,35 @@
+# Webyapar
+
+> Webyapar: 10 sektör için hazır kurumsal, e-ticaret ve galeri web sitesi temaları. Canlı demo, Türkçe · İngilizce · Arapça, mobil uyumlu.
+
+Web: https://yeni.webyapar.com/tr/ · Telefon: 0531 679 10 14 · E-posta: info@webyapar.com · Diller: tr, en, ar (varsayilan: tr)
+
+## Sayfalar
+- [Webyapar](https://yeni.webyapar.com/tr/): Webyapar: 10 sektör için hazır kurumsal, e-ticaret ve galeri web sitesi temaları.
+- [Temalar](https://yeni.webyapar.com/tr/temalar/): Kurumsal, e-ticaret ve galeri türünde 10 sektör teması; tür ve sektöre göre süzün, canlı demoyu deneyin.
+- [Sektörler](https://yeni.webyapar.com/tr/sektorler/): Restoran, klinik, emlak, sanayi, dekorasyon, kuyumcu, gıda, inşaat, güzellik ve portfolyo için hazır web sitesi temaları.
+- [Hizmetler](https://yeni.webyapar.com/tr/hizmetler/): Hazır tema, özel tasarım, e-ticaret kurulumu, yayın ve bakım hizmetleri.
+- [Fiyatlar](https://yeni.webyapar.com/tr/fiyatlar/): Hazır tema, özel tasarım ve e-ticaret kurulumu için teklif al.
+- [İletişim](https://yeni.webyapar.com/tr/iletisim/): Webyapar ile WhatsApp, telefon ya da e-posta üzerinden iletişime geçin.
+- [Fotoğrafçı portfolyo web sitesi](https://yeni.webyapar.com/tr/portfolyo-web-sitesi/): Kategori filtreli galeri, tam ekran görüntüleyici, çekim paketleri ve rezervasyon: işleriniz ön planda, ürün satan değil sanat gösteren bir site.
+- [Güzellik merkezi web sitesi](https://yeni.webyapar.com/tr/guzellik-merkezi-web-sitesi/): Hizmet listesi ve fiyatlar, uzman ekip, öncesi-sonrası galeri ve randevu: güzellik merkezi için sıcak ve şık bir vitrin.
+- [İnşaat web sitesi](https://yeni.webyapar.com/tr/insaat-web-sitesi/): Proje portföyü, filtreli referanslar, öncesi-sonrası ilerleme galerisi ve teknik tablolar: işinizi görerek anlatın.
+- [Gıda e-ticaret sitesi](https://yeni.webyapar.com/tr/gida-eticaret-sitesi/): Kategori filtreli ürün listesi, içerik ve alerjen etiketi, sepet ve demo ödeme: paketli gıda satışı için hazır vitrin.
+- [Kuyumcu e-ticaret sitesi](https://yeni.webyapar.com/tr/kuyumcu-eticaret-sitesi/): Ürün vitrini, altın fiyat bandı, sepet ve demo ödeme: değerli ürünler için sade ve güven veren bir mağaza.
+- [Dekorasyon e-ticaret sitesi](https://yeni.webyapar.com/tr/dekorasyon-eticaret-sitesi/): Ürün vitrini, sepet ve ödeme akışıyla uçtan uca denenebilen statik mağaza; sepet tarayıcıda tutulur.
+- [Sanayi web sitesi](https://yeni.webyapar.com/tr/sanayi-web-sitesi/): Ürün grupları, teknik tablolar, sertifikalar ve teklif talebi: kurumsal alıcıya aradığı bilgiyi baştan verin.
+- [Emlak web sitesi](https://yeni.webyapar.com/tr/emlak-web-sitesi/): İlan listesi, filtre, harita ve talep formu: alıcı aradığı ilanı hızlıca bulsun, siz de nitelikli talep alın.
+- [Klinik web sitesi](https://yeni.webyapar.com/tr/klinik-web-sitesi/): Branşlar, hekim tanıtımı ve randevu talebi güven veren, sakin bir tasarımda; hasta bilgilendirmesi açık ve anlaşılır.
+- [Restoran web sitesi](https://yeni.webyapar.com/tr/restoran-web-sitesi/): Menü, alerjen bilgisi, masa rezervasyonu ve şubeler tek yerde: misafirleriniz ne yiyeceğini ve nasıl yer ayırtacağını saniyeler içinde bulsun.
+- [Canlı demo](https://yeni.webyapar.com/tr/demo/): Temayı masaüstü, tablet ve mobil görünümde canlı deneyin.
+- [Misyon](https://yeni.webyapar.com/tr/misyon/): Misyon
+- [Vizyon](https://yeni.webyapar.com/tr/vizyon/): Vizyon
+- [Kalite Politikamız](https://yeni.webyapar.com/tr/kalitepolitikamiz/): Kalite politikamız
+- [Gizlilik Politikası](https://yeni.webyapar.com/tr/gizlilikpolitikasi/): Gizlilik politikası
+- [Kişisel Veriler](https://yeni.webyapar.com/tr/kisiselveriler/): Kişisel verilerin korunması
+- [Kullanıcı Hakları](https://yeni.webyapar.com/tr/kullanicahaklari/): Kullanıcı hakları
+- [Yasal Uyarı](https://yeni.webyapar.com/tr/yasaluyari/): Yasal uyarı
+
+## Diger
+- [sitemap.xml](https://yeni.webyapar.com/sitemap.xml): tum URL listesi
+- [llms-full.txt](https://yeni.webyapar.com/llms-full.txt): sayfa govdeleri duz metin

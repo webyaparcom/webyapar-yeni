@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Webyapar</title>
+  <meta name="description" content="Webyapar: 10 sektör için hazır kurumsal, e-ticaret ve galeri web sitesi temaları. Canlı demo, Türkçe · İngilizce · Arapça, mobil uyumlu." />
+  <link rel="canonical" href="https://yeni.webyapar.com/" />
+  <link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/" />
+  <link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/" />
+  <link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/" />
+  <link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/" />
+  <script>
+(function() {
+  var available = ["tr","en","ar"];
+  var fallbackLang = "en";
+  var defaultLang = "tr";
+  var settingDefaultLang = "";
+  if (settingDefaultLang && available.indexOf(settingDefaultLang) !== -1) {
+    location.replace('/' + settingDefaultLang + '/' + (location.search || '') + (location.hash || ''));
+    return;
+  }
+  var browserLangs = [];
+  if (navigator.languages && navigator.languages.length) {
+    navigator.languages.forEach(function(l) {
+      var code = (l.split('-')[0] || '').toLowerCase();
+      if (code && browserLangs.indexOf(code) === -1) browserLangs.push(code);
+    });
+  }
+  if (!browserLangs.length && navigator.language) {
+    browserLangs.push((navigator.language.split('-')[0] || defaultLang).toLowerCase());
+  }
+  var chosen = null;
+  for (var i = 0; i < browserLangs.length; i++) {
+    if (available.indexOf(browserLangs[i]) !== -1) {
+      chosen = browserLangs[i];
+      break;
+    }
+  }
+  if (chosen === null) {
+    chosen = fallbackLang;
+  }
+  var target = '/' + chosen + '/' + (location.search || '') + (location.hash || '');
+  location.replace(target);
+})();
+  </script>
+</head>
+<body>
+  <p>Webyapar</p>
+  <noscript><p>Dil seçin: <a href="/tr/">TR</a> | <a href="/en/">EN</a> | <a href="/ar/">AR</a></p></noscript>
+</body>
+</html>

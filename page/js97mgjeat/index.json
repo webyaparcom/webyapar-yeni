@@ -1,0 +1,43 @@
+{
+  "id": "js97mgjeat",
+  "name": {
+    "tr": "Sektörler",
+    "en": "Industries",
+    "ar": "القطاعات"
+  },
+  "description": {
+    "tr": "Restoran, klinik, emlak, sanayi, dekorasyon, kuyumcu, gıda, inşaat, güzellik ve portfolyo için hazır web sitesi temaları.",
+    "en": "Ready-made website themes for restaurants, clinics, real estate, industry, decor, jewelry, food, construction, beauty and portfolios.",
+    "ar": "قوالب مواقع جاهزة للمطاعم والعيادات والعقارات والصناعة والديكور والمجوهرات والأغذية والمقاولات والتجميل ومعارض الأعمال."
+  },
+  "keyword": {
+    "tr": "sektörel web sitesi, restoran sitesi, emlak sitesi",
+    "en": "industry website, restaurant website, real estate website",
+    "ar": "موقع حسب القطاع، موقع مطعم، موقع عقارات"
+  },
+  "path": "sektorler",
+  "icon": "domain",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 1,
+  "url": "",
+  "text": {
+    "tr": "<p>Sektörünüze uygun hazır tema: açılış sayfasını inceleyin, canlı demoyu deneyin.</p><ul class=\"mx-list\"><li><a href=\"/tr/restoran-web-sitesi/\"><strong>Restoran web sitesi</strong></a> — Menü, alerjen bilgisi, masa rezervasyonu ve şubeler tek yerde: misafirleriniz ne yiyeceğini ve nasıl yer ayırtacağını saniyeler içinde bulsun.</li><li><a href=\"/tr/klinik-web-sitesi/\"><strong>Klinik web sitesi</strong></a> — Branşlar, hekim tanıtımı ve randevu talebi güven veren, sakin bir tasarımda; hasta bilgilendirmesi açık ve anlaşılır.</li><li><a href=\"/tr/emlak-web-sitesi/\"><strong>Emlak web sitesi</strong></a> — İlan listesi, filtre, harita ve talep formu: alıcı aradığı ilanı hızlıca bulsun, siz de nitelikli talep alın.</li><li><a href=\"/tr/sanayi-web-sitesi/\"><strong>Sanayi web sitesi</strong></a> — Ürün grupları, teknik tablolar, sertifikalar ve teklif talebi: kurumsal alıcıya aradığı bilgiyi baştan verin.</li><li><a href=\"/tr/dekorasyon-eticaret-sitesi/\"><strong>Dekorasyon e-ticaret sitesi</strong></a> — Ürün vitrini, sepet ve ödeme akışıyla uçtan uca denenebilen statik mağaza; sepet tarayıcıda tutulur.</li><li><a href=\"/tr/kuyumcu-eticaret-sitesi/\"><strong>Kuyumcu e-ticaret sitesi</strong></a> — Ürün vitrini, altın fiyat bandı, sepet ve demo ödeme: değerli ürünler için sade ve güven veren bir mağaza.</li><li><a href=\"/tr/gida-eticaret-sitesi/\"><strong>Gıda e-ticaret sitesi</strong></a> — Kategori filtreli ürün listesi, içerik ve alerjen etiketi, sepet ve demo ödeme: paketli gıda satışı için hazır vitrin.</li><li><a href=\"/tr/insaat-web-sitesi/\"><strong>İnşaat web sitesi</strong></a> — Proje portföyü, filtreli referanslar, öncesi-sonrası ilerleme galerisi ve teknik tablolar: işinizi görerek anlatın.</li><li><a href=\"/tr/guzellik-merkezi-web-sitesi/\"><strong>Güzellik merkezi web sitesi</strong></a> — Hizmet listesi ve fiyatlar, uzman ekip, öncesi-sonrası galeri ve randevu: güzellik merkezi için sıcak ve şık bir vitrin.</li><li><a href=\"/tr/portfolyo-web-sitesi/\"><strong>Fotoğrafçı portfolyo web sitesi</strong></a> — Kategori filtreli galeri, tam ekran görüntüleyici, çekim paketleri ve rezervasyon: işleriniz ön planda, ürün satan değil sanat gösteren bir site.</li></ul>",
+    "en": "<p>A ready-made theme for your industry: read the overview and try the live demo.</p><ul class=\"mx-list\"><li><a href=\"/en/restoran-web-sitesi/\"><strong>Restaurant website</strong></a> — Menu, allergen information, table booking and branches in one place: guests find what to eat and how to book within seconds.</li><li><a href=\"/en/klinik-web-sitesi/\"><strong>Clinic website</strong></a> — Departments, physician profiles and appointment requests in a calm, trustworthy design with clear patient information.</li><li><a href=\"/en/emlak-web-sitesi/\"><strong>Real estate website</strong></a> — Listings, filters, map and enquiry form: buyers find the right listing fast and you receive qualified enquiries.</li><li><a href=\"/en/sanayi-web-sitesi/\"><strong>Industrial website</strong></a> — Product groups, technical tables, certificates and quote requests: give corporate buyers the information they need up front.</li><li><a href=\"/en/dekorasyon-eticaret-sitesi/\"><strong>Interior decor online store</strong></a> — A static store you can try end to end with a showcase, cart and checkout flow; the cart lives in the browser.</li><li><a href=\"/en/kuyumcu-eticaret-sitesi/\"><strong>Jewelry online store</strong></a> — A showcase, gold-price ribbon, cart and demo checkout: a clean, trust-building store for valuable goods.</li><li><a href=\"/en/gida-eticaret-sitesi/\"><strong>Food online store</strong></a> — A category-filtered product list, ingredient and allergen labels, cart and demo checkout: a ready showcase for packaged food.</li><li><a href=\"/en/insaat-web-sitesi/\"><strong>Construction website</strong></a> — A project portfolio, filtered references, before-and-after progress galleries and technical tables: show your work.</li><li><a href=\"/en/guzellik-merkezi-web-sitesi/\"><strong>Beauty salon website</strong></a> — A service list with prices, the team, before-and-after gallery and booking: a warm, polished showcase for a beauty centre.</li><li><a href=\"/en/portfolyo-web-sitesi/\"><strong>Photographer portfolio website</strong></a> — A category-filtered gallery, full-screen viewer, shoot packages and booking: your work takes centre stage.</li></ul>",
+    "ar": "<p>قالب جاهز لقطاعك: اطّلع على الصفحة التعريفية وجرّب العرض المباشر.</p><ul class=\"mx-list\"><li><a href=\"/ar/restoran-web-sitesi/\"><strong>موقع إلكتروني لمطعم</strong></a> — القائمة ومعلومات مسببات الحساسية وحجز الطاولات والفروع في مكان واحد، ليجد ضيوفك ما يأكلونه وكيف يحجزون في ثوانٍ.</li><li><a href=\"/ar/klinik-web-sitesi/\"><strong>موقع إلكتروني لعيادة</strong></a> — الأقسام وتعريف الأطباء وطلب الموعد بتصميم هادئ يبعث على الثقة ومعلومات واضحة للمريض.</li><li><a href=\"/ar/emlak-web-sitesi/\"><strong>موقع إلكتروني لمكتب عقارات</strong></a> — قائمة العقارات والتصفية والخريطة ونموذج الطلب، ليجد المشتري العقار المناسب بسرعة وتتلقى طلبات جادة.</li><li><a href=\"/ar/sanayi-web-sitesi/\"><strong>موقع إلكتروني لشركة صناعية</strong></a> — مجموعات المنتجات والجداول الفنية والشهادات وطلب عرض السعر، لتزوّد المشتري المؤسسي بما يحتاجه من البداية.</li><li><a href=\"/ar/dekorasyon-eticaret-sitesi/\"><strong>متجر إلكتروني للديكور</strong></a> — متجر ثابت يمكن تجربته من البداية إلى النهاية بواجهة منتجات وسلة وعملية دفع، وتُحفظ السلة في المتصفح.</li><li><a href=\"/ar/kuyumcu-eticaret-sitesi/\"><strong>متجر إلكتروني للمجوهرات</strong></a> — واجهة منتجات وشريط أسعار الذهب وسلة ودفع تجريبي: متجر بسيط يبعث على الثقة للمنتجات الثمينة.</li><li><a href=\"/ar/gida-eticaret-sitesi/\"><strong>متجر إلكتروني للأغذية</strong></a> — قائمة منتجات بتصفية الفئات وملصقات المكونات والحساسية وسلة ودفع تجريبي: واجهة جاهزة لبيع الأغذية المعبأة.</li><li><a href=\"/ar/insaat-web-sitesi/\"><strong>موقع إلكتروني لشركة مقاولات</strong></a> — محفظة مشاريع ومراجع قابلة للتصفية ومعارض تقدّم قبل وبعد وجداول فنية: اعرض عملك بالصور.</li><li><a href=\"/ar/guzellik-merkezi-web-sitesi/\"><strong>موقع إلكتروني لمركز تجميل</strong></a> — قائمة خدمات وأسعار وفريق وخبراء ومعرض قبل وبعد وحجز: واجهة أنيقة ودافئة لمركز تجميل.</li><li><a href=\"/ar/portfolyo-web-sitesi/\"><strong>موقع معرض أعمال لمصوّر</strong></a> — معرض بتصفية الفئات وعارض بملء الشاشة وباقات تصوير وحجز: أعمالك في الواجهة.</li></ul>"
+  },
+  "title": {
+    "tr": "Sektörlere göre web sitesi — Webyapar",
+    "en": "Websites by industry — Webyapar",
+    "ar": "مواقع حسب القطاع — ويب ياپار"
+  },
+  "date": "2026-10-30T20:48:20.513Z",
+  "update": "2026-10-30T21:01:05.023Z"
+}

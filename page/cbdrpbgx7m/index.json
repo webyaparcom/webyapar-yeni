@@ -1,0 +1,43 @@
+{
+  "id": "cbdrpbgx7m",
+  "name": {
+    "tr": "Klinik web sitesi",
+    "en": "Clinic website",
+    "ar": "موقع إلكتروني لعيادة"
+  },
+  "description": {
+    "tr": "Branşlar, hekim tanıtımı ve randevu talebi güven veren, sakin bir tasarımda; hasta bilgilendirmesi açık ve anlaşılır.",
+    "en": "Departments, physician profiles and appointment requests in a calm, trustworthy design with clear patient information.",
+    "ar": "الأقسام وتعريف الأطباء وطلب الموعد بتصميم هادئ يبعث على الثقة ومعلومات واضحة للمريض."
+  },
+  "keyword": {
+    "tr": "klinik web sitesi, hazır tema, webyapar",
+    "en": "clinic website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني لعيادة، قالب جاهز، ويب ياپار"
+  },
+  "path": "klinik-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "usnpjg",
+      "1x6tte",
+      "7yku12",
+      "x523gx",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 13,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Klinik web sitesi — Webyapar",
+    "en": "Clinic website — Webyapar",
+    "ar": "موقع إلكتروني لعيادة — Webyapar"
+  },
+  "date": "2026-10-30T20:48:20.568Z",
+  "update": "2026-10-30T21:01:05.075Z"
+}
