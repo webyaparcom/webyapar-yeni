@@ -1,0 +1,40 @@
+{
+  "id": "3tapu9dfm1",
+  "name": {
+    "tr": "Temalar",
+    "en": "Themes",
+    "ar": "القوالب"
+  },
+  "description": {
+    "tr": "Kurumsal, e-ticaret ve galeri türünde 10 sektör teması; tür ve sektöre göre süzün, canlı demoyu deneyin.",
+    "en": "10 industry themes of the corporate, e-commerce and gallery types; filter by type and industry and try the live demo.",
+    "ar": "10 قوالب لقطاعات من الأنواع المؤسسي والمتجر والمعرض؛ صفِّ حسب النوع والقطاع وجرّب العرض المباشر."
+  },
+  "keyword": {
+    "tr": "web sitesi teması, hazır tema, canlı demo",
+    "en": "website theme, ready-made theme, live demo",
+    "ar": "قالب موقع، قالب جاهز، عرض مباشر"
+  },
+  "path": "temalar",
+  "icon": "grid_view",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "9zy8xj",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hazır web sitesi temaları — Webyapar",
+    "en": "Ready-made website themes — Webyapar",
+    "ar": "قوالب مواقع جاهزة — ويب ياپار"
+  },
+  "date": "2026-10-30T20:48:20.510Z",
+  "update": "2026-10-30T21:01:05.015Z"
+}

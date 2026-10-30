@@ -1,0 +1,609 @@
+<section class="modulex-tg" id="tg-{{id}}" aria-labelledby="tg-h-{{id}}" data-tg-root>
+  <div class="modulex-tg-wrap">
+    <header class="modulex-tg-head">
+      <h2 class="modulex-tg-title" id="tg-h-{{id}}">{{title}}</h2>
+      <p class="modulex-tg-subtitle">{{subtitle}}</p>
+    </header>
+
+    <div class="modulex-tg-toolbar">
+      <div class="modulex-tg-searchrow">
+        <div class="modulex-tg-search">
+          <label class="mx-visually-hidden" for="tg-q-{{id}}">{{searchLabel}}</label>
+          <span class="material-symbols-outlined" aria-hidden="true">search</span>
+          <input class="mx-input modulex-tg-q" id="tg-q-{{id}}" type="search" autocomplete="off" placeholder="{{searchPh}}" data-tg-q />
+        </div>
+        <div class="modulex-tg-sort">
+          <label class="modulex-tg-sortlabel" for="tg-s-{{id}}">{{sortLabel}}</label>
+          <select class="mx-select modulex-tg-sortsel" id="tg-s-{{id}}" data-tg-sort>
+            <option value="yeni"{{tgSiraSeciliyeni}}>{{sortNew}}</option>
+            <option value="ad"{{tgSiraSeciliad}}>{{sortName}}</option>
+            <option value="sektor"{{tgSiraSecilisektor}}>{{sortSector}}</option>
+            <option value="tur"{{tgSiraSecilitur}}>{{sortType}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="modulex-tg-group" role="group" aria-label="{{typeGroupLabel}}">
+        <span class="modulex-tg-grouplabel" aria-hidden="true">{{typeGroupLabel}}</span>
+        <div class="modulex-tg-chips">{{tgCipTur}}</div>
+      </div>
+      <div class="modulex-tg-group" role="group" aria-label="{{sectorGroupLabel}}">
+        <span class="modulex-tg-grouplabel" aria-hidden="true">{{sectorGroupLabel}}</span>
+        <div class="modulex-tg-chips">{{tgCipSektor}}</div>
+      </div>
+      <div class="modulex-tg-status">
+        <p class="modulex-tg-count" data-tg-count aria-live="polite"></p>
+        <button type="button" class="modulex-tg-reset" data-tg-reset hidden>{{resetText}}</button>
+      </div>
+    </div>
+
+    <div class="modulex-tg-grid" data-tg-grid>{{tgKartlar}}</div>
+
+    <div class="mx-empty modulex-tg-empty" data-tg-empty hidden>
+      <span class="material-symbols-outlined mx-empty__icon" aria-hidden="true">search_off</span>
+      <p class="mx-empty__title">{{emptyTitle}}</p>
+      <p class="mx-empty__text">{{emptyText}}</p>
+      <button type="button" class="mx-btn mx-btn--outline modulex-tg-btn" data-tg-reset2>{{resetText}}</button>
+    </div>
+  </div>
+  <script type="application/json" id="tg-{{id}}-veri">{{tgVeri}}</script>
+</section>
+
+<style>
+  .modulex-tg {
+    --tg-bg: --bgcolor--;
+    --tg-text: --textcolor--;
+    --tg-surface: --surface--;
+    --tg-surface2: --surface2--;
+    --tg-accent: --accent--;
+    --tg-accent-text: --accentText--;
+    --tg-border: --bordercolor--;
+    --tg-muted: --mutedcolor--;
+    box-sizing: border-box;
+    padding-block: 48px;
+    padding-inline: 16px;
+    background: var(--tg-bg);
+    color: var(--tg-text);
+    font-family: var(--mx-font-sans, system-ui, -apple-system, "Segoe UI", sans-serif);
+    line-height: 1.55;
+  }
+  .modulex-tg *,
+  .modulex-tg *::before,
+  .modulex-tg *::after {
+    box-sizing: border-box;
+  }
+  .modulex-tg [hidden] {
+    display: none !important;
+  }
+  .modulex-tg-wrap {
+    max-width: --max--;
+    margin-inline: auto;
+  }
+  .modulex-tg-head {
+    margin-block-end: 24px;
+  }
+  .modulex-tg-title {
+    margin: 0 0 8px;
+    font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.4rem);
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  .modulex-tg-subtitle {
+    margin: 0;
+    max-width: 62ch;
+    font-size: 1rem;
+    color: var(--tg-muted);
+  }
+  .modulex-tg-toolbar {
+    display: grid;
+    gap: 14px;
+    margin-block-end: 24px;
+    padding: 16px;
+    border: 1px solid var(--tg-border);
+    border-radius: 16px;
+    background: var(--tg-surface);
+  }
+  .modulex-tg-searchrow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: flex-end;
+  }
+  .modulex-tg-search {
+    position: relative;
+    flex: 1 1 260px;
+    min-width: 0;
+  }
+  .modulex-tg-search .material-symbols-outlined {
+    position: absolute;
+    inset-block-start: 50%;
+    inset-inline-start: 12px;
+    transform: translateY(-50%);
+    font-size: 22px;
+    color: var(--tg-muted);
+    pointer-events: none;
+  }
+  .modulex-tg .modulex-tg-q {
+    padding-inline-start: 42px;
+    background: var(--tg-bg);
+    color: var(--tg-text);
+    border-color: color-mix(in srgb, var(--tg-text) 30%, transparent);
+    font-size: 1rem;
+  }
+  .modulex-tg .modulex-tg-q::placeholder {
+    color: color-mix(in srgb, var(--tg-text) 52%, var(--tg-bg));
+  }
+  .modulex-tg-sort {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 0 1 auto;
+  }
+  .modulex-tg-sortlabel {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .modulex-tg .modulex-tg-sortsel {
+    min-width: 170px;
+    background: var(--tg-bg);
+    color: var(--tg-text);
+    border-color: color-mix(in srgb, var(--tg-text) 30%, transparent);
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .modulex-tg .mx-input:focus-visible,
+  .modulex-tg .mx-select:focus-visible {
+    outline: 2px solid var(--tg-accent);
+    outline-offset: 1px;
+  }
+  .modulex-tg-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+  }
+  .modulex-tg-grouplabel {
+    flex: 0 0 auto;
+    min-width: 64px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--tg-muted);
+  }
+  .modulex-tg-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    min-width: 0;
+  }
+  .modulex-tg .modulex-tg-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 44px;
+    padding-inline: 16px;
+    border: 1.5px solid color-mix(in srgb, var(--tg-text) 28%, transparent);
+    border-radius: 999px;
+    background: var(--tg-bg);
+    color: var(--tg-text);
+    font: inherit;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  }
+  .modulex-tg .modulex-tg-chip:hover {
+    border-color: var(--tg-accent);
+  }
+  .modulex-tg .modulex-tg-chip:focus-visible,
+  .modulex-tg .modulex-tg-reset:focus-visible,
+  .modulex-tg .modulex-tg-btn:focus-visible {
+    outline: 2px solid var(--tg-accent);
+    outline-offset: 2px;
+  }
+  .modulex-tg .modulex-tg-chip.is-active {
+    background: var(--tg-accent);
+    border-color: var(--tg-accent);
+    color: var(--tg-accent-text);
+  }
+  .modulex-tg-n {
+    font-size: 0.78rem;
+    font-weight: 700;
+    opacity: 0.8;
+  }
+  .modulex-tg-n:empty {
+    display: none;
+  }
+  .modulex-tg-status {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .modulex-tg-count {
+    margin: 0;
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--tg-muted);
+  }
+  .modulex-tg .modulex-tg-reset {
+    min-height: 44px;
+    padding-inline: 8px;
+    border: 0;
+    background: transparent;
+    color: var(--tg-text);
+    font: inherit;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    cursor: pointer;
+  }
+  .modulex-tg-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
+    gap: 24px;
+  }
+  .modulex-tg-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    overflow: hidden;
+    border: 1px solid var(--tg-border);
+    border-radius: 16px;
+    background: var(--tg-surface);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    animation: mxTgIn 0.35s ease-out both;
+  }
+  .modulex-tg-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--tg-accent);
+    box-shadow: 0 12px 28px color-mix(in srgb, var(--tg-text) 14%, transparent);
+  }
+  @keyframes mxTgIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .modulex-tg-shots {
+    position: relative;
+    padding: 16px 16px 0;
+    background: color-mix(in srgb, var(--tg-accent) 10%, var(--tg-surface2));
+  }
+  .modulex-tg-bar {
+    display: flex;
+    gap: 5px;
+    height: 20px;
+    align-items: center;
+    padding-inline: 10px;
+    border-radius: 10px 10px 0 0;
+    background: color-mix(in srgb, var(--tg-text) 14%, var(--tg-surface));
+  }
+  .modulex-tg-bar i {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: color-mix(in srgb, var(--tg-text) 38%, transparent);
+  }
+  .modulex-tg-desk {
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    background: var(--tg-surface);
+    border: 1px solid var(--tg-border);
+    border-block-start: 0;
+  }
+  .modulex-tg-mob {
+    position: absolute;
+    inset-inline-end: 28px;
+    inset-block-end: -28px;
+    width: 26%;
+    max-width: 96px;
+    aspect-ratio: 9 / 18;
+    overflow: hidden;
+    border: 3px solid var(--tg-text);
+    border-radius: 14px;
+    background: var(--tg-surface);
+    box-shadow: 0 8px 18px color-mix(in srgb, var(--tg-text) 28%, transparent);
+  }
+  .modulex-tg-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+  .modulex-tg-ph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    color: var(--tg-muted);
+    background: linear-gradient(135deg, color-mix(in srgb, var(--tg-accent) 14%, var(--tg-surface)), var(--tg-surface2));
+    text-align: center;
+  }
+  .modulex-tg-ph .material-symbols-outlined {
+    font-size: 40px;
+  }
+  .modulex-tg-mob .modulex-tg-ph .material-symbols-outlined {
+    font-size: 26px;
+  }
+  .modulex-tg-phname {
+    font-size: 0.85rem;
+    font-weight: 700;
+    overflow-wrap: anywhere;
+  }
+  .modulex-tg-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1 1 auto;
+    padding: 40px 20px 20px;
+  }
+  .modulex-tg-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .modulex-tg-badge {
+    padding: 2px 10px;
+    border: 1px solid var(--tg-border);
+    border-radius: 999px;
+    background: var(--tg-bg);
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1.7;
+  }
+  .modulex-tg-badge--sector {
+    border-color: transparent;
+    background: var(--tg-accent);
+    color: var(--tg-accent-text);
+  }
+  .modulex-tg-name {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.3;
+  }
+  .modulex-tg-sum {
+    margin: 0;
+    font-size: 0.92rem;
+    color: var(--tg-muted);
+  }
+  .modulex-tg-incl {
+    margin: 4px 0 0;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: var(--tg-muted);
+  }
+  .modulex-tg-feats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .modulex-tg-feat {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  .modulex-tg-feat .material-symbols-outlined {
+    font-size: 20px;
+    color: var(--tg-accent);
+  }
+  .modulex-tg-pages {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--tg-muted);
+  }
+  .modulex-tg-cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-block-start: auto;
+    padding-block-start: 8px;
+  }
+  .modulex-tg .modulex-tg-btn {
+    flex: 1 1 140px;
+    min-height: 44px;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    --mx-color-primary: var(--tg-accent);
+    --mx-color-primary-contrast: var(--tg-accent-text);
+  }
+  .modulex-tg .mx-btn--primary {
+    background: var(--tg-accent);
+    color: var(--tg-accent-text) !important;
+  }
+  .modulex-tg .mx-btn--outline {
+    color: var(--tg-text) !important;
+    border-color: color-mix(in srgb, var(--tg-text) 35%, transparent);
+  }
+  .modulex-tg-empty {
+    background: var(--tg-surface);
+  }
+  .modulex-tg-empty .mx-empty__title {
+    color: var(--tg-text);
+    font-weight: 700;
+  }
+  .modulex-tg-empty .mx-empty__text {
+    color: var(--tg-muted);
+  }
+  @media (max-width: 768px) {
+    .modulex-tg {
+      padding-block: 32px;
+      padding-inline: 12px;
+    }
+    .modulex-tg-toolbar {
+      padding: 12px;
+    }
+    .modulex-tg-sort {
+      width: 100%;
+    }
+    .modulex-tg .modulex-tg-sortsel {
+      flex: 1 1 auto;
+    }
+    .modulex-tg-grouplabel {
+      flex-basis: 100%;
+    }
+    .modulex-tg-grid {
+      gap: 16px;
+    }
+    .modulex-tg-mob {
+      inset-inline-end: 20px;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-tg-card {
+      animation: none;
+      transition: none;
+    }
+    .modulex-tg-card:hover {
+      transform: none;
+    }
+    .modulex-tg .modulex-tg-chip {
+      transition: none;
+    }
+  }
+</style>
+
+<script>
+  /* tema-galeri — kartlar sunucuda basilidir; bu betik MxFiltre ile suzer/siralar/arar ve durumu ?tur=&sektor=&q=&sort= ile tasir. */
+  (function () {
+    var kok = document.getElementById("tg-{{id}}");
+    if (!kok) {
+      return;
+    }
+    var veriEl = document.getElementById("tg-{{id}}-veri");
+    var cfg = {};
+    try {
+      cfg = JSON.parse(veriEl ? veriEl.textContent : "{}");
+    } catch (e) {
+      cfg = {};
+    }
+    var f = null;
+
+    function q(sel) {
+      return kok.querySelector(sel);
+    }
+
+    function hazir(fn) {
+      if (window.mxLoad) {
+        fn();
+      } else if (document.readyState === "complete") {
+        setTimeout(fn, 50);
+      } else {
+        window.addEventListener("load", fn);
+      }
+    }
+
+    function ciz(s) {
+      var kartlar = kok.querySelectorAll(".modulex-tg-card");
+      var gorunen = {};
+      var i;
+      for (i = 0; i < s.tumu.length; i++) {
+        gorunen[s.tumu[i].id] = i;
+      }
+      var grid = q("[data-tg-grid]");
+      var sirali = [];
+      for (i = 0; i < kartlar.length; i++) {
+        var id = kartlar[i].getAttribute("data-tg-id");
+        var var_ = Object.prototype.hasOwnProperty.call(gorunen, id);
+        kartlar[i].hidden = !var_;
+        if (var_) {
+          sirali[gorunen[id]] = kartlar[i];
+        }
+      }
+      for (i = 0; i < sirali.length; i++) {
+        grid.appendChild(sirali[i]);
+      }
+
+      q("[data-tg-count]").textContent = window.MxFiltre.cogul(s.toplam, cfg.plural, cfg.lang);
+      q("[data-tg-empty]").hidden = s.toplam !== 0;
+      grid.hidden = s.toplam === 0;
+      var filtreVar = f.filtreVar();
+      q("[data-tg-reset]").hidden = !filtreVar;
+
+      /* cipler: etkin durum + her cipin yaninda o facet haric digerleri uygulanmis adet */
+      var cipler = kok.querySelectorAll("[data-tg-facet]");
+      var sayimlar = { tur: f.sayim("tur"), sektor: f.sayim("sektor") };
+      for (i = 0; i < cipler.length; i++) {
+        var facet = cipler[i].getAttribute("data-tg-facet");
+        var val = cipler[i].getAttribute("data-tg-val");
+        var secili = s.durum.facet[facet] || "";
+        var aktif = String(secili) === val;
+        cipler[i].classList.toggle("is-active", aktif);
+        cipler[i].setAttribute("aria-pressed", aktif ? "true" : "false");
+        var n = cipler[i].querySelector("[data-tg-n]");
+        if (n) {
+          if (val === "") {
+            n.textContent = "";
+          } else {
+            n.textContent = String(sayimlar[facet][val] || 0);
+          }
+        }
+      }
+      var sel = q("[data-tg-sort]");
+      if (sel.value !== s.durum.sirala && s.durum.sirala) {
+        sel.value = s.durum.sirala;
+      }
+    }
+
+    function baslat() {
+      window.mxLoad("mxfiltre").then(function () {
+        f = window.MxFiltre.olustur({
+          items: cfg.items || [],
+          arama: { alanlar: ["nameText", "summaryText", "sectorLabel", "typeLabel", "slug"] },
+          facets: { tur: { tip: "tek", alan: "type" }, sektor: { tip: "tek", alan: "sector" } },
+          siralama: {
+            yeni: { alan: "date", yon: -1 },
+            ad: { alan: "nameText", yon: 1, tip: "metin" },
+            sektor: { alan: "sectorLabel", yon: 1, tip: "metin" },
+            tur: { alan: "typeLabel", yon: 1, tip: "metin" }
+          },
+          varsayilanSiralama: cfg.defaultSort || "yeni",
+          url: !!cfg.url,
+          dil: cfg.lang
+        });
+        var chipHost = kok;
+        chipHost.addEventListener("click", function (ev) {
+          var t = ev.target;
+          while (t && t !== chipHost && !(t.getAttribute && t.getAttribute("data-tg-facet"))) {
+            t = t.parentNode;
+          }
+          if (!t || t === chipHost) {
+            return;
+          }
+          var facet = t.getAttribute("data-tg-facet");
+          var val = t.getAttribute("data-tg-val");
+          var simdi = f.durum().facet[facet] || "";
+          var yeni = {};
+          yeni[facet] = String(simdi) === val ? "" : val;
+          f.ayarla(yeni);
+        });
+        var girdi = q("[data-tg-q]");
+        window.MxFiltre.aramaBagla(girdi, f, 150);
+        q("[data-tg-sort]").addEventListener("change", function (ev) {
+          f.sirala(ev.target.value);
+        });
+        var sifirla = function () {
+          f.sifirla();
+          girdi.value = "";
+          girdi.focus();
+        };
+        q("[data-tg-reset]").addEventListener("click", sifirla);
+        q("[data-tg-reset2]").addEventListener("click", sifirla);
+        f.abone(ciz);
+        ciz(f.sonuc());
+      });
+    }
+
+    hazir(baslat);
+  })();
+</script>

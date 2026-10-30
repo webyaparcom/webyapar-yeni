@@ -1,0 +1,39 @@
+{
+  "id": "gizlilikpolitikasi",
+  "name": {
+    "tr": "Gizlilik Politikası",
+    "en": "Privacy Policy",
+    "ar": "سياسة الخصوصية"
+  },
+  "description": {
+    "tr": "Gizlilik politikası",
+    "en": "Privacy policy",
+    "ar": "سياسة الخصوصية"
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "path": "gizlilikpolitikasi",
+  "icon": "privacy_tip",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 3,
+  "url": "",
+  "text": {
+    "tr": "<h2>Gizlilik Politikası</h2><p>Webyapar (webyapar.com), ziyaretçilerinden yalnızca sitenin çalışması için gerekli teknik verileri işler. Analitik ve pazarlama çerezleri varsayılan olarak kapalıdır; tercihlerinizi çerez bandından değiştirebilirsiniz.</p><p>İletişim için WhatsApp ya da e-posta ile bize yazdığınızda ilettiğiniz bilgiler yalnızca talebinizi yanıtlamak için kullanılır ve üçüncü taraflarla paylaşılmaz.</p><p>Sorularınız için: info@webyapar.com</p>",
+    "en": "<h2>Privacy Policy</h2><p>Webyapar (webyapar.com) processes only the technical data a visitor needs for the site to work. Analytics and marketing cookies are off by default; you can change your choices from the cookie banner.</p><p>When you write to us by WhatsApp or e-mail, the details you send are used only to answer your request and are not shared with third parties.</p><p>Questions: info@webyapar.com</p>",
+    "ar": "<h2>سياسة الخصوصية</h2><p>يعالج «ويب ياپار» (webyapar.com) البيانات التقنية اللازمة لتشغيل الموقع فقط. ملفات تعريف الارتباط التحليلية والتسويقية معطّلة افتراضيًا، ويمكنك تغيير اختياراتك من شريط ملفات تعريف الارتباط.</p><p>عند مراسلتنا عبر واتساب أو البريد الإلكتروني تُستخدم البيانات التي ترسلها للرد على طلبك فقط، ولا تتم مشاركتها مع أطراف ثالثة.</p><p>للاستفسار: info@webyapar.com</p>"
+  },
+  "title": {
+    "tr": "Gizlilik Politikası",
+    "en": "Privacy Policy",
+    "ar": "سياسة الخصوصية"
+  },
+  "date": "2026-10-30T20:48:16.725Z",
+  "update": "2026-10-30T21:01:05.172Z"
+}

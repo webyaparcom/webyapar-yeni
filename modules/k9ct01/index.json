@@ -1,0 +1,30 @@
+{
+ "name": "İletişim",
+ "desing": {
+  "color": "#000",
+  "name": {
+   "tr": "Bize Ulaşın"
+  },
+  "margin": "30px 0px 30px 0px",
+  "linkcolor": "#1B3A6B"
+ },
+ "data": [
+  {
+   "icon": "phone",
+   "text": "+90",
+   "url": ""
+  },
+  {
+   "icon": "email",
+   "text": ""
+  },
+  {
+   "icon": "map",
+   "text": ""
+  }
+ ],
+ "category": "contact",
+ "description": "İletişim bilgileri görüntüleme modülü. Telefon, email ve adres bilgilerini icon ile şık tasarımda sunar. 26 farklı projede kullanılır: kurumsal şirketler, restoranlar, e-ticaret siteleri, sağlık kuruluşları ve hizmet sektöründe. Responsive kart düzeni ve tıklanabilir telefon/email linkleri içerir.",
+ "version": "1.0.0",
+ "icon": "contact_mail"
+}

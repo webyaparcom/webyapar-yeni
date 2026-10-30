@@ -1,0 +1,39 @@
+{
+  "id": "yasaluyari",
+  "name": {
+    "tr": "Yasal Uyarı",
+    "en": "Legal Notice",
+    "ar": "إشعار قانوني"
+  },
+  "description": {
+    "tr": "Yasal uyarı",
+    "en": "Legal notice",
+    "ar": "إشعار قانوني"
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "path": "yasaluyari",
+  "icon": "policy",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 6,
+  "url": "",
+  "text": {
+    "tr": "<h2>Yasal Uyarı</h2><p>Bu sitedeki demo siteler (örn. restoran.webyapar.com) kurgusal markalar, kişiler, adresler ve fiyatlarla hazırlanmış örneklerdir; gerçek bir işletmeyi temsil etmez ve gerçek ödeme almaz. Sektör sayfalarındaki yasal notlar genel bilgidir, hukuki danışmanlık yerine geçmez.</p>",
+    "en": "<h2>Legal Notice</h2><p>The demo sites on this website (for example restoran.webyapar.com) are samples built with fictional brands, people, addresses and prices; they do not represent a real business and take no real payment. Legal notes on industry pages are general information and not legal advice.</p>",
+    "ar": "<h2>إشعار قانوني</h2><p>المواقع التجريبية في هذا الموقع (مثل restoran.webyapar.com) نماذج أُعدّت بعلامات وأشخاص وعناوين وأسعار افتراضية، ولا تمثّل نشاطًا تجاريًا حقيقيًا ولا تقبل دفعًا فعليًا. الملاحظات القانونية في صفحات القطاعات معلومات عامة ولا تُعدّ استشارة قانونية.</p>"
+  },
+  "title": {
+    "tr": "Yasal Uyarı",
+    "en": "Legal Notice",
+    "ar": "إشعار قانوني"
+  },
+  "date": "2026-10-30T20:48:16.725Z",
+  "update": "2026-10-30T21:01:05.182Z"
+}

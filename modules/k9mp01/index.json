@@ -1,0 +1,13 @@
+{
+  "name": "Maps",
+  "desing": {
+    "height": "200px",
+    "opacity": "0.5",
+    "backgroundcolor": "#ffffff",
+    "color": "#1e3046",
+    "img": "map.png",
+    "externalUrl": ""
+  },
+  "category": "map",
+  "description": "Firmanın konumunu harita üzerinde görselleştiren modül. Ziyaretçilerin işletmeyi kolayca bulmasını sağlar. 1 farklı sektörde aktif kullanımda."
+}

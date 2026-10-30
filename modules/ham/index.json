@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "description": "ham sablon dosyalari — giris HTML; modul index.json degil",
+  "entry": "webmodules/ham/index.html",
+  "notFound": "webmodules/ham/404.html",
+  "assetsDir": "webmodules/ham/src"
+}

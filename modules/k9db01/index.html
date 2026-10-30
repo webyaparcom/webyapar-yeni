@@ -1,0 +1,183 @@
+<div class="modulex-db" id="db-{{id}}" role="region" aria-label="{{ariaLabel}}" data-tone="{{dbTon}}" style="--db-bg:{{dbBgCss}};--db-fg:{{dbFgCss}}">
+  <span class="material-symbols-outlined modulex-db-icon" aria-hidden="true">info</span>
+  <p class="modulex-db-text">{{text}}</p>
+  <a class="modulex-db-cta" href="{{dbHref}}"{{dbHedef}}>
+    <span>{{ctaText}}</span>{{dbYeniSekme}}
+    <span class="material-symbols-outlined mx-flip modulex-db-arrow" aria-hidden="true">arrow_forward</span>
+  </a>
+</div>
+<style>
+  /* demo-bandi — kapatilamaz demo seridi.
+     Yerlesim: sayfa acilinca betik bandi <body>'nin ilk cocuguna tasir (position:sticky, top:0 → tum sayfa boyunca ustte kalir; akista
+     yer tutar, icerigi ezmez). Sabit/yapisik menulerin (position:fixed|sticky; top:0) `top` degeri bant yuksekligi kadar ittirilir ve
+     yukseklik :root'a --mx-demo-bandi-h olarak basilir (menu CSS'i isterse top:var(--mx-demo-bandi-h,0px) kullanabilir). */
+  :root {
+    --mx-demo-bandi-h: 48px;
+  }
+  .modulex-db {
+    --db-bg: var(--mx-site-text, #1b1b1b);
+    --db-fg: var(--mx-site-bg, #ffffff);
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 2147483000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    min-height: 48px;
+    padding-block: 2px;
+    padding-inline: 16px;
+    background: var(--db-bg);
+    color: var(--db-fg);
+    font-family: var(--mx-font-sans, system-ui, -apple-system, "Segoe UI", sans-serif);
+    font-size: 0.875rem;
+    line-height: 1.45;
+    text-align: start;
+    animation: mxDbGiris 0.35s ease-out both;
+  }
+  .modulex-db *,
+  .modulex-db *::before,
+  .modulex-db *::after {
+    box-sizing: border-box;
+  }
+  .modulex-db-icon {
+    flex: 0 0 auto;
+    font-size: 20px;
+    line-height: 1;
+  }
+  .modulex-db-text {
+    margin: 0;
+    min-width: 0;
+    flex: 0 1 auto;
+    font-weight: 500;
+    overflow-wrap: anywhere;
+  }
+  .modulex-db .modulex-db-cta {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    min-height: 44px;
+    min-width: 44px;
+    padding-inline: 4px;
+    color: var(--db-fg) !important;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    cursor: pointer;
+    transition: opacity 0.2s ease, gap 0.2s ease;
+  }
+  .modulex-db .modulex-db-cta:hover {
+    opacity: 0.85;
+    gap: 8px;
+  }
+  .modulex-db .modulex-db-cta:focus-visible {
+    outline: 2px solid var(--db-fg);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  .modulex-db-arrow {
+    font-size: 18px;
+    line-height: 1;
+  }
+  @keyframes mxDbGiris {
+    from { opacity: 0; transform: translateY(-100%); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @media (max-width: 768px) {
+    /* mobil: metin + baglanti iki satira sarar, tasma yok */
+    .modulex-db {
+      justify-content: space-between;
+      gap: 8px;
+      padding-inline: 12px;
+      font-size: 0.8125rem;
+    }
+    .modulex-db-icon {
+      display: none;
+    }
+    .modulex-db-text {
+      flex: 1 1 0;
+    }
+    .modulex-db .modulex-db-cta {
+      max-width: 38%;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-db {
+      animation: none;
+    }
+    .modulex-db .modulex-db-cta {
+      transition: none;
+    }
+  }
+</style>
+<script>
+  /* demo-bandi — bandi sayfanin en ustune tasir, yuksekligi --mx-demo-bandi-h'ye basar, ustte sabit/yapisik menuleri iter. */
+  (function () {
+    var kok = document.getElementById("db-{{id}}");
+    if (!kok) {
+      return;
+    }
+    var itilenler = [];
+    var gorulen = [];
+
+    function ustaTasi() {
+      var govde = document.body;
+      if (!govde || kok.parentNode === govde) {
+        return;
+      }
+      var ilk = document.getElementById("header");
+      if (ilk && ilk.parentNode === govde) {
+        govde.insertBefore(kok, ilk);
+      } else {
+        govde.insertBefore(kok, govde.firstChild);
+      }
+    }
+
+    function adayMi(el) {
+      if (el === kok || kok.contains(el) || el.nodeType !== 1) {
+        return false;
+      }
+      var cs = window.getComputedStyle(el);
+      if ((cs.position !== "fixed" && cs.position !== "sticky") || cs.display === "none") {
+        return false;
+      }
+      /* yalniz ust cubuklar: top:0 ve alçak (kayan çekmece/örtü değil) */
+      return parseFloat(cs.top) === 0 && el.offsetHeight > 0 && el.offsetHeight <= 200;
+    }
+
+    function it() {
+      var h = kok.offsetHeight;
+      document.documentElement.style.setProperty("--mx-demo-bandi-h", h + "px");
+      var liste = document.querySelectorAll("#header *, body > *");
+      for (var i = 0; i < liste.length; i++) {
+        var el = liste[i];
+        if (gorulen.indexOf(el) !== -1) {
+          continue;
+        }
+        if (adayMi(el)) {
+          gorulen.push(el);
+          itilenler.push(el);
+        }
+      }
+      for (var j = 0; j < itilenler.length; j++) {
+        itilenler[j].style.top = h + "px";
+      }
+    }
+
+    ustaTasi();
+    it();
+    window.addEventListener("load", function () {
+      ustaTasi();
+      it();
+      setTimeout(it, 400);
+      setTimeout(it, 1500);
+    });
+    window.addEventListener("resize", it);
+    if (window.ResizeObserver) {
+      new window.ResizeObserver(it).observe(kok);
+    }
+  })();
+</script>

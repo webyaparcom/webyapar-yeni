@@ -1,0 +1,606 @@
+<header class="modulex" role="banner">
+  <div class="modulextitle" role="region" aria-label="@language-selector@">
+    <div class="modulextitlebody">
+      <nav class="modulextitlebodylang" aria-label="@language-selector@">
+        <ul role="list">
+          {{langhtml}}
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="modulexChildren">
+    <div class="modulexbody">
+      <a href="/{{lang}}/" aria-label="@home@ - {{web-name}}" title="@home@ - {{web-name}}">
+        <img src="/img/{{logo}}?v={{random}}" class="modulexbodylogo" alt="{{web-name}} Logo" loading="lazy" />
+      </a>
+    </div>
+    <button class="modulexmenumobil" type="button" aria-label="@menu-toggle@" aria-expanded="false" aria-controls="modulexmenulist">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+    <div class="modulexmenuoverlay" id="modulexmenuoverlay" aria-hidden="true"></div>
+    <nav class="modulexmenulist" id="modulexmenulist" role="navigation" aria-label="@navigation@">
+      <button class="modulexmenuclose" type="button" aria-label="@menu-close@" aria-controls="modulexmenulist">
+        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+      </button>
+      <ul role="menubar">
+        {{html}}
+      </ul>
+      <div class="modulexmenulang" aria-label="@language-selector@">
+        <ul role="list">
+          {{langhtml}}
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+<style>
+  .modulexmenumobil {
+    display: none;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .modulexmenumobil:focus {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+  }
+
+  .modulexChildren {
+    display: flex;
+    width: var(--max);
+    gap: 15px;
+    align-items: end;
+    justify-content: space-between;
+  }
+
+  .modulex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: --background-color--;
+  }
+
+  .modulextitle {
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modulextitlebody {
+    color: #fff;
+    width: var(--max);
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0px 10px 0px;
+  }
+
+  .modulextitlebodytitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .modulextitlebodylang {
+    width: auto;
+    margin: -5px 0px -5px 0px;
+  }
+
+  .modulextitlebodylang ul {
+    display: flex;
+    gap: 15px;
+  }
+
+  .modulextitlebodylang ul li {
+    list-style: none;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modulextitlebodylang ul a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px !important;
+    aspect-ratio: 1/1;
+    border-radius: 5px;
+    background-color: #333;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 4px;
+    cursor: pointer;
+  }
+  
+  .modulextitlebodylang ul a:focus {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+  }
+  
+  .modulextitlebodylang ul a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  .modulextitlebodylang ul a:active {
+    background-color: #333;
+    color: #fff;
+  }
+  .modulextitlebodylang ul a:focus {
+    background-color: #333;
+    color: #fff;
+  }
+  .modulextitlebodylang ul a:visited {
+    background-color: #333;
+    color: #fff;
+  }
+  .modulextitlebodylang ul a:link {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .modulexbody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .modulexmenulist {
+    display: block;
+    background-color: --color--;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .modulexmenubody {
+    width: 100%;
+    background-color: --color--;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modulexmenulist ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+  }
+
+  .modulexmenulist ul a {
+    padding: 8px;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .modulexmenulist ul a:focus {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+    border-radius: 5px;
+  }
+
+  .modulexmenulist ul a:hover {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+  }
+
+  .modulexmenuitem {
+    padding: 8px;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  .modulexmenuactive {
+    background-color: #e0e0e0 !important;
+    border-radius: 5px;
+    color: #000 !important;
+    font-weight: bold;
+  }
+
+  .modulexbodylogo {
+    display: block;
+    width: auto;
+    height: --height--;
+    max-width: 100%;
+    max-height: --height--;
+    object-fit: contain;
+    object-position: left center;
+  }
+
+  /* SVG logo korumasi (2026-09-12): intrinsic boyutu OLMAYAN bir SVG
+     (yalniz viewBox) `height:auto` ile flex icinde 0'a coker ve logo
+     GORUNMEZ. `max-height` yetmez -- ust sinirdir, olcu vermez.
+     Yukseklik bu modulun KENDI tasarim tavanindan alindi. */
+  .modulexbodylogo[src*=".svg"] {
+    height: 60px;
+    width: auto;
+  }
+
+  .modulexbody > a {
+    display: inline-flex;
+    align-items: center;
+    max-width: min(90vw, 320px);
+    min-width: 0;
+    flex-shrink: 1;
+    overflow: hidden;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .modulexmenumobil {
+      display: none !important;
+    }
+
+    .modulexmenuoverlay {
+      display: none !important;
+    }
+
+    .modulexmenuclose {
+      display: none !important;
+    }
+
+    /* Desktop'ta menü içindeki dil seçicisini gizle */
+    .modulexmenulang {
+      display: none !important;
+    }
+
+    .modulexmenulist {
+      position: static !important;
+      display: flex !important;
+      width: auto !important;
+      max-width: none !important;
+      height: auto !important;
+      right: auto !important;
+      transform: none !important;
+      border-radius: 5px !important;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+      overflow: visible !important;
+      flex-direction: row !important;
+    }
+
+    .modulexmenulist ul {
+      flex-direction: row !important;
+      flex: none !important;
+    }
+
+    .modulexmenulist ul a {
+      padding: 8px !important;
+      text-align: center !important;
+      border-bottom: none !important;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    /* Mobilde üstteki dil seçicisini gizle */
+    .modulextitle {
+      display: none;
+    }
+
+    .modulexmenumobil {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      background-color: --color--;
+      width: 100%;
+    }
+
+    .modulexmenumobil span {
+      font-size: 32px;
+      color: #fff;
+      padding: 5px;
+    }
+
+    /* Overlay/Backdrop */
+    .modulexmenuoverlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 9998;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .modulexmenuoverlay.active {
+      display: block;
+      opacity: 1;
+    }
+
+    /* Slide-in Menü */
+    .modulexmenulist {
+      position: fixed;
+      top: 0;
+      right: 0;
+      transform: translateX(calc(100% + 16px));
+      width: 80%;
+      max-width: 320px;
+      height: 100%;
+      background-color: --color--;
+      padding: 0;
+      border-radius: 0;
+      box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
+      z-index: 10000000;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.3s ease;
+      overflow-y: auto;
+    }
+
+    .modulexmenulist.active {
+      transform: none;
+    }
+
+    /* Kapatma Butonu */
+    .modulexmenuclose {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 15px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      color: #fff;
+      font-size: 28px;
+    }
+
+    .modulexmenuclose span {
+      font-size: 28px;
+      color: #fff;
+    }
+
+    .modulexmenuclose:focus {
+      outline: 2px solid #fff;
+      outline-offset: -2px;
+    }
+
+    .modulexmenulist ul {
+      flex-direction: column;
+      padding: 10px 0;
+      margin: 0;
+      gap: 0;
+      flex: 1;
+    }
+
+    .modulexmenulist ul a {
+      padding: 15px 20px;
+      text-align: left;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    /* Menü içindeki dil seçici - en alta */
+    .modulexmenulang {
+      margin-top: auto;
+      padding: 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .modulexmenulang ul {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      padding: 0;
+      margin: 0;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .modulexmenulang ul li {
+      list-style: none;
+      margin: 0;
+    }
+
+    .modulexmenulang ul a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 35px;
+      height: 35px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.1);
+      transition: background-color 0.3s ease, border-color 0.3s ease;
+      text-transform: uppercase;
+      padding: 0;
+      border-bottom: none;
+      cursor: pointer;
+    }
+
+    .modulexmenulang ul a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .modulexmenulang ul a:focus {
+      outline: 2px solid #fff;
+      outline-offset: 2px;
+    }
+
+    .modulexmenulang ul a[aria-current="true"] {
+      background-color: rgba(255, 255, 255, 0.3);
+      border-color: #fff;
+      font-weight: bold;
+    }
+
+    .modulexbody {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .modulexChildren {
+      width: 100%;
+      gap: 0px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .modulexmenu {
+      overflow-x: auto;
+    }
+
+    .modulexbody > a {
+      max-width: min(50vw, 220px);
+    }
+
+    .modulexbodylogo {
+      max-width: min(50vw, 220px);
+      height: 80px;
+      max-height: 80px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .modulexmenulist ul a {
+      font-size: 14px;
+    }
+
+    .modulexbody > a {
+      max-width: min(40vw, 180px);
+    }
+
+    .modulexbodylogo {
+      max-width: min(40vw, 180px);
+      height: 70px;
+      max-height: 70px;
+    }
+  }
+
+  /* W2: mobil tasma kontrolu */
+  @media (max-width: 768px) {
+    [class*="modulex"] {
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+  }
+
+  /* W2: erisilebilirlik — animasyon kapatma */
+  @media (prefers-reduced-motion: reduce) {
+    [class*="modulex"],
+    [class*="modulex"] * {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+</style>
+<script>
+  setTimeout(function() {
+    var menuButton = document.querySelector(".modulexmenumobil");
+    var menu = document.querySelector(".modulexmenulist");
+    var overlay = document.querySelector(".modulexmenuoverlay");
+    var closeButton = document.querySelector(".modulexmenuclose");
+    
+    //
+    function openMenu() {
+      if (menu && overlay) {
+        menu.classList.add("active");
+        overlay.classList.add("active");
+        overlay.setAttribute("aria-hidden", "false");
+        if (menuButton) {
+          menuButton.setAttribute("aria-expanded", "true");
+        }
+        // Body scroll'u engelle
+        document.body.style.overflow = "hidden";
+      }
+    }
+    
+    function closeMenu() {
+      if (menu && overlay) {
+        menu.classList.remove("active");
+        overlay.classList.remove("active");
+        overlay.setAttribute("aria-hidden", "true");
+        if (menuButton) {
+          menuButton.setAttribute("aria-expanded", "false");
+        }
+        // Body scroll'u geri getir
+        document.body.style.overflow = "";
+        //
+        if (menuButton) {
+          menuButton.focus();
+        }
+      }
+    }
+    
+    if (menuButton && menu && overlay) {
+      //
+      menuButton.addEventListener("click", function () {
+        var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+        if (isExpanded) {
+          closeMenu();
+        } else {
+          openMenu();
+        }
+      });
+      
+      // Kapatma butonu
+      if (closeButton) {
+        closeButton.addEventListener("click", function () {
+          closeMenu();
+        });
+      }
+      
+      //
+      overlay.addEventListener("click", function () {
+        closeMenu();
+      });
+      
+      // Klavye navigasyonu (Enter ve Space)
+      menuButton.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+          if (isExpanded) {
+            closeMenu();
+          } else {
+            openMenu();
+          }
+        }
+      });
+      
+      //
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
+          closeMenu();
+        }
+      });
+    }
+  }, 100);
+</script>

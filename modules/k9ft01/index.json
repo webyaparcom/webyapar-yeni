@@ -1,0 +1,14 @@
+{
+  "name": "Footer 3",
+  "desing": {
+    "showlang": true,
+    "bgcolor": "#333",
+    "color": "#fff",
+    "bordercolor": "#000",
+    "minimal_design": true,
+    "social_media": false
+  },
+  "category": "footer",
+  "data": [],
+  "description": "Web sitesi alt bilgi (footer) bölümü. Logo, telif hakları, iletişim bilgileri ve sosyal medya linklerini içerir. Tüm sayfa türlerinde kullanılabilir evrensel modüldür."
+}

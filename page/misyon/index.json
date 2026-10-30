@@ -1,0 +1,39 @@
+{
+  "id": "misyon",
+  "name": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "description": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "path": "misyon",
+  "icon": "flag",
+  "category": "",
+  "status": "stop",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "title": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "date": "2026-10-30T20:48:16.725Z",
+  "update": "2026-10-30T21:01:05.155Z"
+}

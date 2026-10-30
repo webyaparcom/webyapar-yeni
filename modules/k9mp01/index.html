@@ -1,0 +1,77 @@
+<a href="--externalUrl--" target="_blank" class="modulex">
+  <div class="modulex-zoom-icon-container">
+    <span class="material-symbols-outlined modulex-zoom-icon">
+      zoom_in_map
+    </span>
+  </div>
+</a>
+<style>
+  .modulex {
+    margin: --margin--;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    background-image: url("{{img}}?v={{random}}") !important;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: --height--;
+  }
+  .modulex-zoom-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .modulex-zoom-icon {
+    font-size: 250px !important;
+    color: #333;
+    animation: pulse 1s 3;
+    opacity: 0.5;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  /* W2 — animasyon, mobil, erisilebilirlik */
+  @keyframes modulexW2Enter {
+    from { opacity: 0.98; }
+    to { opacity: 1; }
+  }
+
+  [class*="modulex"] {
+    box-sizing: border-box;
+    animation: modulexW2Enter 0.3s ease;
+    transition: opacity 0.25s ease, transform 0.25s ease;
+  }
+
+  a, button, [role="button"], input[type="submit"], input[type="button"] {
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    [class*="modulex"] {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    [class*="modulex"] {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+</style>

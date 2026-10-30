@@ -1,0 +1,753 @@
+{
+  "name": "Menü / Fiyat Listesi",
+  "description": "Kategorili menü ve hizmet fiyat listesi (30 Eki 2026). Menü kipi: 14 alerjen (AB 1169/2011) ikon + kısaltma rozeti, alerjen rehberi tablosu, alerjene göre hariç tutma filtresi (MxFiltre), etiketler, kategori sekmeleri (RTL ok tuşu), arama, yazdırma/QR menü düzeni. Fiyat kipi: süre + fiyat satırı. Üç dil (tr/en/ar).",
+  "version": "1.0.0",
+  "icon": "restaurant_menu",
+  "category": "menu",
+  "tags": [
+    "menu",
+    "fiyat-listesi",
+    "alerjen",
+    "qr-menu"
+  ],
+  "desing": {
+    "max": "980px",
+    "bgcolor": "var(--mx-site-bg, #ffffff)",
+    "textcolor": "var(--mx-site-text, #1b1b1b)",
+    "surface": "var(--mx-site-surface, #f6f6f4)",
+    "surface2": "var(--mx-site-surface-2, #ececea)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+    "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+    "stickyTop": "0px",
+    "mode": "menu",
+    "currency": "₺",
+    "showAllergens": true,
+    "allergenLegend": true,
+    "print": true,
+    "filter": true,
+    "search": true,
+    "allTab": true,
+    "filterTags": [
+      "vegan",
+      "vegetarian"
+    ],
+    "badge": {
+      "tr": "Menü",
+      "en": "Menu",
+      "ar": "القائمة"
+    },
+    "title": {
+      "tr": "Menümüz",
+      "en": "Our menu",
+      "ar": "قائمتنا"
+    },
+    "description": {
+      "tr": "Günlük taze hazırlanan yemekler. Alerjen bilgisi her ürünün altında yer alır.",
+      "en": "Dishes prepared fresh every day. Allergen information is listed under each item.",
+      "ar": "أطباق تُحضَّر طازجة كل يوم. تظهر معلومات مسببات الحساسية أسفل كل طبق."
+    },
+    "priceNote": {
+      "tr": "Tüm fiyatlar KDV dahil nihai fiyatlardır.",
+      "en": "All prices are final prices including VAT.",
+      "ar": "جميع الأسعار نهائية وتشمل ضريبة القيمة المضافة."
+    },
+    "legalNote": {
+      "tr": "Alerjen bilgisi için lütfen personele danışın; mutfakta çapraz bulaşma olabilir.",
+      "en": "For allergen information please ask our staff; cross-contact may occur in the kitchen.",
+      "ar": "للاستفسار عن مسببات الحساسية يُرجى سؤال العاملين؛ فقد يحدث تلامس متبادل في المطبخ."
+    },
+    "tagLabels": {
+      "vegan": {
+        "tr": "Vegan",
+        "en": "Vegan",
+        "ar": "نباتي صرف"
+      },
+      "vegetarian": {
+        "tr": "Vejetaryen",
+        "en": "Vegetarian",
+        "ar": "نباتي"
+      },
+      "spicy": {
+        "tr": "Acı",
+        "en": "Spicy",
+        "ar": "حار"
+      },
+      "new": {
+        "tr": "Yeni",
+        "en": "New",
+        "ar": "جديد"
+      },
+      "chef": {
+        "tr": "Şefin önerisi",
+        "en": "Chef's pick",
+        "ar": "اختيار الشيف"
+      }
+    },
+    "tagIcons": {
+      "vegan": "eco",
+      "vegetarian": "grass",
+      "spicy": "local_fire_department",
+      "new": "new_releases",
+      "chef": "workspace_premium"
+    },
+    "allergens": {
+      "gluten": {
+        "icon": "grain",
+        "code": {
+          "tr": "GLU",
+          "en": "GLU",
+          "ar": "غل"
+        },
+        "name": {
+          "tr": "Gluten içeren tahıllar",
+          "en": "Cereals containing gluten",
+          "ar": "الحبوب المحتوية على الغلوتين"
+        }
+      },
+      "crustaceans": {
+        "icon": "pest_control",
+        "code": {
+          "tr": "KBK",
+          "en": "CRU",
+          "ar": "قش"
+        },
+        "name": {
+          "tr": "Kabuklular",
+          "en": "Crustaceans",
+          "ar": "القشريات"
+        }
+      },
+      "eggs": {
+        "icon": "egg_alt",
+        "code": {
+          "tr": "YMR",
+          "en": "EGG",
+          "ar": "بض"
+        },
+        "name": {
+          "tr": "Yumurta",
+          "en": "Eggs",
+          "ar": "البيض"
+        }
+      },
+      "fish": {
+        "icon": "set_meal",
+        "code": {
+          "tr": "BLK",
+          "en": "FSH",
+          "ar": "سك"
+        },
+        "name": {
+          "tr": "Balık",
+          "en": "Fish",
+          "ar": "السمك"
+        }
+      },
+      "peanuts": {
+        "icon": "eco",
+        "code": {
+          "tr": "FST",
+          "en": "PNT",
+          "ar": "فس"
+        },
+        "name": {
+          "tr": "Yer fıstığı",
+          "en": "Peanuts",
+          "ar": "الفول السوداني"
+        }
+      },
+      "soy": {
+        "icon": "grass",
+        "code": {
+          "tr": "SOY",
+          "en": "SOY",
+          "ar": "صو"
+        },
+        "name": {
+          "tr": "Soya",
+          "en": "Soy",
+          "ar": "الصويا"
+        }
+      },
+      "milk": {
+        "icon": "local_drink",
+        "code": {
+          "tr": "SÜT",
+          "en": "MLK",
+          "ar": "حل"
+        },
+        "name": {
+          "tr": "Süt ve süt ürünleri",
+          "en": "Milk and dairy",
+          "ar": "الحليب ومشتقاته"
+        }
+      },
+      "nuts": {
+        "icon": "forest",
+        "code": {
+          "tr": "SKY",
+          "en": "NUT",
+          "ar": "مك"
+        },
+        "name": {
+          "tr": "Sert kabuklu yemişler",
+          "en": "Tree nuts",
+          "ar": "المكسرات"
+        }
+      },
+      "celery": {
+        "icon": "potted_plant",
+        "code": {
+          "tr": "KRZ",
+          "en": "CEL",
+          "ar": "كر"
+        },
+        "name": {
+          "tr": "Kereviz",
+          "en": "Celery",
+          "ar": "الكرفس"
+        }
+      },
+      "mustard": {
+        "icon": "water_drop",
+        "code": {
+          "tr": "HRD",
+          "en": "MUS",
+          "ar": "خر"
+        },
+        "name": {
+          "tr": "Hardal",
+          "en": "Mustard",
+          "ar": "الخردل"
+        }
+      },
+      "sesame": {
+        "icon": "scatter_plot",
+        "code": {
+          "tr": "SSM",
+          "en": "SES",
+          "ar": "سم"
+        },
+        "name": {
+          "tr": "Susam",
+          "en": "Sesame",
+          "ar": "السمسم"
+        }
+      },
+      "sulphites": {
+        "icon": "science",
+        "code": {
+          "tr": "SO2",
+          "en": "SO2",
+          "ar": "SO2"
+        },
+        "name": {
+          "tr": "Sülfür dioksit ve sülfitler",
+          "en": "Sulphur dioxide and sulphites",
+          "ar": "ثاني أكسيد الكبريت والكبريتيت"
+        }
+      },
+      "lupin": {
+        "icon": "local_florist",
+        "code": {
+          "tr": "ABK",
+          "en": "LUP",
+          "ar": "تر"
+        },
+        "name": {
+          "tr": "Acı bakla",
+          "en": "Lupin",
+          "ar": "الترمس"
+        }
+      },
+      "molluscs": {
+        "icon": "water",
+        "code": {
+          "tr": "YMK",
+          "en": "MOL",
+          "ar": "رخ"
+        },
+        "name": {
+          "tr": "Yumuşakçalar",
+          "en": "Molluscs",
+          "ar": "الرخويات"
+        }
+      }
+    },
+    "categories": [
+      {
+        "id": "baslangic",
+        "name": {
+          "tr": "Başlangıçlar",
+          "en": "Starters",
+          "ar": "المقبلات"
+        },
+        "items": [
+          {
+            "name": {
+              "tr": "Mercimek çorbası",
+              "en": "Lentil soup",
+              "ar": "شوربة العدس"
+            },
+            "desc": {
+              "tr": "Kırmızı mercimek, havuç ve limon ile.",
+              "en": "Red lentils, carrot and lemon.",
+              "ar": "عدس أحمر وجزر وليمون."
+            },
+            "price": 95,
+            "allergens": [
+              "celery"
+            ],
+            "tags": [
+              "vegan"
+            ]
+          },
+          {
+            "name": {
+              "tr": "Humus",
+              "en": "Hummus",
+              "ar": "حمص"
+            },
+            "desc": {
+              "tr": "Nohut ezmesi, zeytinyağı ve pul biber ile.",
+              "en": "Chickpea purée with olive oil and chili flakes.",
+              "ar": "هريس الحمص مع زيت الزيتون ورقائق الفلفل."
+            },
+            "price": 120,
+            "allergens": [
+              "sesame"
+            ],
+            "tags": [
+              "vegan",
+              "new"
+            ]
+          },
+          {
+            "name": {
+              "tr": "Peynirli sigara böreği",
+              "en": "Cheese rolls",
+              "ar": "رقائق الجبن المقرمشة"
+            },
+            "desc": {
+              "tr": "Yufka içinde beyaz peynir ve maydanoz.",
+              "en": "White cheese and parsley in thin pastry.",
+              "ar": "جبنة بيضاء وبقدونس في عجينة رقيقة."
+            },
+            "price": 140,
+            "allergens": [
+              "gluten",
+              "milk",
+              "eggs"
+            ],
+            "tags": [
+              "vegetarian"
+            ]
+          },
+          {
+            "name": {
+              "tr": "Acılı ezme",
+              "en": "Spicy tomato dip",
+              "ar": "سلطة الطماطم الحارة"
+            },
+            "desc": {
+              "tr": "Domates, soğan ve biberin taze karışımı.",
+              "en": "A fresh mix of tomato, onion and pepper.",
+              "ar": "مزيج طازج من الطماطم والبصل والفلفل."
+            },
+            "price": 85,
+            "allergens": [],
+            "tags": [
+              "vegan",
+              "spicy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ana",
+        "name": {
+          "tr": "Ana yemekler",
+          "en": "Main courses",
+          "ar": "الأطباق الرئيسية"
+        },
+        "items": [
+          {
+            "name": {
+              "tr": "Izgara köfte",
+              "en": "Grilled meatballs",
+              "ar": "كفتة مشوية"
+            },
+            "desc": {
+              "tr": "Pilav ve közlenmiş biberle servis edilir.",
+              "en": "Served with rice and roasted peppers.",
+              "ar": "تُقدَّم مع الأرز والفلفل المشوي."
+            },
+            "price": 280,
+            "allergens": [
+              "gluten",
+              "eggs",
+              "celery"
+            ],
+            "tags": [
+              "chef"
+            ]
+          },
+          {
+            "name": {
+              "tr": "Levrek buğulama",
+              "en": "Steamed sea bass",
+              "ar": "سمك القاروص المطهو على البخار"
+            },
+            "desc": {
+              "tr": "Mevsim sebzeleri ve limonlu sos ile.",
+              "en": "With seasonal vegetables and lemon sauce.",
+              "ar": "مع خضار الموسم وصلصة الليمون."
+            },
+            "price": 360,
+            "allergens": [
+              "fish",
+              "sulphites"
+            ],
+            "tags": []
+          },
+          {
+            "name": {
+              "tr": "Fırın sebze güveç",
+              "en": "Baked vegetable casserole",
+              "ar": "طاجن الخضار في الفرن"
+            },
+            "desc": {
+              "tr": "Patlıcan, kabak ve biber; kekik ile fırınlanır.",
+              "en": "Aubergine, courgette and pepper baked with thyme.",
+              "ar": "باذنجان وكوسا وفلفل مخبوزة مع الزعتر."
+            },
+            "price": 220,
+            "allergens": [],
+            "tags": [
+              "vegan",
+              "chef"
+            ]
+          },
+          {
+            "name": {
+              "tr": "Tavuk şiş",
+              "en": "Chicken skewers",
+              "ar": "شيش طاووق"
+            },
+            "desc": {
+              "tr": "Yoğurtlu marinasyon, bulgur pilavı ile.",
+              "en": "Yoghurt-marinated, with bulgur pilaf.",
+              "ar": "متبّلة باللبن، تُقدَّم مع برغل."
+            },
+            "price": 250,
+            "allergens": [
+              "milk",
+              "gluten"
+            ],
+            "tags": [
+              "spicy"
+            ]
+          },
+          {
+            "name": {
+              "tr": "Karides güveç",
+              "en": "Shrimp casserole",
+              "ar": "طاجن الجمبري"
+            },
+            "desc": {
+              "tr": "Tereyağı ve sarımsaklı, fırında.",
+              "en": "Oven-baked with butter and garlic.",
+              "ar": "مخبوز في الفرن بالزبدة والثوم."
+            },
+            "price": 420,
+            "allergens": [
+              "crustaceans",
+              "milk"
+            ],
+            "tags": [
+              "new"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tatli",
+        "name": {
+          "tr": "Tatlılar",
+          "en": "Desserts",
+          "ar": "الحلويات"
+        },
+        "items": [
+          {
+            "name": {
+              "tr": "Fıstıklı baklava",
+              "en": "Pistachio baklava",
+              "ar": "بقلاوة بالفستق"
+            },
+            "desc": {
+              "tr": "Çıtır katmanlar ve şerbet.",
+              "en": "Crisp layers with syrup.",
+              "ar": "طبقات مقرمشة مع القطر."
+            },
+            "price": 165,
+            "allergens": [
+              "gluten",
+              "nuts",
+              "milk"
+            ],
+            "tags": [
+              "chef"
+            ]
+          },
+          {
+            "name": {
+              "tr": "Sütlaç",
+              "en": "Rice pudding",
+              "ar": "أرز بالحليب"
+            },
+            "desc": {
+              "tr": "Fırınlanmış, tarçınlı.",
+              "en": "Baked, with cinnamon.",
+              "ar": "مخبوز مع القرفة."
+            },
+            "price": 110,
+            "allergens": [
+              "milk"
+            ],
+            "tags": [
+              "vegetarian"
+            ]
+          },
+          {
+            "name": {
+              "tr": "Mevsim meyve tabağı",
+              "en": "Seasonal fruit plate",
+              "ar": "طبق فواكه الموسم"
+            },
+            "desc": {
+              "tr": "Taze doğranmış meyveler.",
+              "en": "Freshly cut fruit.",
+              "ar": "فواكه مقطعة طازجة."
+            },
+            "price": 130,
+            "allergens": [],
+            "tags": [
+              "vegan"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "icecek",
+        "name": {
+          "tr": "İçecekler",
+          "en": "Drinks",
+          "ar": "المشروبات"
+        },
+        "items": [
+          {
+            "name": {
+              "tr": "Türk kahvesi",
+              "en": "Turkish coffee",
+              "ar": "قهوة تركية"
+            },
+            "desc": {
+              "tr": "Közde pişirilir.",
+              "en": "Brewed over embers.",
+              "ar": "تُحضَّر على الجمر."
+            },
+            "price": 70,
+            "allergens": [],
+            "tags": [
+              "vegan"
+            ]
+          },
+          {
+            "name": {
+              "tr": "Ayran",
+              "en": "Ayran",
+              "ar": "عيران"
+            },
+            "desc": {
+              "tr": "Ev yapımı yoğurt içeceği.",
+              "en": "Homemade yoghurt drink.",
+              "ar": "مشروب لبن منزلي."
+            },
+            "price": 45,
+            "allergens": [
+              "milk"
+            ],
+            "tags": []
+          },
+          {
+            "name": {
+              "tr": "Taze limonata",
+              "en": "Fresh lemonade",
+              "ar": "عصير الليمون الطازج"
+            },
+            "desc": {
+              "tr": "Nane ile.",
+              "en": "With mint.",
+              "ar": "مع النعناع."
+            },
+            "price": 80,
+            "allergens": [],
+            "tags": [
+              "vegan"
+            ]
+          }
+        ]
+      }
+    ],
+    "ui": {
+      "tabsLabel": {
+        "tr": "Menü kategorileri",
+        "en": "Menu categories",
+        "ar": "فئات القائمة"
+      },
+      "allTab": {
+        "tr": "Tümü",
+        "en": "All",
+        "ar": "الكل"
+      },
+      "toolsLabel": {
+        "tr": "Menü araçları",
+        "en": "Menu tools",
+        "ar": "أدوات القائمة"
+      },
+      "searchLabel": {
+        "tr": "Menüde ara",
+        "en": "Search the menu",
+        "ar": "ابحث في القائمة"
+      },
+      "searchHint": {
+        "tr": "Ürün adı ya da içerik yazın",
+        "en": "Type a dish name or ingredient",
+        "ar": "اكتب اسم الطبق أو أحد مكوناته"
+      },
+      "searchHint_fiyat": {
+        "tr": "Hizmet adı yazın",
+        "en": "Type a service name",
+        "ar": "اكتب اسم الخدمة"
+      },
+      "filterTitle": {
+        "tr": "Alerjene göre süz",
+        "en": "Filter by allergen",
+        "ar": "التصفية حسب مسببات الحساسية"
+      },
+      "filterHint": {
+        "tr": "İşaretlediğiniz alerjeni içermeyen ürünler gösterilir.",
+        "en": "Only items without the allergens you select are shown.",
+        "ar": "تُعرَض فقط الأطباق الخالية من مسببات الحساسية التي تحددها."
+      },
+      "filterTagsTitle": {
+        "tr": "Beslenme tercihi",
+        "en": "Dietary preference",
+        "ar": "التفضيل الغذائي"
+      },
+      "without": {
+        "tr": "{name} yok",
+        "en": "No {name}",
+        "ar": "بدون {name}"
+      },
+      "clearFilters": {
+        "tr": "Filtreleri temizle",
+        "en": "Clear filters",
+        "ar": "مسح عوامل التصفية"
+      },
+      "count_menu": {
+        "tr": {
+          "one": "{n} ürün gösteriliyor",
+          "other": "{n} ürün gösteriliyor"
+        },
+        "en": {
+          "one": "Showing {n} item",
+          "other": "Showing {n} items"
+        },
+        "ar": {
+          "zero": "لا توجد أطباق",
+          "one": "طبق واحد",
+          "two": "طبقان",
+          "few": "{n} أطباق",
+          "many": "{n} طبقًا",
+          "other": "{n} طبق"
+        }
+      },
+      "count_fiyat": {
+        "tr": {
+          "one": "{n} hizmet gösteriliyor",
+          "other": "{n} hizmet gösteriliyor"
+        },
+        "en": {
+          "one": "Showing {n} service",
+          "other": "Showing {n} services"
+        },
+        "ar": {
+          "zero": "لا توجد خدمات",
+          "one": "خدمة واحدة",
+          "two": "خدمتان",
+          "few": "{n} خدمات",
+          "many": "{n} خدمةً",
+          "other": "{n} خدمة"
+        }
+      },
+      "noResults": {
+        "tr": "Seçtiğiniz ölçütlere uygun ürün bulunamadı.",
+        "en": "No items match your selection.",
+        "ar": "لا توجد عناصر تطابق اختيارك."
+      },
+      "printBtn": {
+        "tr": "Yazdır / PDF",
+        "en": "Print / PDF",
+        "ar": "طباعة / PDF"
+      },
+      "contains": {
+        "tr": "İçerir:",
+        "en": "Contains:",
+        "ar": "يحتوي على:"
+      },
+      "allergensLabel": {
+        "tr": "Alerjenler",
+        "en": "Allergens",
+        "ar": "مسببات الحساسية"
+      },
+      "tagsLabel": {
+        "tr": "Etiketler",
+        "en": "Tags",
+        "ar": "الوسوم"
+      },
+      "from": {
+        "tr": "Başlangıç",
+        "en": "From",
+        "ar": "ابتداءً من"
+      },
+      "minUnit": {
+        "tr": "{n} dk",
+        "en": "{n} min",
+        "ar": "{n} دقيقة"
+      },
+      "legendTitle": {
+        "tr": "Alerjen rehberi",
+        "en": "Allergen guide",
+        "ar": "دليل مسببات الحساسية"
+      },
+      "legendCaption": {
+        "tr": "Menüde kullanılan alerjen simgeleri ve anlamları",
+        "en": "Allergen symbols used on this menu and what they mean",
+        "ar": "رموز مسببات الحساسية المستخدمة في القائمة ومعانيها"
+      },
+      "legendCode": {
+        "tr": "Simge",
+        "en": "Symbol",
+        "ar": "الرمز"
+      },
+      "legendName": {
+        "tr": "Alerjen",
+        "en": "Allergen",
+        "ar": "مسبب الحساسية"
+      }
+    }
+  }
+}

@@ -1,0 +1,193 @@
+<div class="modulex-out">
+  <div class="modulex">
+    <div class="modulex-left">
+      <img
+        src="/img/{{id}}/{{img}}?v={{random}}"
+        class="modulex-left-img"
+        alt="{{title}}"
+      />
+    </div>
+    <div class="modulex-right">
+      <div class="modulex-right-body">
+        <div class="modulex-right-body-name">{{name}}</div>
+        <div class="modulex-right-body-spot">{{description}}</div>
+        <div class="modulex-right-body-chile">
+          <div class="modulex-right-body-chile-row">
+            <div class="modulex-right-body-chile-row-name">{{name2}}</div>
+            <div class="modulex-right-body-chile-row-spot">{{spot2}}</div>
+          </div>
+          <div class="modulex-right-body-chile-row">
+            <div class="modulex-right-body-chile-row-name">{{name3}}</div>
+            <div class="modulex-right-body-chile-row-spot">{{spot3}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  .modulex-out {
+    background-color: --bgcolor--;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: --fontcolor--;
+    margin: --margintop--px 0px --marginbotton--px 0px;
+    float: left;
+  }
+
+  .modulex-right-body-chile {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .modulex-right-body-chile-row {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: solid;
+    border-style: dashed;
+    border-width: 0px 0px 0px 5px;
+    padding-left: 10px;
+  }
+
+  .modulex-right-body-chile-row-name {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .modulex-right-body-chile-row-spot {
+    font-size: 18px;
+  }
+
+  .modulex-right-body {
+    width: 100%;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .modulex-right-body-name {
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  .modulex-right-body-spot {
+    font-size: 18px;
+  }
+
+  .modulex {
+    width: var(--max);
+    display: flex;
+    flex-direction: row;
+    min-height: 400px;
+    float: left;
+  }
+
+  .modulex-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modulex-left {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .modulex-left-img {
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    width: 300px;
+    background-color: bisque;
+    margin-right: -150px;
+    border: solid 15px #fff;
+    box-shadow: 0 4px 40px rgba(29, 27, 76, 0.32);
+  }
+
+  @media screen and (max-width: 1024px) {
+    .modulex {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      min-height: 400px;
+      float: left;
+      padding: 15px 0px 15px 0px;
+    }
+
+    .modulex-left-img {
+      width: calc(var(--max) / 2);
+      max-width: 200px;
+      margin-right: 0px;
+      float: left;
+    }
+
+    .modulex-right-body {
+      margin-left: 0;
+      padding: 10px;
+    }
+
+    .modulex-left {
+      justify-content: center;
+      background-color: --bgcolor--;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .modulex {
+      width: var(--max);
+      display: flex;
+      flex-direction: row;
+      min-height: 400px;
+    }
+
+    .modulex-right-body-chile-row {
+      flex: 1;
+    }
+
+    .modulex-right {
+      flex: 5;
+    }
+
+    .modulex-left {
+      flex: 1;
+    }
+  }
+
+  /* W2 — animasyon, mobil, erisilebilirlik */
+  @keyframes modulexW2Enter {
+    from { opacity: 0.98; }
+    to { opacity: 1; }
+  }
+
+  [class*="modulex"] {
+    box-sizing: border-box;
+    animation: modulexW2Enter 0.3s ease;
+    transition: opacity 0.25s ease, transform 0.25s ease;
+  }
+
+  a, button, [role="button"], input[type="submit"], input[type="button"] {
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    [class*="modulex"] {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    [class*="modulex"] {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+</style>

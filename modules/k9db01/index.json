@@ -1,0 +1,34 @@
+{
+  "name": "Demo Bandı",
+  "description": "Demo sitelerin her sayfasının üstünde duran, kapatılamaz bilgi şeridi: «Bu bir demo sitedir» uyarısı ve «Bu temayı iste» bağlantısı. Sayfanın en üstüne yapışır (position:sticky), sabit menüleri bant yüksekliği kadar aşağı iter (--mx-demo-bandi-h). Üç dil (TR/EN/AR), Arapçada RTL, mobilde iki satıra sarar.",
+  "version": "1.0.0",
+  "icon": "info",
+  "category": "demo",
+  "tags": ["demo", "bant", "uyarı", "banner", "rtl"],
+  "desing": {
+    "tone": "info",
+    "bandBg": "",
+    "bandFg": "",
+    "ctaHref": "https://webyapar.com/temalar",
+    "ariaLabel": {
+      "tr": "Demo site uyarısı",
+      "en": "Demo site notice",
+      "ar": "تنبيه الموقع التجريبي"
+    },
+    "text": {
+      "tr": "Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz",
+      "en": "This is a demo site — the content is fictional and no payment is taken",
+      "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات"
+    },
+    "ctaText": {
+      "tr": "Bu temayı iste",
+      "en": "Get this theme",
+      "ar": "اطلب هذا القالب"
+    },
+    "newTabText": {
+      "tr": "(yeni sekmede açılır)",
+      "en": "(opens in a new tab)",
+      "ar": "(يفتح في علامة تبويب جديدة)"
+    }
+  }
+}

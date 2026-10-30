@@ -1,0 +1,685 @@
+{
+  "name": "Randevu / Rezervasyon Formu",
+  "description": "Statik randevu ve rezervasyon sihirbazı (30 Eki 2026): hizmet → uzman → tarih → saat → bilgi → onay; masa kipi (kişi sayısı + bölüm) ve gösterim kipi. Sunucusuz: gönderim WhatsApp hazır mesaj, mailto veya .ics dosyası. Kendi takvimi (Pazartesi/Cumartesi hafta başı, kapalı günler, mola, bekleme günü), üç dil (tr/en/ar, RTL), KVKK onayı, demo kipinde tarayıcıda 'randevularım' listesi.",
+  "version": "1.0.0",
+  "icon": "event_available",
+  "category": "randevu",
+  "tags": [
+    "randevu",
+    "rezervasyon",
+    "takvim",
+    "form",
+    "whatsapp",
+    "ics"
+  ],
+  "desing": {
+    "max": "960px",
+    "bgcolor": "var(--mx-site-bg, #ffffff)",
+    "textcolor": "var(--mx-site-text, #1b1b1b)",
+    "surface": "var(--mx-site-surface, #f6f6f4)",
+    "surface2": "var(--mx-site-surface-2, #ececea)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+    "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+    "errcolor": "color-mix(in srgb, #c81e1e 72%, var(--mx-site-text, #1b1b1b))",
+    "mode": "randevu",
+    "submit": "whatsapp",
+    "demo": true,
+    "weekStart": "auto",
+    "leadDays": 1,
+    "maxDays": 60,
+    "maxPartySize": 8,
+    "masaDuration": 90,
+    "requireEmail": false,
+    "phone": "+90 555 010 20 30",
+    "email": "randevu@ornek.test",
+    "location": {
+      "tr": "Örnek Mah. Demo Sok. No: 1, Gaziantep",
+      "en": "1 Demo Street, Example District, Gaziantep",
+      "ar": "شارع التجربة رقم 1، حي المثال، غازي عنتاب"
+    },
+    "badge": {
+      "tr": "Randevu",
+      "en": "Appointment",
+      "ar": "موعد"
+    },
+    "title": {
+      "tr": "Online randevu alın",
+      "en": "Book an appointment online",
+      "ar": "احجز موعدك عبر الإنترنت"
+    },
+    "description": {
+      "tr": "Size uygun hizmeti, günü ve saati seçin; talebinizi birkaç adımda iletin.",
+      "en": "Pick the service, day and time that suit you and send your request in a few steps.",
+      "ar": "اختر الخدمة واليوم والوقت المناسبين وأرسل طلبك في خطوات قليلة."
+    },
+    "noscript": {
+      "tr": "Randevu formunu kullanmak için tarayıcınızda JavaScript açık olmalıdır. Bunun yerine bizi arayabilirsiniz.",
+      "en": "JavaScript must be enabled in your browser to use the booking form. You can call us instead.",
+      "ar": "يجب تفعيل JavaScript في المتصفح لاستخدام نموذج الحجز. يمكنك الاتصال بنا بدلًا من ذلك."
+    },
+    "services": [
+      {
+        "id": "s1",
+        "name": {
+          "tr": "Tanışma görüşmesi",
+          "en": "Introductory meeting",
+          "ar": "لقاء تعريفي"
+        },
+        "duration": 30
+      },
+      {
+        "id": "s2",
+        "name": {
+          "tr": "Danışmanlık seansı",
+          "en": "Consultation session",
+          "ar": "جلسة استشارية"
+        },
+        "duration": 60
+      },
+      {
+        "id": "s3",
+        "name": {
+          "tr": "Yerinde inceleme",
+          "en": "On-site visit",
+          "ar": "زيارة ميدانية"
+        },
+        "duration": 90,
+        "price": 1500
+      }
+    ],
+    "staff": [
+      {
+        "id": "p1",
+        "name": {
+          "tr": "Elif Yıldız",
+          "en": "Elif Yildiz",
+          "ar": "إليف يلدز"
+        },
+        "role": {
+          "tr": "Kıdemli danışman",
+          "en": "Senior advisor",
+          "ar": "مستشارة أولى"
+        },
+        "services": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "id": "p2",
+        "name": {
+          "tr": "Murat Kaya",
+          "en": "Murat Kaya",
+          "ar": "مراد قايا"
+        },
+        "role": {
+          "tr": "Danışman",
+          "en": "Advisor",
+          "ar": "مستشار"
+        },
+        "services": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "ic",
+        "name": {
+          "tr": "İç salon",
+          "en": "Indoor",
+          "ar": "الصالة الداخلية"
+        }
+      },
+      {
+        "id": "bahce",
+        "name": {
+          "tr": "Bahçe",
+          "en": "Garden",
+          "ar": "الحديقة"
+        }
+      }
+    ],
+    "hours": {
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "start": "09:00",
+      "end": "18:00",
+      "slot": 30,
+      "breaks": [
+        {
+          "start": "12:30",
+          "end": "13:30"
+        }
+      ]
+    },
+    "closed": [
+      "2026-12-25",
+      "2026-12-31",
+      "2027-01-01"
+    ],
+    "kvkk": {
+      "text": {
+        "tr": "Kişisel verilerimin bu talebin oluşturulması amacıyla işlenmesine ilişkin aydınlatma metnini okudum, anladım.",
+        "en": "I have read and understood the privacy notice on how my personal data is processed to create this request.",
+        "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية لإنشاء هذا الطلب وفهمته."
+      },
+      "href": "kvkk-aydinlatma-metni"
+    },
+    "successText": {
+      "tr": "Talebiniz için teşekkür ederiz. Kaydınız ekibimizin onayından sonra kesinleşir.",
+      "en": "Thank you for your request. Your booking is confirmed once our team approves it.",
+      "ar": "شكرًا لك على طلبك. يصبح حجزك مؤكدًا بعد موافقة فريقنا."
+    },
+    "ui": {
+      "stepsLabel": {
+        "tr": "Adımlar",
+        "en": "Steps",
+        "ar": "الخطوات"
+      },
+      "stepOf": {
+        "tr": "Adım {n} / {m}",
+        "en": "Step {n} of {m}",
+        "ar": "الخطوة {n} من {m}"
+      },
+      "s_service": {
+        "tr": "Hizmet",
+        "en": "Service",
+        "ar": "الخدمة"
+      },
+      "s_staff": {
+        "tr": "Uzman",
+        "en": "Specialist",
+        "ar": "المختص"
+      },
+      "s_party": {
+        "tr": "Kişi",
+        "en": "Guests",
+        "ar": "الضيوف"
+      },
+      "s_date": {
+        "tr": "Tarih",
+        "en": "Date",
+        "ar": "التاريخ"
+      },
+      "s_time": {
+        "tr": "Saat",
+        "en": "Time",
+        "ar": "الوقت"
+      },
+      "s_info": {
+        "tr": "Bilgiler",
+        "en": "Details",
+        "ar": "البيانات"
+      },
+      "s_confirm": {
+        "tr": "Onay",
+        "en": "Confirm",
+        "ar": "التأكيد"
+      },
+      "back": {
+        "tr": "Geri",
+        "en": "Back",
+        "ar": "رجوع"
+      },
+      "next": {
+        "tr": "Devam",
+        "en": "Continue",
+        "ar": "متابعة"
+      },
+      "reqNote": {
+        "tr": "* ile işaretli alanlar zorunludur.",
+        "en": "Fields marked * are required.",
+        "ar": "الحقول المميزة بعلامة * إلزامية."
+      },
+      "t_service": {
+        "tr": "Hizmet seçin",
+        "en": "Choose a service",
+        "ar": "اختر الخدمة"
+      },
+      "minUnit": {
+        "tr": "{n} dk",
+        "en": "{n} min",
+        "ar": "{n} دقيقة"
+      },
+      "t_staff": {
+        "tr": "Uzman seçin",
+        "en": "Choose a specialist",
+        "ar": "اختر المختص"
+      },
+      "anyStaff": {
+        "tr": "Fark etmez",
+        "en": "No preference",
+        "ar": "لا تفضيل"
+      },
+      "anyStaffHint": {
+        "tr": "Uygun olan uzman atanır.",
+        "en": "The first available specialist is assigned.",
+        "ar": "يُسنَد الموعد إلى أول مختص متاح."
+      },
+      "t_party": {
+        "tr": "Kaç kişisiniz?",
+        "en": "How many guests?",
+        "ar": "كم عدد الضيوف؟"
+      },
+      "partyMinus": {
+        "tr": "Kişi sayısını azalt",
+        "en": "Decrease guests",
+        "ar": "تقليل عدد الضيوف"
+      },
+      "partyPlus": {
+        "tr": "Kişi sayısını artır",
+        "en": "Increase guests",
+        "ar": "زيادة عدد الضيوف"
+      },
+      "partyCount": {
+        "tr": {
+          "one": "{n} kişi",
+          "other": "{n} kişi"
+        },
+        "en": {
+          "one": "{n} guest",
+          "other": "{n} guests"
+        },
+        "ar": {
+          "zero": "{n} ضيف",
+          "one": "ضيف واحد",
+          "two": "ضيفان",
+          "few": "{n} ضيوف",
+          "many": "{n} ضيفًا",
+          "other": "{n} ضيف"
+        }
+      },
+      "groupHint": {
+        "tr": "{n} kişiden büyük gruplar için lütfen bizi arayın.",
+        "en": "For groups larger than {n}, please call us.",
+        "ar": "للمجموعات التي يزيد عددها عن {n}، يُرجى الاتصال بنا."
+      },
+      "t_section": {
+        "tr": "Bölüm tercihi",
+        "en": "Seating preference",
+        "ar": "تفضيل الجلسة"
+      },
+      "anySection": {
+        "tr": "Fark etmez",
+        "en": "No preference",
+        "ar": "لا تفضيل"
+      },
+      "t_date": {
+        "tr": "Tarih seçin",
+        "en": "Choose a date",
+        "ar": "اختر التاريخ"
+      },
+      "prevMonth": {
+        "tr": "Önceki ay",
+        "en": "Previous month",
+        "ar": "الشهر السابق"
+      },
+      "nextMonth": {
+        "tr": "Sonraki ay",
+        "en": "Next month",
+        "ar": "الشهر التالي"
+      },
+      "calHint": {
+        "tr": "Gezinmek için ok tuşlarını, seçmek için Enter tuşunu kullanın. Kapalı günler seçilemez.",
+        "en": "Use the arrow keys to move and Enter to select. Unavailable days cannot be chosen.",
+        "ar": "استخدم مفاتيح الأسهم للتنقل ومفتاح Enter للاختيار. لا يمكن اختيار الأيام غير المتاحة."
+      },
+      "dayUnavailable": {
+        "tr": "uygun değil",
+        "en": "unavailable",
+        "ar": "غير متاح"
+      },
+      "selectedDate": {
+        "tr": "Seçilen tarih: {d}",
+        "en": "Selected date: {d}",
+        "ar": "التاريخ المختار: {d}"
+      },
+      "t_time": {
+        "tr": "Saat seçin",
+        "en": "Choose a time",
+        "ar": "اختر الوقت"
+      },
+      "timesFor": {
+        "tr": "{d} için uygun saatler",
+        "en": "Available times for {d}",
+        "ar": "الأوقات المتاحة ليوم {d}"
+      },
+      "p_morning": {
+        "tr": "Sabah",
+        "en": "Morning",
+        "ar": "الصباح"
+      },
+      "p_afternoon": {
+        "tr": "Öğleden sonra",
+        "en": "Afternoon",
+        "ar": "بعد الظهر"
+      },
+      "p_evening": {
+        "tr": "Akşam",
+        "en": "Evening",
+        "ar": "المساء"
+      },
+      "slotTaken": {
+        "tr": "dolu",
+        "en": "booked",
+        "ar": "محجوز"
+      },
+      "noSlots": {
+        "tr": "Bu tarihte uygun saat kalmadı. Lütfen başka bir gün seçin.",
+        "en": "No times are left on this date. Please choose another day.",
+        "ar": "لا توجد أوقات متاحة في هذا اليوم. يُرجى اختيار يوم آخر."
+      },
+      "t_info": {
+        "tr": "İletişim bilgileriniz",
+        "en": "Your contact details",
+        "ar": "بيانات التواصل"
+      },
+      "fName": {
+        "tr": "Ad soyad",
+        "en": "Full name",
+        "ar": "الاسم الكامل"
+      },
+      "fPhone": {
+        "tr": "Telefon",
+        "en": "Phone",
+        "ar": "رقم الهاتف"
+      },
+      "fEmail": {
+        "tr": "E-posta",
+        "en": "E-mail",
+        "ar": "البريد الإلكتروني"
+      },
+      "fEmailOpt": {
+        "tr": "E-posta (isteğe bağlı)",
+        "en": "E-mail (optional)",
+        "ar": "البريد الإلكتروني (اختياري)"
+      },
+      "fNote": {
+        "tr": "Not (isteğe bağlı)",
+        "en": "Note (optional)",
+        "ar": "ملاحظة (اختياري)"
+      },
+      "eService": {
+        "tr": "Lütfen bir hizmet seçin.",
+        "en": "Please choose a service.",
+        "ar": "يُرجى اختيار خدمة."
+      },
+      "eDate": {
+        "tr": "Lütfen uygun bir tarih seçin.",
+        "en": "Please choose an available date.",
+        "ar": "يُرجى اختيار تاريخ متاح."
+      },
+      "eTime": {
+        "tr": "Lütfen bir saat seçin.",
+        "en": "Please choose a time.",
+        "ar": "يُرجى اختيار وقت."
+      },
+      "eName": {
+        "tr": "Lütfen adınızı ve soyadınızı yazın.",
+        "en": "Please enter your full name.",
+        "ar": "يُرجى كتابة اسمك الكامل."
+      },
+      "ePhone": {
+        "tr": "Geçerli bir telefon numarası yazın.",
+        "en": "Please enter a valid phone number.",
+        "ar": "يُرجى كتابة رقم هاتف صحيح."
+      },
+      "eEmail": {
+        "tr": "Geçerli bir e-posta adresi yazın.",
+        "en": "Please enter a valid e-mail address.",
+        "ar": "يُرجى كتابة بريد إلكتروني صحيح."
+      },
+      "eKvkk": {
+        "tr": "Devam etmek için aydınlatma metnini onaylamanız gerekir.",
+        "en": "You need to accept the privacy notice to continue.",
+        "ar": "يجب الموافقة على إشعار الخصوصية للمتابعة."
+      },
+      "t_confirm": {
+        "tr": "Özet ve onay",
+        "en": "Review and confirm",
+        "ar": "المراجعة والتأكيد"
+      },
+      "sum_service": {
+        "tr": "Hizmet",
+        "en": "Service",
+        "ar": "الخدمة"
+      },
+      "sum_staff": {
+        "tr": "Uzman",
+        "en": "Specialist",
+        "ar": "المختص"
+      },
+      "sum_party": {
+        "tr": "Kişi sayısı",
+        "en": "Guests",
+        "ar": "عدد الضيوف"
+      },
+      "sum_section": {
+        "tr": "Bölüm",
+        "en": "Seating",
+        "ar": "الجلسة"
+      },
+      "sum_date": {
+        "tr": "Tarih",
+        "en": "Date",
+        "ar": "التاريخ"
+      },
+      "sum_time": {
+        "tr": "Saat",
+        "en": "Time",
+        "ar": "الوقت"
+      },
+      "sum_name": {
+        "tr": "Ad soyad",
+        "en": "Name",
+        "ar": "الاسم"
+      },
+      "sum_phone": {
+        "tr": "Telefon",
+        "en": "Phone",
+        "ar": "الهاتف"
+      },
+      "sum_email": {
+        "tr": "E-posta",
+        "en": "E-mail",
+        "ar": "البريد الإلكتروني"
+      },
+      "sum_note": {
+        "tr": "Not",
+        "en": "Note",
+        "ar": "ملاحظة"
+      },
+      "kvkkLink": {
+        "tr": "Aydınlatma metni",
+        "en": "Privacy notice",
+        "ar": "إشعار الخصوصية"
+      },
+      "submit_whatsapp": {
+        "tr": "WhatsApp ile gönder",
+        "en": "Send via WhatsApp",
+        "ar": "إرسال عبر واتساب"
+      },
+      "submit_mailto": {
+        "tr": "E-posta ile gönder",
+        "en": "Send by e-mail",
+        "ar": "إرسال بالبريد الإلكتروني"
+      },
+      "submit_ics": {
+        "tr": "Takvim dosyasını indir",
+        "en": "Download calendar file",
+        "ar": "تنزيل ملف التقويم"
+      },
+      "showcaseNote": {
+        "tr": "Bu bölüm bir gösterimdir: girdiğiniz bilgiler hiçbir yere gönderilmez. Gerçek talep için bizi arayabilirsiniz.",
+        "en": "This is a showcase: nothing you enter is sent anywhere. To make a real request, please call us.",
+        "ar": "هذا القسم للعرض فقط: لا تُرسَل أي بيانات تدخلها. لتقديم طلب فعلي يُرجى الاتصال بنا."
+      },
+      "callUs": {
+        "tr": "Bizi arayın",
+        "en": "Call us",
+        "ar": "اتصل بنا"
+      },
+      "restart": {
+        "tr": "Başa dön",
+        "en": "Start over",
+        "ar": "العودة إلى البداية"
+      },
+      "doneTitle_randevu": {
+        "tr": "Randevu talebiniz hazır",
+        "en": "Your appointment request is ready",
+        "ar": "طلب موعدك جاهز"
+      },
+      "doneTitle_masa": {
+        "tr": "Rezervasyon talebiniz hazır",
+        "en": "Your reservation request is ready",
+        "ar": "طلب حجزك جاهز"
+      },
+      "doneHint_whatsapp": {
+        "tr": "Mesaj WhatsApp'ta hazır olarak açıldı. Talebin bize ulaşması için mesajı göndermeyi unutmayın.",
+        "en": "The message opened in WhatsApp, ready to send. Remember to send it so your request reaches us.",
+        "ar": "فُتحت الرسالة جاهزة في واتساب. لا تنسَ إرسالها كي يصلنا طلبك."
+      },
+      "doneHint_mailto": {
+        "tr": "E-posta uygulamanızda hazır bir taslak açıldı. Göndermeyi unutmayın.",
+        "en": "A draft e-mail opened in your mail app. Remember to send it.",
+        "ar": "فُتحت مسودة رسالة في تطبيق البريد. لا تنسَ إرسالها."
+      },
+      "doneHint_ics": {
+        "tr": "Takvim dosyası indirildi. Kaydı takvim uygulamanıza ekleyebilirsiniz.",
+        "en": "The calendar file was downloaded. You can add the booking to your calendar app.",
+        "ar": "تم تنزيل ملف التقويم. يمكنك إضافة الحجز إلى تطبيق التقويم."
+      },
+      "reopen": {
+        "tr": "Mesajı yeniden aç",
+        "en": "Open the message again",
+        "ar": "فتح الرسالة مرة أخرى"
+      },
+      "reopen_ics": {
+        "tr": "Dosyayı yeniden indir",
+        "en": "Download again",
+        "ar": "إعادة التنزيل"
+      },
+      "addCal": {
+        "tr": "Takvime ekle",
+        "en": "Add to calendar",
+        "ar": "إضافة إلى التقويم"
+      },
+      "newBooking_randevu": {
+        "tr": "Yeni randevu",
+        "en": "New appointment",
+        "ar": "موعد جديد"
+      },
+      "newBooking_masa": {
+        "tr": "Yeni rezervasyon",
+        "en": "New reservation",
+        "ar": "حجز جديد"
+      },
+      "demoNote": {
+        "tr": "Demo: bilgileriniz yalnızca bu tarayıcıda saklanır, hiçbir sunucuya gönderilmez.",
+        "en": "Demo: your details stay in this browser only and are never sent to a server.",
+        "ar": "عرض تجريبي: تبقى بياناتك في هذا المتصفح فقط ولا تُرسَل إلى أي خادم."
+      },
+      "myTitle_randevu": {
+        "tr": "Randevularım",
+        "en": "My appointments",
+        "ar": "مواعيدي"
+      },
+      "myTitle_masa": {
+        "tr": "Rezervasyonlarım",
+        "en": "My reservations",
+        "ar": "حجوزاتي"
+      },
+      "cancel": {
+        "tr": "İptal et",
+        "en": "Cancel",
+        "ar": "إلغاء"
+      },
+      "cancelAria": {
+        "tr": "{d} saat {t} kaydını iptal et",
+        "en": "Cancel the booking on {d} at {t}",
+        "ar": "إلغاء الحجز بتاريخ {d} الساعة {t}"
+      },
+      "cancelled": {
+        "tr": "Kayıt iptal edildi.",
+        "en": "Booking cancelled.",
+        "ar": "تم إلغاء الحجز."
+      },
+      "svcFallback_randevu": {
+        "tr": "Randevu",
+        "en": "Appointment",
+        "ar": "موعد"
+      },
+      "msg_randevu_head": {
+        "tr": "Merhaba, {name} adına {date} saat {time} için {service} randevusu almak istiyorum.",
+        "en": "Hello, I would like to book {service} on {date} at {time} under the name {name}.",
+        "ar": "مرحبًا، أود حجز موعد ({service}) بتاريخ {date} الساعة {time} باسم {name}."
+      },
+      "msg_randevu_head_nosvc": {
+        "tr": "Merhaba, {name} adına {date} saat {time} için randevu almak istiyorum.",
+        "en": "Hello, I would like to book an appointment on {date} at {time} under the name {name}.",
+        "ar": "مرحبًا، أود حجز موعد بتاريخ {date} الساعة {time} باسم {name}."
+      },
+      "msg_masa_head": {
+        "tr": "Merhaba, {name} adına {date} saat {time} için {party} masa rezervasyonu yapmak istiyorum.",
+        "en": "Hello, I would like to reserve a table for {party} on {date} at {time} under the name {name}.",
+        "ar": "مرحبًا، أود حجز طاولة لـ {party} بتاريخ {date} الساعة {time} باسم {name}."
+      },
+      "msg_staff": {
+        "tr": "Tercih edilen uzman: {staff}",
+        "en": "Preferred specialist: {staff}",
+        "ar": "المختص المفضل: {staff}"
+      },
+      "msg_section": {
+        "tr": "Bölüm: {section}",
+        "en": "Seating: {section}",
+        "ar": "الجلسة: {section}"
+      },
+      "msg_phone": {
+        "tr": "Telefon: {phone}",
+        "en": "Phone: {phone}",
+        "ar": "الهاتف: {phone}"
+      },
+      "msg_email": {
+        "tr": "E-posta: {email}",
+        "en": "E-mail: {email}",
+        "ar": "البريد الإلكتروني: {email}"
+      },
+      "msg_note": {
+        "tr": "Not: {note}",
+        "en": "Note: {note}",
+        "ar": "ملاحظة: {note}"
+      },
+      "mailSubject_randevu": {
+        "tr": "Randevu talebi – {name}",
+        "en": "Appointment request – {name}",
+        "ar": "طلب موعد – {name}"
+      },
+      "mailSubject_masa": {
+        "tr": "Rezervasyon talebi – {name}",
+        "en": "Reservation request – {name}",
+        "ar": "طلب حجز – {name}"
+      },
+      "icsSummary_randevu": {
+        "tr": "Randevu: {service}",
+        "en": "Appointment: {service}",
+        "ar": "موعد: {service}"
+      },
+      "icsSummary_masa": {
+        "tr": "Masa rezervasyonu – {party}",
+        "en": "Table reservation – {party}",
+        "ar": "حجز طاولة – {party}"
+      }
+    }
+  }
+}

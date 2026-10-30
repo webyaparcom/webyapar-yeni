@@ -1,0 +1,272 @@
+{
+  "name": "Galeri Masonry (Filtre + Lightbox)",
+  "description": "Masonry (sütun) ya da sabit oranlı ızgara galeri: kategori çipleriyle filtre (?cat= URL durumu, aria-pressed), lightbox (klavye, filtrelenmişte yalnız görünenler gezilir), lazy yükleme (width/height ile CLS yok), görselsiz öğede nötr yer tutucu. gap:0 ile kenarsız ızgara, hover başlık. Öğeler data[] içinde {img, thumb?, title{tr,en,ar}, cat, w, h, alt{tr,en,ar}}; kategoriler desing.cats[]. Üç dil + RTL.",
+  "version": "1.0.0",
+  "icon": "photo_library",
+  "category": "galeri",
+  "tags": [
+    "galeri",
+    "masonry",
+    "filtre",
+    "lightbox",
+    "portfolyo",
+    "gallery",
+    "ar"
+  ],
+  "desing": {
+    "max": "1280px",
+    "bgcolor": "var(--mx-site-bg, #ffffff)",
+    "textcolor": "var(--mx-site-text, #1b1b1b)",
+    "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+    "surface": "var(--mx-site-surface, #f6f6f4)",
+    "surface2": "var(--mx-site-surface-2, #ececea)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+    "gap": "12px",
+    "radius": "8px",
+    "columns": {
+      "d": 4,
+      "t": 3,
+      "m": 2
+    },
+    "ratio": "auto",
+    "captions": "hover",
+    "filter": true,
+    "lightbox": true,
+    "lazy": true,
+    "urlPrefix": "",
+    "title": {
+      "tr": "Galeri",
+      "en": "Gallery",
+      "ar": "المعرض"
+    },
+    "description": {
+      "tr": "Çalışmalarımızdan seçilmiş kareler. Kategoriye göre süzün, büyütmek için dokunun.",
+      "en": "A selection of frames from our work. Filter by category and tap to enlarge.",
+      "ar": "مختارات من أعمالنا. صفِّ حسب الفئة، وانقر على الصورة لتكبيرها."
+    },
+    "allLabel": {
+      "tr": "Tümü",
+      "en": "All",
+      "ar": "الكل"
+    },
+    "filterLabel": {
+      "tr": "Kategoriye göre filtrele",
+      "en": "Filter by category",
+      "ar": "التصفية حسب الفئة"
+    },
+    "countText": {
+      "zero": {
+        "ar": "لا توجد صور"
+      },
+      "one": {
+        "tr": "{n} fotoğraf",
+        "en": "{n} photo",
+        "ar": "صورة واحدة"
+      },
+      "two": {
+        "ar": "صورتان"
+      },
+      "few": {
+        "ar": "{n} صور"
+      },
+      "many": {
+        "ar": "{n} صورة"
+      },
+      "other": {
+        "tr": "{n} fotoğraf",
+        "en": "{n} photos",
+        "ar": "{n} صورة"
+      }
+    },
+    "emptyText": {
+      "tr": "Henüz gösterilecek görsel yok.",
+      "en": "There are no images to show yet.",
+      "ar": "لا توجد صور لعرضها بعد."
+    },
+    "lightboxLabels": {
+      "dialog": {
+        "tr": "Görsel görüntüleyici",
+        "en": "Image viewer",
+        "ar": "عارض الصور"
+      },
+      "close": {
+        "tr": "Kapat",
+        "en": "Close",
+        "ar": "إغلاق"
+      },
+      "prev": {
+        "tr": "Önceki görsel",
+        "en": "Previous image",
+        "ar": "الصورة السابقة"
+      },
+      "next": {
+        "tr": "Sonraki görsel",
+        "en": "Next image",
+        "ar": "الصورة التالية"
+      },
+      "counter": {
+        "tr": "{i} / {n}",
+        "en": "{i} / {n}",
+        "ar": "{i} من {n}"
+      }
+    },
+    "cats": [
+      {
+        "id": "mekan",
+        "name": {
+          "tr": "Mekan",
+          "en": "Spaces",
+          "ar": "المساحات"
+        }
+      },
+      {
+        "id": "detay",
+        "name": {
+          "tr": "Detay",
+          "en": "Details",
+          "ar": "التفاصيل"
+        }
+      },
+      {
+        "id": "surec",
+        "name": {
+          "tr": "Süreç",
+          "en": "Process",
+          "ar": "سير العمل"
+        }
+      }
+    ]
+  },
+  "data": [
+    {
+      "img": "",
+      "title": {
+        "tr": "Giriş alanı",
+        "en": "Entrance area",
+        "ar": "منطقة المدخل"
+      },
+      "cat": "mekan",
+      "w": 800,
+      "h": 1000,
+      "alt": {
+        "tr": "Aydınlık giriş alanı",
+        "en": "Bright entrance area",
+        "ar": "منطقة مدخل مضيئة"
+      }
+    },
+    {
+      "img": "",
+      "title": {
+        "tr": "Ana salon",
+        "en": "Main hall",
+        "ar": "القاعة الرئيسية"
+      },
+      "cat": "mekan",
+      "w": 1200,
+      "h": 800,
+      "alt": {
+        "tr": "Geniş ana salon",
+        "en": "Spacious main hall",
+        "ar": "قاعة رئيسية واسعة"
+      }
+    },
+    {
+      "img": "",
+      "title": {
+        "tr": "Malzeme seçimi",
+        "en": "Material selection",
+        "ar": "اختيار المواد"
+      },
+      "cat": "detay",
+      "w": 1000,
+      "h": 1000,
+      "alt": {
+        "tr": "Yakın çekim doku",
+        "en": "Close-up texture",
+        "ar": "نسيج بلقطة مقرّبة"
+      }
+    },
+    {
+      "img": "",
+      "title": {
+        "tr": "Aydınlatma",
+        "en": "Lighting",
+        "ar": "الإضاءة"
+      },
+      "cat": "detay",
+      "w": 800,
+      "h": 1000,
+      "alt": {
+        "tr": "Sıcak ışıklı detay",
+        "en": "Warm-lit detail",
+        "ar": "تفصيل بإضاءة دافئة"
+      }
+    },
+    {
+      "img": "",
+      "title": {
+        "tr": "Çizim masası",
+        "en": "Drafting table",
+        "ar": "طاولة الرسم"
+      },
+      "cat": "surec",
+      "w": 1200,
+      "h": 800,
+      "alt": {
+        "tr": "Çalışma masasında planlar",
+        "en": "Plans on the work table",
+        "ar": "مخططات على طاولة العمل"
+      }
+    },
+    {
+      "img": "",
+      "title": {
+        "tr": "Uygulama",
+        "en": "On site",
+        "ar": "التنفيذ"
+      },
+      "cat": "surec",
+      "w": 1000,
+      "h": 1000,
+      "alt": {
+        "tr": "Uygulama aşaması",
+        "en": "Installation stage",
+        "ar": "مرحلة التنفيذ"
+      }
+    },
+    {
+      "img": "",
+      "title": {
+        "tr": "Teslim",
+        "en": "Handover",
+        "ar": "التسليم"
+      },
+      "cat": "mekan",
+      "w": 800,
+      "h": 1000,
+      "alt": {
+        "tr": "Teslim edilen mekan",
+        "en": "Finished space",
+        "ar": "المساحة بعد التسليم"
+      }
+    },
+    {
+      "img": "",
+      "title": {
+        "tr": "Son dokunuşlar",
+        "en": "Finishing touches",
+        "ar": "اللمسات الأخيرة"
+      },
+      "cat": "detay",
+      "w": 1200,
+      "h": 800,
+      "alt": {
+        "tr": "Son dokunuş detayı",
+        "en": "Finishing detail",
+        "ar": "تفصيل اللمسات الأخيرة"
+      }
+    }
+  ]
+}

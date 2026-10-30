@@ -1,0 +1,39 @@
+{
+  "id": "kullanicahaklari",
+  "name": {
+    "tr": "Kullanıcı Hakları",
+    "en": "User Rights",
+    "ar": "حقوق المستخدم"
+  },
+  "description": {
+    "tr": "Kullanıcı hakları",
+    "en": "User rights",
+    "ar": "حقوق المستخدم"
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "path": "kullanicahaklari",
+  "icon": "gavel",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 5,
+  "url": "",
+  "text": {
+    "tr": "<h2>Kullanıcı Hakları</h2><p>KVKK madde 11 uyarınca verilerinizin işlenip işlenmediğini öğrenme, düzeltme, silme ve itiraz haklarına sahipsiniz. Başvurularınızı info@webyapar.com adresine iletebilirsiniz.</p>",
+    "en": "<h2>User Rights</h2><p>Under Article 11 of the KVKK you may ask whether your data is processed and request correction, deletion or object to processing. Send requests to info@webyapar.com.</p>",
+    "ar": "<h2>حقوق المستخدم</h2><p>بموجب المادة 11 من قانون حماية البيانات الشخصية (KVKK) يحق لك الاستفسار عن معالجة بياناتك وطلب تصحيحها أو حذفها أو الاعتراض على معالجتها. أرسل طلباتك إلى info@webyapar.com.</p>"
+  },
+  "title": {
+    "tr": "Kullanıcı Hakları",
+    "en": "User Rights",
+    "ar": "حقوق المستخدم"
+  },
+  "date": "2026-10-30T20:48:16.725Z",
+  "update": "2026-10-30T21:01:05.178Z"
+}

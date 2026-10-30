@@ -1,0 +1,116 @@
+<div class="modulex">
+  <div class="modulexbody">
+    <div class="modulexcontainer">
+      <div class="modulexcontainerbody">
+        <h2 class="modulexcontainertitle">{{name}}</h2>
+        {{html}}
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  .modulex {
+    width: 100%;
+    margin: --margin--;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .modulexcontainertitle {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 20px 0;
+  }
+
+  .modulexcontainerlist {
+    padding: 10px;
+    display: flex;
+    border-radius: 8px;
+    border-bottom: solid 1px #ddd;
+    gap: 20px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: --linkcolor--;
+  }
+
+  .modulexcontainerlist>div {
+    display: flex;
+    align-items: center;
+    min-width: 0; /* G3: uzun e-posta/adres 390 px'te taşmasın */
+    overflow-wrap: anywhere;
+    font-size: 20px;
+    color: --linkcolor--;
+  }
+
+  .modulexcontainerlist:hover {
+    background-color: color-mix(in srgb, var(--mx-site-text, #1b1b1b) 6%, transparent); /* koyu palette okunur */
+    border-bottom-color: --color--;
+  }
+
+  .modulexcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .modulexcontainerbody {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .modulexbody {
+    width: calc(var(--max) - 40px);
+    background-color: #ebebeb;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .modulexcontainerlist>span {
+    font-size: 24px;
+    color: --color--;
+  }
+
+  .modulexcontainerlist:hover {
+    background-color: rgba(46, 107, 255, 0.08);
+    border-bottom-color: --color--;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .modulexbody {
+      width: 100%;
+      padding: 20px;
+      flex-direction: column;
+    }
+
+    .modulexcontainerbody {
+      padding: 15px;
+    }
+  }
+
+  /* W2: mobil tasma kontrolu */
+  @media (max-width: 768px) {
+    [class*="modulex"] {
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+  }
+
+  /* W2: erisilebilirlik — animasyon kapatma */
+  @media (prefers-reduced-motion: reduce) {
+    [class*="modulex"],
+    [class*="modulex"] * {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+</style>

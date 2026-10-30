@@ -1,0 +1,61 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Webyapar: 10 sektör için hazır kurumsal, e-ticaret ve galeri web sitesi temaları. Canlı demo, Türkçe · İngilizce · Arapça, mobil uyumlu.",
+    "en": "Webyapar: ready-made corporate, e-commerce and gallery website themes for 10 industries. Live demos, Turkish · English · Arabic, mobile-ready.",
+    "ar": "ويب ياپار: قوالب مواقع جاهزة مؤسسية ومتاجر ومعارض لعشرة قطاعات، مع عروض مباشرة بالتركية والإنجليزية والعربية ومتوافقة مع الجوال."
+  },
+  "keyword": {
+    "tr": "hazır web sitesi, web sitesi teması, e-ticaret sitesi, kurumsal web sitesi, Gaziantep",
+    "en": "ready-made website, website theme, e-commerce site, corporate website, Gaziantep",
+    "ar": "موقع جاهز، قالب موقع، متجر إلكتروني، موقع مؤسسي، غازي عنتاب"
+  },
+  "category": "Kurumsal",
+  "name": {
+    "tr": "Webyapar",
+    "en": "Webyapar",
+    "ar": "ويب ياپار"
+  },
+  "domain": "yeni.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "inter",
+    "heading": "poppins",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "ibm-plex-sans-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#CC1F1B",
+  "seo": {
+    "noindex": false
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "8px",
+    "--mx-radius-md": "12px",
+    "--mx-radius-lg": "16px",
+    "--mx-radius-xl": "22px"
+  },
+  "phone": "0531 679 10 14",
+  "mobile": "0531 679 10 14",
+  "email": "info@webyapar.com",
+  "icon": "icon.png"
+}

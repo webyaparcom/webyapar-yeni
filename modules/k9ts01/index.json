@@ -1,0 +1,55 @@
+{
+  "name": "Müşteri Yorumları 1",
+  "desing": {
+    "max": "1200px",
+    "bgcolor": "#f8fafc",
+    "cardbg": "#ffffff",
+    "bordercolor": "#e2e8f0",
+    "titlecolor": "#1e293b",
+    "textcolor": "#475569",
+    "accent": "#DE6D26",
+    "starcolor": "#f59e0b",
+    "badge": { "tr": "Yorumlar", "en": "Testimonials" },
+    "title": { "tr": "Müşterilerimiz Ne Diyor?", "en": "What Our Customers Say" },
+    "description": {
+      "tr": "Birlikte çalıştığımız müşterilerimizin deneyimleri.",
+      "en": "Experiences from the customers we work with."
+    }
+  },
+  "data": [
+    {
+      "name": "Ad Soyad",
+      "role": { "tr": "Firma Sahibi", "en": "Business Owner" },
+      "text": {
+        "tr": "Süreç boyunca hızlı ve profesyonel bir hizmet aldık. Kesinlikle tavsiye ederiz.",
+        "en": "We received fast and professional service throughout the process. Highly recommended."
+      },
+      "rating": 5,
+      "img": ""
+    },
+    {
+      "name": "Ad Soyad",
+      "role": { "tr": "Pazarlama Müdürü", "en": "Marketing Manager" },
+      "text": {
+        "tr": "Beklentilerimizin üzerinde bir sonuç aldık; iletişim her zaman açıktı.",
+        "en": "The result exceeded our expectations; communication was always clear."
+      },
+      "rating": 5,
+      "img": ""
+    },
+    {
+      "name": "Ad Soyad",
+      "role": { "tr": "Kurucu", "en": "Founder" },
+      "text": {
+        "tr": "Projemiz zamanında teslim edildi ve destek süreci çok başarılıydı.",
+        "en": "Our project was delivered on time and the support process was excellent."
+      },
+      "rating": 4,
+      "img": ""
+    }
+  ],
+  "category": "testimonial",
+  "description": "Manuel müşteri yorumu kartları modülü. İsim, unvan, yıldız puanı ve yorum metnini responsive grid'de gösterir; fotoğraf yoksa baş harf avatarı kullanılır. Google'a bağımlı olmayan referans/yorum vitrini için kullanılır (otomatik çekim için google-yorumlar modülü).",
+  "version": "1.0.0",
+  "icon": "format_quote"
+}

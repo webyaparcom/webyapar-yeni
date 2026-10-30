@@ -1,0 +1,31 @@
+{
+  "name": "CTA Şerit 1",
+  "desing": {
+    "max": "1200px",
+    "gradient": "linear-gradient(135deg, #1e3046 0%, #2a4560 100%)",
+    "btnbg": "#ffffff",
+    "btncolor": "#0B3A6E",
+    "title": {
+      "tr": "Projenizi Birlikte Hayata Geçirelim",
+      "en": "Let's Bring Your Project to Life"
+    },
+    "description": {
+      "tr": "Ücretsiz keşif görüşmesi için hemen iletişime geçin.",
+      "en": "Contact us now for a free discovery call."
+    },
+    "btn1Text": {
+      "tr": "İletişime Geç",
+      "en": "Contact Us"
+    },
+    "btn1Url": "iletisim",
+    "btn2Text": {
+      "tr": "Ürünler / Hizmetler",
+      "en": "Products / Services"
+    },
+    "btn2Url": "urunler"
+  },
+  "category": "cta",
+  "description": "Harekete geçirici çağrı (CTA) şerit modülü. Gradient arka plan üzerinde başlık, açıklama ve iki buton gösterir. Buton URL'leri dil öneki olmadan pathnext (iletisim, urunler) — site routing ekler. Çok dilli metin ve animasyonlu giriş içerir.",
+  "version": "1.1.0",
+  "icon": "campaign"
+}

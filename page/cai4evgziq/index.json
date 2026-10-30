@@ -1,0 +1,40 @@
+{
+  "id": "cai4evgziq",
+  "name": {
+    "tr": "Hizmetler",
+    "en": "Services",
+    "ar": "الخدمات"
+  },
+  "description": {
+    "tr": "Hazır tema, özel tasarım, e-ticaret kurulumu, yayın ve bakım hizmetleri.",
+    "en": "Ready-made themes, custom design, e-commerce setup, publishing and maintenance.",
+    "ar": "قوالب جاهزة وتصميم مخصّص وتركيب المتاجر والنشر والصيانة."
+  },
+  "keyword": {
+    "tr": "web tasarım, e-ticaret kurulumu, özel tasarım",
+    "en": "web design, e-commerce setup, custom design",
+    "ar": "تصميم مواقع، تركيب متجر، تصميم مخصّص"
+  },
+  "path": "hizmetler",
+  "icon": "build",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "juvx2v",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetler — Webyapar",
+    "en": "Services — Webyapar",
+    "ar": "الخدمات — ويب ياپار"
+  },
+  "date": "2026-10-30T20:48:20.521Z",
+  "update": "2026-10-30T21:01:05.029Z"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "22swzjv00u",
+  "name": {
+    "tr": "Restoran web sitesi",
+    "en": "Restaurant website",
+    "ar": "موقع إلكتروني لمطعم"
+  },
+  "description": {
+    "tr": "Menü, alerjen bilgisi, masa rezervasyonu ve şubeler tek yerde: misafirleriniz ne yiyeceğini ve nasıl yer ayırtacağını saniyeler içinde bulsun.",
+    "en": "Menu, allergen information, table booking and branches in one place: guests find what to eat and how to book within seconds.",
+    "ar": "القائمة ومعلومات مسببات الحساسية وحجز الطاولات والفروع في مكان واحد، ليجد ضيوفك ما يأكلونه وكيف يحجزون في ثوانٍ."
+  },
+  "keyword": {
+    "tr": "restoran web sitesi, hazır tema, webyapar",
+    "en": "restaurant website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني لمطعم، قالب جاهز، ويب ياپار"
+  },
+  "path": "restoran-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "lomtqj",
+      "y9uh5b",
+      "e7upv5",
+      "idaong",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 14,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Restoran web sitesi — Webyapar",
+    "en": "Restaurant website — Webyapar",
+    "ar": "موقع إلكتروني لمطعم — Webyapar"
+  },
+  "date": "2026-10-30T20:48:20.562Z",
+  "update": "2026-10-30T21:01:05.069Z"
+}

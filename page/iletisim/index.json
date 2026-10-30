@@ -1,0 +1,46 @@
+{
+  "name": {
+    "tr": "İletişim",
+    "en": "Contact",
+    "ar": "اتصل بنا"
+  },
+  "status": "play",
+  "category": "",
+  "id": "iletisim",
+  "url": "",
+  "path": "iletisim",
+  "index": 4,
+  "icon": "call",
+  "desing": {
+    "header": [],
+    "body": [
+      "k9ct01",
+      "u8pk02"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Webyapar ile WhatsApp, telefon ya da e-posta üzerinden iletişime geçin.",
+    "en": "Reach Webyapar by WhatsApp, phone or e-mail.",
+    "ar": "تواصل مع ويب ياپار عبر واتساب أو الهاتف أو البريد الإلكتروني."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "İletişim — Webyapar",
+    "en": "Contact — Webyapar",
+    "ar": "اتصل بنا — ويب ياپار"
+  },
+  "keyword": {
+    "tr": "webyapar iletişim, Gaziantep web tasarım",
+    "en": "webyapar contact, Gaziantep web design",
+    "ar": "اتصال ويب ياپار، تصميم مواقع غازي عنتاب"
+  },
+  "update": "2026-10-30T21:01:05.041Z",
+  "date": "2026-10-30"
+}

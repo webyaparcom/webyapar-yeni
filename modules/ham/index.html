@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="{{lang}}" dir="{{dir}}">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <title>{{seotitle}}</title>
+  <meta name="description" content="{{seodescription}}" />
+  <meta name="keywords" content="{{keyword}}" />
+  <meta name="robots" content="{{robots}}" />
+  <link rel="canonical" href="{{canonicalurl}}" />
+{{hreflang}}
+  <meta property="og:type" content="{{ogtype}}" />
+  <meta property="og:title" content="{{seotitle}}" />
+  <meta property="og:description" content="{{seodescription}}" />
+  <meta property="og:url" content="{{canonicalurl}}" />
+  <meta property="og:image" content="{{pageimg}}" />
+  <meta property="og:image:alt" content="{{ogimagealt}}" />
+  <meta property="og:site_name" content="{{seositename}}" />
+  <meta property="og:locale" content="{{oglocale}}" />
+{{oglocalealternate}}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{seotitle}}" />
+  <meta name="twitter:description" content="{{seodescription}}" />
+  <meta name="twitter:image" content="{{pageimg}}" />
+
+  <meta name="theme-color" content="{{themecolor}}" />
+  <meta name="mx-api-base" content="{{mxapibase}}" />
+{{manifestlink}}
+{{fontlinks}}
+  <link rel="stylesheet" href="/src/css.css?v={{random}}" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v={{random}}" />
+  {{mxtokens}}
+  <link rel="stylesheet" href="/src/mx-ui.css?v={{random}}" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v={{random}}" />
+  <!-- Deterministik stylesheet: preload+onload FOUC/race uretir — dogrudan link -->
+  <link rel="stylesheet" href="/src/cookie.css?v={{random}}" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v={{random}}" />
+  <link rel="shortcut icon" href="/img/icon.png?v={{random}}" type="image/png" />
+  <link rel="apple-touch-icon" href="/img/icon.png" />
+  {{StructuredData}}
+  {{headtop}}
+</head>
+
+<body>
+  <a class="mx-skip-link" href="#content">@skip-to-content@</a>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
+  <div id="header">{{header}}</div>
+  <div id="content">{{body}}</div>
+  <div id="footer">{{footer}}</div>
+
+  {{headbottom}}
+
+  <script defer src="/src/swiper-bundle.min.js"></script>
+  <script defer src="/src/mx-ui.js?v={{random}}"></script>
+  <script defer src="/src/mx-store.js?v={{random}}"></script>
+  <script defer type="text/javascript" src="/src/js.js?v={{random}}"></script>
+  <script defer src="/src/cookie.js?v={{random}}"></script>
+
+</body>
+
+</html>

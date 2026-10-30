@@ -1,0 +1,174 @@
+<section class="modulex-testi">
+  <div class="modulex-testi-container">
+    <div class="modulex-testi-header">
+      <div class="modulex-testi-badge">{{badge}}</div>
+      <h2 class="modulex-testi-title">{{title}}</h2>
+      <p class="modulex-testi-desc">{{description}}</p>
+    </div>
+    <div class="modulex-testi-grid">
+      {{html}}
+    </div>
+  </div>
+</section>
+
+<style>
+  .modulex-testi {
+    width: 100%;
+    padding: 80px 20px;
+    background: --bgcolor--;
+    box-sizing: border-box;
+  }
+
+  .modulex-testi-container {
+    max-width: --max--;
+    margin: 0 auto;
+  }
+
+  .modulex-testi-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .modulex-testi-badge {
+    display: inline-block;
+    padding: 6px 18px;
+    background: --accent--;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+
+  .modulex-testi-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: --titlecolor--;
+    margin: 0 0 12px;
+  }
+
+  .modulex-testi-desc {
+    font-size: 16px;
+    color: --textcolor--;
+    max-width: 640px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  .modulex-testi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+  }
+
+  .modulex-testi-card {
+    position: relative;
+    background: --cardbg--;
+    border: 1px solid --bordercolor--;
+    border-radius: 16px;
+    padding: 28px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: testiIn 0.5s ease both;
+  }
+
+  .modulex-testi-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.1);
+  }
+
+  @keyframes testiIn {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .modulex-testi-quote {
+    position: absolute;
+    top: 14px;
+    right: 18px;
+    font-size: 52px;
+    line-height: 1;
+    color: --accent--;
+    opacity: 0.2;
+    font-family: Georgia, serif;
+  }
+
+  .modulex-testi-stars {
+    color: --starcolor--;
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+
+  .modulex-testi-text {
+    font-size: 14px;
+    line-height: 1.75;
+    color: --textcolor--;
+    margin: 0;
+    flex: 1;
+  }
+
+  .modulex-testi-person {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-top: 1px solid --bordercolor--;
+    padding-top: 14px;
+  }
+
+  .modulex-testi-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: --accent--;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+
+  .modulex-testi-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .modulex-testi-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: --titlecolor--;
+  }
+
+  .modulex-testi-role {
+    font-size: 12px;
+    color: --textcolor--;
+  }
+
+  @media (max-width: 768px) {
+    .modulex-testi {
+      padding: 48px 14px;
+    }
+
+    .modulex-testi-title {
+      font-size: 26px;
+    }
+
+    [class*="modulex"] {
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    [class*="modulex"],
+    [class*="modulex"] * {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+</style>

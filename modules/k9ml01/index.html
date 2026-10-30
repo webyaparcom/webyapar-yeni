@@ -1,0 +1,415 @@
+<section class="modulex-ml {{modeClass}}" id="ml-{{id}}" aria-labelledby="ml-{{id}}-baslik">
+  <div class="modulex-ml-wrap">
+    <header class="modulex-ml-head">
+      <span class="modulex-ml-badge">{{badge}}</span>
+      <h2 class="modulex-ml-title" id="ml-{{id}}-baslik">{{title}}</h2>
+      <p class="modulex-ml-desc">{{description}}</p>
+      {{printHtml}}
+    </header>
+
+    <div class="modulex-ml-sticky" data-ml="tabsbar" hidden>
+      <div class="modulex-ml-tablist" role="tablist" aria-label="{{ui:tabsLabel}}">{{tabsHtml}}</div>
+    </div>
+
+    {{toolsHtml}}
+    <p class="modulex-ml-count" data-ml="count" role="status" aria-live="polite"></p>
+
+    <div class="modulex-ml-panel" id="ml-{{id}}-panel" role="tabpanel" aria-labelledby="ml-{{id}}-tab-0" tabindex="0">
+      {{menuHtml}}
+    </div>
+    <p class="modulex-ml-empty" data-ml="empty" role="status" hidden>{{ui:noResults}}</p>
+
+    {{legendHtml}}
+    <p class="modulex-ml-legal"><span class="material-symbols-outlined" aria-hidden="true">info</span><span>{{legalNote}}</span></p>
+    <p class="modulex-ml-pricenote">{{priceNote}}</p>
+    <script type="application/json" id="ml-{{id}}-veri">{{veri}}</script>
+  </div>
+</section>
+
+<style>
+  .modulex-ml {
+    --ml-bg: --bgcolor--;
+    --ml-text: --textcolor--;
+    --ml-surface: --surface--;
+    --ml-surface2: --surface2--;
+    --ml-accent: --accent--;
+    --ml-accent-text: --accentText--;
+    --ml-border: --bordercolor--;
+    --ml-muted: --muted--;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 72px 20px;
+    background: var(--ml-bg);
+    color: var(--ml-text);
+  }
+  .modulex-ml *,
+  .modulex-ml *::before,
+  .modulex-ml *::after { box-sizing: border-box; }
+  .modulex-ml [hidden] { display: none; }
+  .modulex-ml-wrap { max-width: --max--; margin-inline: auto; }
+  .modulex-ml-sr { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip-path: inset(50%); border: 0; white-space: nowrap; }
+
+  .modulex-ml-head { text-align: center; margin-block-end: 28px; }
+  .modulex-ml-badge {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 999px;
+    border: 1px solid var(--ml-border);
+    background: var(--ml-surface);
+    font-size: 13px;
+    font-weight: 600;
+    margin-block-end: 14px;
+  }
+  .modulex-ml-title { margin: 0 0 10px; font-size: clamp(28px, 4.2vw, 42px); line-height: 1.2; font-weight: 700; }
+  .modulex-ml-desc { margin: 0 auto 16px; max-width: 640px; font-size: 16px; line-height: 1.7; color: var(--ml-muted); }
+
+  .modulex-ml-print,
+  .modulex-ml-clear {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-width: 120px;
+    min-height: 44px;
+    padding-inline: 18px;
+    border: 2px solid var(--ml-border);
+    border-radius: 12px;
+    background: transparent;
+    color: var(--ml-text);
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    transition: border-color 0.2s ease, background 0.2s ease;
+  }
+  .modulex-ml-print:hover,
+  .modulex-ml-clear:hover { border-color: var(--ml-accent); background: var(--ml-surface); }
+  .modulex-ml-print:focus-visible,
+  .modulex-ml-clear:focus-visible { outline: 3px solid var(--ml-accent); outline-offset: 2px; }
+
+  /* yapışkan sekmeler */
+  .modulex-ml-sticky {
+    position: sticky;
+    inset-block-start: --stickyTop--;
+    z-index: 5;
+    background: var(--ml-bg);
+    border-block-end: 1px solid var(--ml-border);
+    margin-block-end: 20px;
+  }
+  .modulex-ml-tablist {
+    display: flex;
+    gap: 8px;
+    padding-block: 10px;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+  .modulex-ml-tab {
+    flex: none;
+    min-height: 44px;
+    padding-inline: 20px;
+    border: 2px solid var(--ml-border);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--ml-text);
+    font: inherit;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+  }
+  .modulex-ml-tab:hover { border-color: var(--ml-accent); }
+  .modulex-ml-tab:focus-visible { outline: 3px solid var(--ml-accent); outline-offset: 2px; }
+  .modulex-ml-tab[aria-selected="true"] { background: var(--ml-accent); border-color: var(--ml-accent); color: var(--ml-accent-text); }
+
+  /* araçlar: arama + süzgeç */
+  .modulex-ml-tools { display: grid; gap: 16px; margin-block-end: 8px; padding: 18px; border: 1px solid var(--ml-border); border-radius: 16px; background: var(--ml-surface); }
+  .modulex-ml-search { position: relative; display: flex; align-items: center; }
+  .modulex-ml-search .material-symbols-outlined { position: absolute; inset-inline-start: 14px; color: var(--ml-muted); pointer-events: none; }
+  .modulex-ml-q {
+    width: 100%;
+    min-height: 48px;
+    padding-block: 10px;
+    padding-inline: 46px 14px;
+    border: 2px solid var(--ml-border);
+    border-radius: 12px;
+    background: var(--ml-bg);
+    color: var(--ml-text);
+    font: inherit;
+    transition: border-color 0.2s ease;
+  }
+  .modulex-ml-q:focus-visible { outline: 3px solid var(--ml-accent); outline-offset: 1px; border-color: var(--ml-accent); }
+  .modulex-ml-chips { display: grid; gap: 14px; }
+  .modulex-ml-fs { margin: 0; padding: 0; border: 0; min-width: 0; }
+  .modulex-ml-leg { padding: 0; margin-block-end: 4px; font-weight: 700; font-size: 15px; }
+  .modulex-ml-fhint { margin: 0 0 10px; font-size: 14px; color: var(--ml-muted); }
+  .modulex-ml-chiprow { display: flex; flex-wrap: wrap; gap: 8px; }
+  .modulex-ml-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 44px;
+    padding-inline: 14px;
+    border: 2px solid var(--ml-border);
+    border-radius: 999px;
+    background: var(--ml-bg);
+    color: var(--ml-text);
+    font: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease, border-color 0.2s ease;
+  }
+  .modulex-ml-chip .material-symbols-outlined { font-size: 20px; }
+  .modulex-ml-chip:hover { border-color: var(--ml-accent); }
+  .modulex-ml-chip:focus-visible { outline: 3px solid var(--ml-accent); outline-offset: 2px; }
+  .modulex-ml-chip[aria-pressed="true"] { background: var(--ml-accent); border-color: var(--ml-accent); color: var(--ml-accent-text); }
+  .modulex-ml-clear { justify-self: start; }
+  .modulex-ml-count { min-height: 1.5em; margin: 10px 0 0; font-size: 14px; font-weight: 600; color: var(--ml-muted); }
+
+  /* kategori + ürün */
+  .modulex-ml-panel { margin-block-start: 8px; }
+  .modulex-ml-panel:focus-visible { outline: 3px solid var(--ml-accent); outline-offset: 4px; border-radius: 8px; }
+  .modulex-ml-cat { margin-block-end: 36px; scroll-margin-block-start: 80px; animation: modulexMlIn 0.3s ease both; }
+  .modulex-ml-cat.modulex-ml-off { display: none; }
+  .modulex-ml-cath { margin: 0 0 6px; padding-block-end: 8px; font-size: 26px; font-weight: 700; border-block-end: 3px solid var(--ml-accent); }
+  .modulex-ml-catd { margin: 8px 0 0; color: var(--ml-muted); }
+  .modulex-ml-items { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr; column-gap: 48px; }
+  .modulex-ml-item { display: flex; align-items: flex-start; gap: 16px; padding-block: 16px; border-block-end: 1px dashed var(--ml-border); break-inside: avoid; }
+  .modulex-ml-img { flex: none; width: 96px; height: 96px; border-radius: 12px; object-fit: cover; background: var(--ml-surface2); }
+  .modulex-ml-body { flex: 1; min-width: 0; }
+  .modulex-ml-line { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+  .modulex-ml-name { margin: 0; font-size: 18px; font-weight: 700; line-height: 1.35; }
+  .modulex-ml-dots { flex: 1 1 24px; min-width: 16px; align-self: end; margin-block-end: 5px; border-block-end: 2px dotted var(--ml-border); }
+  .modulex-ml-price { font-weight: 700; font-size: 17px; color: var(--ml-text); }
+  .modulex-ml-from { font-size: 13px; font-weight: 500; color: var(--ml-muted); }
+  .modulex-ml-desc2,
+  .modulex-ml-body .modulex-ml-desc { margin: 4px 0 0; font-size: 15px; line-height: 1.6; color: var(--ml-muted); }
+  .modulex-ml-dur { display: flex; align-items: center; gap: 6px; margin: 6px 0 0; font-size: 14px; font-weight: 600; color: var(--ml-muted); }
+  .modulex-ml-dur .material-symbols-outlined { font-size: 18px; }
+
+  .modulex-ml-tags { list-style: none; margin: 6px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  .modulex-ml-tag { display: inline-flex; align-items: center; gap: 4px; padding: 2px 10px; border: 1px solid var(--ml-border); border-radius: 999px; background: var(--ml-surface); font-size: 12px; font-weight: 600; }
+  .modulex-ml-tag .material-symbols-outlined { font-size: 16px; }
+
+  .modulex-ml-alwrap { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin-block-start: 8px; }
+  .modulex-ml-alhead { font-size: 12px; font-weight: 700; color: var(--ml-muted); }
+  .modulex-ml-als { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  .modulex-ml-al { display: inline-flex; align-items: center; gap: 3px; padding: 2px 8px; border: 1px solid var(--ml-text); border-radius: 8px; background: var(--ml-bg); color: var(--ml-text); font-size: 12px; font-weight: 700; line-height: 1.5; }
+  .modulex-ml-al .material-symbols-outlined { font-size: 16px; }
+  .modulex-ml-empty { margin: 24px 0; padding: 18px; text-align: center; border: 1px dashed var(--ml-border); border-radius: 12px; font-weight: 600; }
+
+  /* fiyat kipi: süre + fiyat satırı daha sade */
+  .modulex-ml-fiyat .modulex-ml-img { width: 72px; height: 72px; }
+
+  /* alerjen rehberi */
+  .modulex-ml-legend { margin-block-start: 12px; padding: 22px; border: 1px solid var(--ml-border); border-radius: 16px; background: var(--ml-surface); }
+  .modulex-ml-legh { margin: 0 0 12px; font-size: 18px; font-weight: 700; }
+  .modulex-ml-legwrap { display: grid; grid-template-columns: 1fr; gap: 0 40px; }
+  .modulex-ml-legt { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .modulex-ml-legt td { padding: 6px 8px; border-block-end: 1px solid var(--ml-border); vertical-align: middle; }
+  .modulex-ml-legt td.modulex-ml-legc { width: 1%; }
+  .modulex-ml-legal { display: flex; align-items: flex-start; gap: 10px; margin: 20px 0 0; padding: 14px 16px; border: 1px solid var(--ml-border); border-radius: 12px; background: var(--ml-surface); line-height: 1.6; font-weight: 600; }
+  .modulex-ml-legal .material-symbols-outlined { flex: none; }
+  .modulex-ml-pricenote { margin: 12px 0 0; text-align: center; font-size: 14px; color: var(--ml-muted); }
+
+  @keyframes modulexMlIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (min-width: 769px) {
+    .modulex-ml-legwrap { grid-template-columns: 1fr 1fr; }
+  }
+  @media (min-width: 1024px) {
+    .modulex-ml-items { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 768px) {
+    .modulex-ml { padding: 44px 14px; }
+    .modulex-ml-tools { padding: 14px; }
+    .modulex-ml-img { width: 76px; height: 76px; }
+    .modulex-ml-dots { display: none; }
+    .modulex-ml-line { flex-wrap: nowrap; justify-content: space-between; align-items: baseline; }
+    .modulex-ml-name { flex: 1 1 auto; min-width: 0; font-size: 17px; }
+    .modulex-ml-price { flex: none; }
+    .modulex-ml-legend { padding: 14px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-ml *,
+    .modulex-ml *::before,
+    .modulex-ml *::after { animation: none; transition: none; }
+  }
+
+  /* yazdır / QR menü: tek sütun, sekme + araçlar gizli, sade renk */
+  @media print {
+    .modulex-ml {
+      --ml-bg: white;
+      --ml-text: black;
+      --ml-surface: white;
+      --ml-surface2: white;
+      --ml-accent: black;
+      --ml-accent-text: white;
+      --ml-border: gray;
+      --ml-muted: black;
+      padding: 0;
+    }
+    html[data-mx-print] body * { visibility: hidden; }
+    html[data-mx-print="ml-{{id}}"] #ml-{{id}},
+    html[data-mx-print="ml-{{id}}"] #ml-{{id}} * { visibility: visible; }
+    html[data-mx-print="ml-{{id}}"] #ml-{{id}} { position: absolute; inset-inline: 0; inset-block-start: 0; width: 100%; }
+    .modulex-ml-sticky,
+    .modulex-ml-tools,
+    .modulex-ml-print,
+    .modulex-ml-count,
+    .modulex-ml-img,
+    .modulex-ml-dots { display: none; }
+    .modulex-ml-cat.modulex-ml-off { display: block; }
+    .modulex-ml-items { grid-template-columns: 1fr; }
+    .modulex-ml-cat { break-inside: auto; animation: none; margin-block-end: 18px; }
+    .modulex-ml-cath { break-after: avoid; }
+    .modulex-ml-tag,
+    .modulex-ml-al,
+    .modulex-ml-legend,
+    .modulex-ml-legal { border-color: black; background: white; }
+    .modulex-ml-panel:focus-visible { outline: 0; }
+  }
+</style>
+
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("ml-{{id}}");
+  var veriEl = document.getElementById("ml-{{id}}-veri");
+  if (!root || !veriEl) { return; }
+  var P;
+  try { P = JSON.parse(veriEl.textContent); } catch (hata) { return; }
+  if (!P || !P.items) { return; }
+  var ID = "ml-{{id}}";
+
+  var tabsBar = root.querySelector('[data-ml="tabsbar"]');
+  var tabs = root.querySelectorAll('[role="tab"]');
+  var panel = root.querySelector('[role="tabpanel"]');
+  var cats = root.querySelectorAll("[data-c]");
+  var liler = root.querySelectorAll("li[data-i]");
+  var tools = root.querySelector('[data-ml="tools"]');
+  var countEl = root.querySelector('[data-ml="count"]');
+  var emptyEl = root.querySelector('[data-ml="empty"]');
+  var clearBtn = root.querySelector('[data-ml="clear"]');
+  var qInput = root.querySelector('[data-ml="q"]');
+  var printBtn = root.querySelector('[data-ml="print"]');
+  var secili = "all";
+  var filtre = null;
+  var MF = null;
+
+  function isRtl() { return document.documentElement.getAttribute("dir") === "rtl"; }
+  function each(list, fn) { for (var i = 0; i < list.length; i++) { fn(list[i], i); } }
+
+  /* ---- kategori sekmeleri (role=tablist; otomatik etkinleşme; RTL'de ok yönü ters) ---- */
+  function sekmeUygula(btn, odakla) {
+    var k = btn.getAttribute("data-k");
+    secili = k;
+    each(tabs, function (t) {
+      var on = t === btn;
+      t.setAttribute("aria-selected", on ? "true" : "false");
+      t.tabIndex = on ? 0 : -1;
+    });
+    panel.setAttribute("aria-labelledby", btn.id);
+    each(cats, function (c) {
+      var goster = k === "all" || c.getAttribute("data-c") === k;
+      if (goster) { c.classList.remove("modulex-ml-off"); } else { c.classList.add("modulex-ml-off"); }
+    });
+    if (odakla) { btn.focus(); }
+    /* Yalniz sekme seridi yatay kayar — scrollIntoView tum sayfayi kaydiriyordu (acilista sayfa aşağı atliyordu) */
+    var br = btn.getBoundingClientRect();
+    var tr = tabsBar.getBoundingClientRect();
+    if (br.left < tr.left) { tabsBar.scrollLeft -= (tr.left - br.left); } else if (br.right > tr.right) { tabsBar.scrollLeft += (br.right - tr.right); }
+  }
+  if (tabs.length) {
+    tabsBar.hidden = false;
+    each(tabs, function (t) {
+      t.addEventListener("click", function () { sekmeUygula(t, false); });
+      t.addEventListener("keydown", function (ev) {
+        var i = Array.prototype.indexOf.call(tabs, t);
+        var yeni = -1;
+        var ileri = isRtl() ? "ArrowLeft" : "ArrowRight";
+        var geri = isRtl() ? "ArrowRight" : "ArrowLeft";
+        if (ev.key === ileri) { yeni = (i + 1) % tabs.length; }
+        else if (ev.key === geri) { yeni = (i - 1 + tabs.length) % tabs.length; }
+        else if (ev.key === "Home") { yeni = 0; }
+        else if (ev.key === "End") { yeni = tabs.length - 1; }
+        if (yeni > -1) { ev.preventDefault(); sekmeUygula(tabs[yeni], true); }
+      });
+    });
+    sekmeUygula(tabs[0], false);
+  }
+
+  /* ---- yazdır: yalnız bu bölüm (QR menü çıktısı) ---- */
+  if (printBtn) {
+    printBtn.hidden = false;
+    printBtn.addEventListener("click", function () {
+      document.documentElement.setAttribute("data-mx-print", ID);
+      var temizle = function () { document.documentElement.removeAttribute("data-mx-print"); window.removeEventListener("afterprint", temizle); };
+      window.addEventListener("afterprint", temizle);
+      window.print();
+    });
+  }
+
+  /* ---- alerjen/etiket süzgeci + arama (ortak MxFiltre) ---- */
+  function uygula(s) {
+    var gorunur = {};
+    each(s.tumu, function (it) { gorunur[it.i] = true; });
+    each(liler, function (li) { li.hidden = !gorunur[li.getAttribute("data-i")]; });
+    each(cats, function (c) {
+      var var1 = false;
+      each(c.querySelectorAll("li[data-i]"), function (li) { if (!li.hidden) { var1 = true; } });
+      c.hidden = !var1;
+    });
+    var aktif = filtre.filtreVar();
+    countEl.textContent = aktif ? MF.cogul(s.toplam, P.count, P.dil) : "";
+    emptyEl.hidden = s.toplam > 0;
+    if (clearBtn) { clearBtn.hidden = !aktif; }
+  }
+  function kur() {
+    var facets = {};
+    var i;
+    for (i = 0; i < P.usedAl.length; i++) { facets["a_" + P.usedAl[i]] = { tip: "var", alan: "y." + P.usedAl[i] }; }
+    for (i = 0; i < P.tags.length; i++) { facets["t_" + P.tags[i]] = { tip: "var", alan: "g." + P.tags[i] }; }
+    filtre = MF.olustur({ items: P.items, arama: { alanlar: ["s"] }, facets: facets, url: false, dil: P.dil });
+    if (qInput) { MF.aramaBagla(qInput, filtre, 150); }
+    each(root.querySelectorAll(".modulex-ml-chip"), function (chip) {
+      var ikon = chip.querySelector(".material-symbols-outlined");
+      chip.setAttribute("data-ic", ikon.textContent);
+      chip.addEventListener("click", function () {
+        var basili = chip.getAttribute("aria-pressed") !== "true";
+        chip.setAttribute("aria-pressed", basili ? "true" : "false");
+        ikon.textContent = basili ? "check" : chip.getAttribute("data-ic");
+        var anahtar = chip.hasAttribute("data-a") ? "a_" + chip.getAttribute("data-a") : "t_" + chip.getAttribute("data-t");
+        var o = {};
+        o[anahtar] = basili;
+        filtre.ayarla(o);
+      });
+    });
+    if (clearBtn) {
+      clearBtn.addEventListener("click", function () {
+        each(root.querySelectorAll(".modulex-ml-chip"), function (chip) {
+          chip.setAttribute("aria-pressed", "false");
+          chip.querySelector(".material-symbols-outlined").textContent = chip.getAttribute("data-ic");
+        });
+        if (qInput) { qInput.value = ""; }
+        filtre.sifirla();
+      });
+    }
+    filtre.abone(uygula);
+    if (tools) { tools.hidden = false; }
+    uygula(filtre.sonuc());
+  }
+  function hazir(fn) {
+    if (window.mxLoad) { fn(); } else if (document.readyState === "complete") { setTimeout(fn, 50); } else { window.addEventListener("load", fn); }
+  }
+  if (tools) {
+    hazir(function () {
+      if (!window.mxLoad) { return; }
+      window.mxLoad("mxfiltre").then(function (m) { MF = m; kur(); }, function () { /* süzgeç yüklenemezse tam liste kalır */ });
+    });
+  }
+})();
+</script>

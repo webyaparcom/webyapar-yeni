@@ -1,0 +1,164 @@
+<section class="modulex-stats">
+  <div class="modulex-stats-container">
+    {{html}}
+  </div>
+</section>
+
+<style>
+  .modulex-stats {
+    width: 100%;
+    padding: 56px 20px;
+    background: --gradient--;
+    box-sizing: border-box;
+  }
+
+  .modulex-stats-container {
+    max-width: --max--;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 24px;
+    text-align: center;
+  }
+
+  .modulex-stats-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    animation: statsIn 0.5s ease both;
+  }
+
+  @keyframes statsIn {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .modulex-stats-icon {
+    width: --iconbox--;
+    height: --iconbox--;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.14);
+    color: --numbercolor--;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+
+  .modulex-stats-icon .material-symbols-outlined {
+    font-size: --iconsize--;
+    line-height: 1;
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  }
+
+  .modulex-stats-number {
+    font-size: 40px;
+    font-weight: 800;
+    color: --numbercolor--;
+    line-height: 1;
+  }
+
+  .modulex-stats-suffix {
+    color: --numbercolor--;
+  }
+
+  .modulex-stats-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: --labelcolor--;
+  }
+
+  @media (max-width: 768px) {
+    .modulex-stats {
+      padding: 36px 14px;
+    }
+
+    .modulex-stats-container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .modulex-stats-number {
+      font-size: 30px;
+    }
+
+    .modulex-stats-icon {
+      width: calc(--iconbox-- * 0.85);
+      height: calc(--iconbox-- * 0.85);
+    }
+
+    .modulex-stats-icon .material-symbols-outlined {
+      font-size: calc(--iconsize-- * 0.85);
+    }
+
+    [class*="modulex"] {
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    [class*="modulex"],
+    [class*="modulex"] * {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+</style>
+
+<script>
+  /* Sayac animasyonu: gorunur oldugunda 0'dan hedefe sayar.
+     prefers-reduced-motion'da animasyonsuz dogrudan hedef yazilir. */
+  setTimeout(function () {
+    var reduced = false;
+    try {
+      reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    } catch (e) {}
+    var numbers = document.querySelectorAll(".modulex-stats-number[data-mx-count]");
+    if (numbers.length === 0) {
+      return;
+    }
+
+    function animateCount(el) {
+      var target = parseInt(el.getAttribute("data-mx-count"), 10) || 0;
+      if (reduced || !("IntersectionObserver" in window)) {
+        el.firstChild.textContent = String(target);
+        return;
+      }
+      var duration = 1200;
+      var start = null;
+      function step(ts) {
+        if (start === null) {
+          start = ts;
+        }
+        var progress = Math.min(1, (ts - start) / duration);
+        /* easeOutCubic */
+        var eased = 1 - Math.pow(1 - progress, 3);
+        el.firstChild.textContent = String(Math.round(target * eased));
+        if (progress < 1) {
+          window.requestAnimationFrame(step);
+        }
+      }
+      window.requestAnimationFrame(step);
+    }
+
+    if (!("IntersectionObserver" in window) || reduced) {
+      for (var ni = 0; ni < numbers.length; ni++) {
+        animateCount(numbers[ni]);
+      }
+      return;
+    }
+    var observer = new IntersectionObserver(function (entries) {
+      for (var ei = 0; ei < entries.length; ei++) {
+        if (entries[ei].isIntersecting) {
+          animateCount(entries[ei].target);
+          observer.unobserve(entries[ei].target);
+        }
+      }
+    }, { threshold: 0.4 });
+    for (var oi = 0; oi < numbers.length; oi++) {
+      observer.observe(numbers[oi]);
+    }
+  }, 80);
+</script>

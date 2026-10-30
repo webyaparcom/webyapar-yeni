@@ -1,0 +1,53 @@
+{
+  "name": "İstatistik Bandı 1",
+  "desing": {
+    "max": "1200px",
+    "gradient": "linear-gradient(135deg, #1e3046 0%, #2a4560 100%)",
+    "numbercolor": "#DE6D26",
+    "labelcolor": "#e2e8f0",
+    "iconsize": "56px",
+    "iconbox": "88px"
+  },
+  "data": [
+    {
+      "number": 150,
+      "suffix": "+",
+      "label": {
+        "tr": "Tamamlanan Proje",
+        "en": "Completed Projects"
+      },
+      "icon": "task_alt"
+    },
+    {
+      "number": 50,
+      "suffix": "+",
+      "label": {
+        "tr": "Mutlu Müşteri",
+        "en": "Happy Customers"
+      },
+      "icon": "sentiment_satisfied"
+    },
+    {
+      "number": 10,
+      "suffix": "+",
+      "label": {
+        "tr": "Yıllık Deneyim",
+        "en": "Years of Experience"
+      },
+      "icon": "workspace_premium"
+    },
+    {
+      "number": 24,
+      "suffix": "/7",
+      "label": {
+        "tr": "Destek",
+        "en": "Support"
+      },
+      "icon": "support_agent"
+    }
+  ],
+  "category": "stats",
+  "description": "İstatistik / sayaç bandı modülü. Rakamlar görünür olduğunda 0'dan hedefe animasyonlu sayar (IntersectionObserver + easeOutCubic; prefers-reduced-motion'da animasyonsuz). İkon, sonek (+, /7) ve çok dilli etiket destekler.",
+  "version": "1.0.0",
+  "icon": "monitoring"
+}

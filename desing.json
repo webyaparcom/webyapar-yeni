@@ -1,0 +1,79 @@
+{
+  "header": [
+    "k9mn01"
+  ],
+  "body": [
+    "l5xy67",
+    "anztrj",
+    "1r4u9l",
+    "8miidd",
+    "zqhcyj",
+    "zzd4a6"
+  ],
+  "footer": [
+    "k9ft01"
+  ],
+  "headerdefault": [
+    "k9mn01"
+  ],
+  "bodydefault": [],
+  "footerdefault": [
+    "k9ft01"
+  ],
+  "headtop": "",
+  "headbottom": "<script>(function(){try{var s=new URLSearchParams(location.search).get(\"tema\");var N={\"restoran\":\"Kervan Sofrası\",\"klinik\":\"Berrak Tıp Merkezi\",\"emlak\":\"Anka Gayrimenkul\",\"sanayi\":\"Orvak Makina\",\"dekor\":\"Meşe Ev\",\"kuyumcu\":\"Zümra Kuyum\",\"gida\":\"Yeşil Kervan\",\"insaat\":\"Kalesu Yapı\",\"guzellik\":\"Sedef Studio\",\"portfolyo\":\"Deniz Altan\"};if(!s||!N[s])return;var d=(document.documentElement.lang||\"tr\").slice(0,2);var M={tr:\"Merhaba, “\"+N[s]+\"” temasını istiyorum.\",en:\"Hello, I would like the “\"+N[s]+\"” theme.\",ar:\"مرحبًا، أودّ الحصول على قالب «\"+N[s]+\"».\"};var t=encodeURIComponent(M[d]||M.tr);var a=document.querySelectorAll('a[href^=\"https://wa.me/\"]');for(var i=0;i<a.length;i++){a[i].href=\"https://wa.me/905316791014?text=\"+t;}}catch(e){}})();</script>",
+  "colors": {
+    "lite": [
+      {
+        "name": "--color1--",
+        "value": "#FFFFFF"
+      },
+      {
+        "name": "--color2--",
+        "value": "#F6F4F3"
+      },
+      {
+        "name": "--bg--",
+        "value": "#FFFFFF"
+      },
+      {
+        "name": "--text--",
+        "value": "#1A1717"
+      },
+      {
+        "name": "--button--",
+        "value": "#CC1F1B"
+      },
+      {
+        "name": "--buttonText--",
+        "value": "#FFFFFF"
+      }
+    ],
+    "dark": [
+      {
+        "name": "--color1--",
+        "value": "#1F1A1A"
+      },
+      {
+        "name": "--color2--",
+        "value": "#1F1A1A"
+      },
+      {
+        "name": "--bg--",
+        "value": "#131010"
+      },
+      {
+        "name": "--text--",
+        "value": "#F2EEEE"
+      },
+      {
+        "name": "--button--",
+        "value": "#FF5A55"
+      },
+      {
+        "name": "--buttonText--",
+        "value": "#131010"
+      }
+    ]
+  }
+}

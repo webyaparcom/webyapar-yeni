@@ -1,0 +1,489 @@
+a:link,
+a:active,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: #000
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    /* 30 Eki 2026: yazı tipi setting.font ile seçilir — --mx-font-sans (mx-ds.css varsayılanı Rubik; {{mxtokens}} ezer) */
+    font-family: var(--mx-font-sans, Rubik, "Roboto Condensed", sans-serif);
+    font-size: 14px;
+    line-height: 1.2;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0;
+    padding: 0;
+    overflow-x: hidden
+}
+
+.w100 {
+    width: 100%
+}
+
+#header,
+#footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 0
+}
+
+#header {
+    align-items: center;
+    justify-content: center
+}
+
+#content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    padding: 0;
+}
+
+:root {
+    --max: 1024px;
+    --bgcolor: #ffffff;
+}
+
+@media screen and (max-width:1024px) {
+    :root {
+        --max: 100% !important
+    }
+
+    .mobil-closed {
+        display: none !important
+    }
+
+    #content {
+        width: 100%
+    }
+}
+
+@media screen and (min-width:1024px) {
+    :root {
+        --max: 1024px !important
+    }
+}
+
+@media screen and (min-width:1200px) {
+    :root {
+        --max: 1200px !important
+    }
+}
+
+.bold {
+    font-style: bold !important
+}
+
+.line-height-2 {
+    line-height: 2
+}
+
+.line-height-3 {
+    line-height: 3
+}
+
+.line-height-4 {
+    line-height: 4
+}
+
+.line-height-5 {
+    line-height: 5
+}
+
+.line-height-6 {
+    line-height: 6
+}
+
+.f12 {
+    font-size: 12px !important
+}
+
+.f14 {
+    font-size: 14px !important
+}
+
+.f16 {
+    font-size: 16px !important
+}
+
+.f18 {
+    font-size: 18px !important
+}
+
+.f20 {
+    font-size: 20px !important
+}
+
+.f22 {
+    font-size: 22px !important
+}
+
+.f24 {
+    font-size: 24px !important
+}
+
+.f26 {
+    font-size: 26px !important
+}
+
+.f28 {
+    font-size: 28px !important
+}
+
+.f30 {
+    font-size: 30px !important
+}
+
+.f32 {
+    font-size: 32px !important
+}
+
+.f34 {
+    font-size: 34px !important
+}
+
+.f36 {
+    font-size: 36px !important
+}
+
+.f38 {
+    font-size: 38px !important
+}
+
+.f40 {
+    font-size: 40px !important
+}
+
+.f42 {
+    font-size: 42px !important
+}
+
+.f44 {
+    font-size: 44px !important
+}
+
+.f46 {
+    font-size: 46px !important
+}
+
+.f48 {
+    font-size: 48px !important
+}
+
+.f50 {
+    font-size: 50px !important
+}
+
+/* Başlık yazı tipi: setting.font.heading → --mx-font-heading; tanımsızsa gövde fontu (görünüm değişmez) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--mx-font-heading, var(--mx-font-sans, Rubik, sans-serif))
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 500
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 500
+}
+
+h4 {
+    font-size: 12px;
+    font-weight: 500
+}
+
+li,
+ul {
+    list-style-type: none !important;
+    list-style: none !important
+}
+
+.input-container {
+    position: relative;
+    margin-top: 35px
+}
+
+.input-container input {
+    display: block;
+    line-height: 3;
+    margin: 0;
+    padding: 5px 10px;
+    width: calc(100% - 20px);
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #000
+}
+
+.input-container input:focus {
+    outline: none;
+    outline: 0.5px solid #fff
+}
+
+.input-container .placeholder {
+    position: absolute;
+    bottom: 42px;
+    left: 10px;
+    padding: 7px;
+    color: #000;
+    transition: .2s ease-in-out transform;
+    background-color: #fff;
+    border: solid #fff;
+    border-width: 1px 1px 0 1px;
+    border-radius: 5px 5px 0 0;
+    opacity: 0;
+    z-index: -1;
+    -webkit-transition: .2s ease-in-out transform;
+    -moz-transition: .2s ease-in-out transform;
+    -ms-transition: .2s ease-in-out transform;
+    -o-transition: .2s ease-in-out transform
+}
+
+.input-container input:not(:placeholder-shown)+.placeholder,
+.input-container input:focus:not(:placeholder-shown)+.placeholder {
+    visibility: visible;
+    z-index: 1;
+    opacity: 1;
+    transform: translateY(-10px)
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column
+}
+
+.gap5 {
+    gap: 5px
+}
+
+.gap10 {
+    gap: 10px
+}
+
+#poputfull {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.poputfullchile {
+    width: 70vw;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .2)
+}
+
+.poputfullbutton {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    transition: background-color .3s ease
+}
+
+.poputfullbutton:hover {
+    background-color: #0056b3
+}
+
+.poputfullremove {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1
+}
+
+.cfff {
+    color: #fff
+}
+
+.c000 {
+    color: #000
+}
+
+/* RTL (Right-to-Left) Dil Desteği — Arapça, İbranice, Farsça, Urduca.
+   <html dir> sunucuda uretilir ({{dir}}, services/webmaker/langUtils.js langDir). 30 Eki 2026 (TASARIM § 10):
+   eskiden h1..div'e text-align:right zorlaniyordu → ortalanmis bloklar da saga yapisiyordu; artik yalniz
+   direction verilir, hizalama tarayicinin `start` degerine birakilir. Fiziksel left/right kullanan eski
+   modullerin ayna katmani asagida; yeni modul/tema yalnizca mantiksal ozellik (inline-start/end) yazar. */
+[dir="rtl"] {
+    direction: rtl;
+}
+
+[dir="rtl"] body,
+[dir="rtl"] #header,
+[dir="rtl"] #footer,
+[dir="rtl"] #content {
+    direction: rtl;
+}
+
+[dir="rtl"] .input-container .placeholder {
+    left: auto;
+    right: 10px;
+}
+
+[dir="rtl"] .poputfullchile {
+    direction: rtl;
+}
+
+/* Yon gerektiren ikon/ok (ileri, geri, chevron): sinifi ekleyen oge aynalanir. Logo, saat, arama, telefon aynalanmaz. */
+[dir="rtl"] .mx-flip,
+[dir="rtl"] [data-mx-flip] {
+    transform: scaleX(-1);
+}
+
+/* Latin marka adi / telefon / fiyat gibi sag-sol karisik parcalar: yonu sabit, cevresinden yalitilir */
+.mx-ltr,
+bdi[dir="ltr"] {
+    direction: ltr;
+    unicode-bidi: isolate;
+}
+
+/* Arapca tipografi: harf aralığı bağlantılı yazıyı böler (0 olmalı), satır aralığı Latin'den yüksek, başlık ağırlığı ≤600.
+   Yazı tipi dile özel atanır (setting.font.ar → html[lang="ar"] --mx-font-sans/--mx-font-heading, {{mxtokens}}). */
+html[lang="ar"] body {
+    line-height: 1.7;
+}
+
+html[lang="ar"] *,
+html[lang="ar"] *::before,
+html[lang="ar"] *::after {
+    letter-spacing: 0;
+}
+
+html[lang="ar"] h1,
+html[lang="ar"] h2,
+html[lang="ar"] h3,
+html[lang="ar"] h4,
+html[lang="ar"] h5,
+html[lang="ar"] h6 {
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+/* Dil cubugu — ortak dil secici (30 Eki 2026, services/webmaker/langBar.js). Modul index.html'de {{langbar}} yazilir,
+   moduleRender uretir; tek dilli sitede bos. Renk currentColor: bulundugu modulun metin rengine uyar; modul
+   --wm-lang-color / --wm-lang-bg / --wm-lang-active-bg / --wm-lang-active-color degiskenleriyle ezebilir. */
+.wm-langbar {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 8px;
+    font-size: 13px;
+    line-height: 1;
+    color: var(--wm-lang-color, inherit)
+}
+
+.wm-langbar:empty,
+.wm-langbar ul:empty {
+    display: none
+}
+
+.wm-langbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.wm-langbar li {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.wm-langbar li a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 34px;
+    min-height: 30px;
+    padding: 4px 9px;
+    border: 1px solid color-mix(in srgb, currentColor 35%, transparent);
+    border-radius: 8px;
+    background: var(--wm-lang-bg, transparent);
+    color: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease
+}
+
+.wm-langbar li a img {
+    display: block;
+    height: 18px;
+    width: auto
+}
+
+.wm-langbar li a:hover,
+.wm-langbar li a:focus-visible {
+    border-color: currentColor;
+    background: color-mix(in srgb, currentColor 10%, transparent)
+}
+
+.wm-langbar li.wm-lang-active a {
+    background: var(--wm-lang-active-bg, color-mix(in srgb, currentColor 16%, transparent));
+    color: var(--wm-lang-active-color, inherit);
+    border-color: currentColor;
+    font-weight: 700
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .wm-langbar li a {
+        transition: none
+    }
+}

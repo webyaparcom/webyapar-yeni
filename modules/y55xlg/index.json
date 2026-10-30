@@ -1,0 +1,165 @@
+{
+  "name": "Demo Çerçevesi",
+  "description": "Canlı demo önizleme çerçevesi: tam ekran üst bar (tema adı, önceki/sonraki, masaüstü/tablet/mobil geçişi — iframe 1440/820/390 genişliğinde transform:scale ile sığdırılır, yeni sekmede aç, bu temayı iste) + iframe (sandbox allow-scripts allow-same-origin allow-forms). Tema ?t=<slug> ile seçilir; yüklenmezse (zaman aşımı / X-Frame-Options) yeni sekme yedeği ve mesaj. TR/EN/AR, RTL'de bar aynalanır.",
+  "version": "1.0.0",
+  "icon": "devices",
+  "category": "demo",
+  "tags": [
+    "demo",
+    "iframe",
+    "onizleme",
+    "cihaz",
+    "rtl"
+  ],
+  "desing": {
+    "max": "none",
+    "bgcolor": "var(--mx-site-bg, #ffffff)",
+    "textcolor": "var(--mx-site-text, #1b1b1b)",
+    "surface": "var(--mx-site-surface, #f6f6f4)",
+    "surface2": "var(--mx-site-surface-2, #ececea)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+    "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+    "theme": "",
+    "ctaHref": "iletisim",
+    "backHref": "temalar",
+    "timeoutMs": 9000,
+    "devices": [
+      {
+        "id": "desktop",
+        "w": 1440,
+        "h": 0
+      },
+      {
+        "id": "tablet",
+        "w": 820,
+        "h": 1180
+      },
+      {
+        "id": "mobile",
+        "w": 390,
+        "h": 844
+      }
+    ],
+    "backText": {
+      "tr": "Tüm temalar",
+      "en": "All themes",
+      "ar": "كل القوالب"
+    },
+    "deviceLabel": {
+      "tr": "Cihaz önizlemesi",
+      "en": "Device preview",
+      "ar": "معاينة الجهاز"
+    },
+    "deviceDesktop": {
+      "tr": "Masaüstü",
+      "en": "Desktop",
+      "ar": "سطح المكتب"
+    },
+    "deviceTablet": {
+      "tr": "Tablet",
+      "en": "Tablet",
+      "ar": "جهاز لوحي"
+    },
+    "deviceMobile": {
+      "tr": "Mobil",
+      "en": "Mobile",
+      "ar": "جوال"
+    },
+    "navLabel": {
+      "tr": "Tema gezintisi",
+      "en": "Theme navigation",
+      "ar": "التنقل بين القوالب"
+    },
+    "prevText": {
+      "tr": "Önceki tema",
+      "en": "Previous theme",
+      "ar": "القالب السابق"
+    },
+    "nextText": {
+      "tr": "Sonraki tema",
+      "en": "Next theme",
+      "ar": "القالب التالي"
+    },
+    "counterAria": {
+      "tr": "Tema {n} / {total}",
+      "en": "Theme {n} of {total}",
+      "ar": "القالب {n} من {total}"
+    },
+    "openText": {
+      "tr": "Yeni sekmede aç",
+      "en": "Open in new tab",
+      "ar": "افتح في علامة تبويب جديدة"
+    },
+    "requestText": {
+      "tr": "Bu temayı iste",
+      "en": "Request this theme",
+      "ar": "اطلب هذا القالب"
+    },
+    "frameTitle": {
+      "tr": "{name} — canlı demo önizlemesi",
+      "en": "{name} — live demo preview",
+      "ar": "{name} — معاينة العرض المباشر"
+    },
+    "loadingText": {
+      "tr": "Demo yükleniyor…",
+      "en": "Loading demo…",
+      "ar": "جارٍ تحميل العرض…"
+    },
+    "fallbackTitle": {
+      "tr": "Demo çerçevede açılamadı",
+      "en": "The demo could not be shown in the frame",
+      "ar": "تعذّر عرض العرض التجريبي داخل الإطار"
+    },
+    "fallbackText": {
+      "tr": "Önizleme görünmüyorsa demoyu yeni sekmede açın.",
+      "en": "If the preview does not appear, open the demo in a new tab.",
+      "ar": "إذا لم تظهر المعاينة فافتح العرض في علامة تبويب جديدة."
+    },
+    "fallbackLong": {
+      "tr": "Bu site çerçeve içinde gösterilmeye izin vermiyor ya da zamanında yanıt vermedi. Demoyu yeni sekmede açabilirsiniz.",
+      "en": "This site does not allow being shown in a frame or did not respond in time. You can open the demo in a new tab.",
+      "ar": "لا يسمح هذا الموقع بعرضه داخل إطار أو لم يستجب في الوقت المناسب. يمكنك فتح العرض في علامة تبويب جديدة."
+    },
+    "emptyText": {
+      "tr": "Gösterilecek tema yok.",
+      "en": "There is no theme to show.",
+      "ar": "لا يوجد قالب للعرض."
+    },
+    "ariaLabel": {
+      "tr": "Canlı demo önizleme",
+      "en": "Live demo preview",
+      "ar": "معاينة العرض المباشر"
+    }
+  },
+  "data": [
+    {
+      "slug": "ornek-restoran",
+      "name": {
+        "tr": "Örnek Restoran",
+        "en": "Sample Restaurant",
+        "ar": "مطعم نموذجي"
+      },
+      "url": "https://ornek-restoran.webyapar.com/{lang}/"
+    },
+    {
+      "slug": "ornek-insaat",
+      "name": {
+        "tr": "Örnek İnşaat",
+        "en": "Sample Construction",
+        "ar": "شركة مقاولات نموذجية"
+      },
+      "url": "https://ornek-insaat.webyapar.com/{lang}/"
+    },
+    {
+      "slug": "ornek-dekor",
+      "name": {
+        "tr": "Örnek Dekor Mağazası",
+        "en": "Sample Decor Store",
+        "ar": "متجر ديكور نموذجي"
+      },
+      "url": "https://ornek-dekor.webyapar.com/{lang}/"
+    }
+  ]
+}

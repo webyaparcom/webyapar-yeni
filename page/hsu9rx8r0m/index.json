@@ -1,0 +1,43 @@
+{
+  "id": "hsu9rx8r0m",
+  "name": {
+    "tr": "Sanayi web sitesi",
+    "en": "Industrial website",
+    "ar": "موقع إلكتروني لشركة صناعية"
+  },
+  "description": {
+    "tr": "Ürün grupları, teknik tablolar, sertifikalar ve teklif talebi: kurumsal alıcıya aradığı bilgiyi baştan verin.",
+    "en": "Product groups, technical tables, certificates and quote requests: give corporate buyers the information they need up front.",
+    "ar": "مجموعات المنتجات والجداول الفنية والشهادات وطلب عرض السعر، لتزوّد المشتري المؤسسي بما يحتاجه من البداية."
+  },
+  "keyword": {
+    "tr": "sanayi web sitesi, hazır tema, webyapar",
+    "en": "industrial website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني لشركة صناعية، قالب جاهز، ويب ياپار"
+  },
+  "path": "sanayi-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "ta8vot",
+      "u0dcwj",
+      "qzfuqj",
+      "8tjr0m",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 11,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Sanayi web sitesi — Webyapar",
+    "en": "Industrial website — Webyapar",
+    "ar": "موقع إلكتروني لشركة صناعية — Webyapar"
+  },
+  "date": "2026-10-30T20:48:20.591Z",
+  "update": "2026-10-30T21:01:05.086Z"
+}

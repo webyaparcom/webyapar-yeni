@@ -1,0 +1,168 @@
+{
+  "name": "Kurumsal",
+  "path": "kurumsal",
+  "desc": [],
+  "data": [
+    {
+      "id": "misyon",
+      "name": {
+        "tr": "Misyon",
+        "en": "Mission",
+        "ar": "المهمة"
+      },
+      "description": {
+        "tr": "Misyon",
+        "en": "Mission",
+        "ar": "المهمة"
+      },
+      "path": "misyon",
+      "icon": "flag",
+      "category": "",
+      "status": "stop",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "id": "vizyon",
+      "name": {
+        "tr": "Vizyon",
+        "en": "Vision",
+        "ar": "الرؤية"
+      },
+      "description": {
+        "tr": "Vizyon",
+        "en": "Vision",
+        "ar": "الرؤية"
+      },
+      "path": "vizyon",
+      "icon": "visibility",
+      "category": "",
+      "status": "stop",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "kalitepolitikamiz",
+      "name": {
+        "tr": "Kalite Politikamız",
+        "en": "Quality Policy",
+        "ar": "سياسة الجودة"
+      },
+      "description": {
+        "tr": "Kalite politikamız",
+        "en": "Our quality policy",
+        "ar": "سياسة الجودة لدينا"
+      },
+      "path": "kalitepolitikamiz",
+      "icon": "verified",
+      "category": "",
+      "status": "stop",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "gizlilikpolitikasi",
+      "name": {
+        "tr": "Gizlilik Politikası",
+        "en": "Privacy Policy",
+        "ar": "سياسة الخصوصية"
+      },
+      "description": {
+        "tr": "Gizlilik politikası",
+        "en": "Privacy policy",
+        "ar": "سياسة الخصوصية"
+      },
+      "path": "gizlilikpolitikasi",
+      "icon": "privacy_tip",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "kisiselveriler",
+      "name": {
+        "tr": "Kişisel Veriler",
+        "en": "Personal Data",
+        "ar": "البيانات الشخصية"
+      },
+      "description": {
+        "tr": "Kişisel verilerin korunması",
+        "en": "Protection of personal data",
+        "ar": "حماية البيانات الشخصية"
+      },
+      "path": "kisiselveriler",
+      "icon": "shield",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "id": "kullanicahaklari",
+      "name": {
+        "tr": "Kullanıcı Hakları",
+        "en": "User Rights",
+        "ar": "حقوق المستخدم"
+      },
+      "description": {
+        "tr": "Kullanıcı hakları",
+        "en": "User rights",
+        "ar": "حقوق المستخدم"
+      },
+      "path": "kullanicahaklari",
+      "icon": "gavel",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 5
+    },
+    {
+      "id": "yasaluyari",
+      "name": {
+        "tr": "Yasal Uyarı",
+        "en": "Legal Notice",
+        "ar": "إشعار قانوني"
+      },
+      "description": {
+        "tr": "Yasal uyarı",
+        "en": "Legal notice",
+        "ar": "إشعار قانوني"
+      },
+      "path": "yasaluyari",
+      "icon": "policy",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 6
+    }
+  ]
+}

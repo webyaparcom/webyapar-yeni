@@ -1,0 +1,43 @@
+{
+  "id": "id5tjdalze",
+  "name": {
+    "tr": "İnşaat web sitesi",
+    "en": "Construction website",
+    "ar": "موقع إلكتروني لشركة مقاولات"
+  },
+  "description": {
+    "tr": "Proje portföyü, filtreli referanslar, öncesi-sonrası ilerleme galerisi ve teknik tablolar: işinizi görerek anlatın.",
+    "en": "A project portfolio, filtered references, before-and-after progress galleries and technical tables: show your work.",
+    "ar": "محفظة مشاريع ومراجع قابلة للتصفية ومعارض تقدّم قبل وبعد وجداول فنية: اعرض عملك بالصور."
+  },
+  "keyword": {
+    "tr": "i̇nşaat web sitesi, hazır tema, webyapar",
+    "en": "construction website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني لشركة مقاولات، قالب جاهز، ويب ياپار"
+  },
+  "path": "insaat-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "ynbnbr",
+      "r0wsui",
+      "nlvqzs",
+      "9h3z2t",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 7,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "İnşaat web sitesi — Webyapar",
+    "en": "Construction website — Webyapar",
+    "ar": "موقع إلكتروني لشركة مقاولات — Webyapar"
+  },
+  "date": "2026-10-30T20:48:20.655Z",
+  "update": "2026-10-30T21:01:05.121Z"
+}

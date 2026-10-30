@@ -1,0 +1,45 @@
+{
+  "name": "Tanıtım Modülü",
+  "local": "body",
+  "desing": {
+    "name": {
+      "tr": "Bizi Tanıyın",
+      "en": "About Us"
+    },
+    "description": {
+      "tr": "Yılların deneyimi ve uzman kadromuzla kurumsal çözümler sunuyoruz. Kalite, güven ve sürdürülebilir büyüme odaklı çalışıyoruz.",
+      "en": "With years of experience and an expert team we deliver corporate solutions focused on quality, trust and sustainable growth."
+    },
+    "name2": {
+      "tr": "Vizyonumuz",
+      "en": "Our Vision"
+    },
+    "spot2": {
+      "tr": "Sektörümüzde yenilikçi yaklaşımlarla öncü olmak.",
+      "en": "To lead our industry with innovative approaches."
+    },
+    "icon2": "visibility",
+    "name3": {
+      "tr": "Misyonumuz",
+      "en": "Our Mission"
+    },
+    "spot3": {
+      "tr": "İhtiyaç duyulan çözümleri hızlı ve şeffaf sunmak.",
+      "en": "Deliver needed solutions quickly and transparently."
+    },
+    "icon3": "flag",
+    "img": "index.jpg",
+    "bgcolor": "#1e3046",
+    "fontcolor": "#fff",
+    "margintop": "20",
+    "marginbotton": "20",
+    "title": {
+      "tr": "Kurumsal",
+      "en": "Corporate"
+    }
+  },
+  "category": "module",
+  "description": "Kurumsal tanıtım ve hakkımızda modülü. Firma tanıtımı, vizyon, misyon metinlerini görsel ile birlikte sunar. Ana sayfa şeridi ve temalar için varsayılan cok dilli metinler. İki kolonlu responsive tasarım, W2 animasyon ve icon desteği içerir.",
+  "version": "1.1.0",
+  "icon": "business"
+}

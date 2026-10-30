@@ -1,0 +1,70 @@
+{
+  "name": "Fiyatlandırma 1",
+  "desing": {
+    "max": "1200px",
+    "bgcolor": "#f8fafc",
+    "cardbg": "#ffffff",
+    "bordercolor": "#e2e8f0",
+    "titlecolor": "#1e293b",
+    "textcolor": "#475569",
+    "accent": "#DE6D26",
+    "badge": {
+      "tr": "Fiyatlandırma",
+      "en": "Pricing"
+    },
+    "title": {
+      "tr": "Size Uygun Paketi Seçin",
+      "en": "Choose the Right Plan"
+    },
+    "description": {
+      "tr": "İhtiyacınıza göre esnek paket seçenekleri. Dilediğiniz zaman yükseltebilirsiniz.",
+      "en": "Flexible plans for your needs. Upgrade anytime."
+    }
+  },
+  "data": [
+    {
+      "plan": { "tr": "Başlangıç", "en": "Starter" },
+      "price": "₺4.900",
+      "period": { "tr": "/ proje", "en": "/ project" },
+      "note": { "tr": "Küçük işletmeler için", "en": "For small businesses" },
+      "features": {
+        "tr": "5 sayfa web sitesi|Mobil uyumlu tasarım|Temel SEO|1 ay destek",
+        "en": "5-page website|Responsive design|Basic SEO|1 month support"
+      },
+      "ctaText": { "tr": "Hemen Başla", "en": "Get Started" },
+      "ctaUrl": "#",
+      "featured": false
+    },
+    {
+      "plan": { "tr": "Profesyonel", "en": "Professional" },
+      "price": "₺9.900",
+      "period": { "tr": "/ proje", "en": "/ project" },
+      "note": { "tr": "Büyüyen markalar için", "en": "For growing brands" },
+      "features": {
+        "tr": "15 sayfa web sitesi|Çok dilli altyapı|Gelişmiş SEO|E-ticaret hazır|3 ay destek",
+        "en": "15-page website|Multi-language|Advanced SEO|E-commerce ready|3 months support"
+      },
+      "ctaText": { "tr": "Hemen Başla", "en": "Get Started" },
+      "ctaUrl": "#",
+      "featured": true,
+      "flag": { "tr": "En Popüler", "en": "Most Popular" }
+    },
+    {
+      "plan": { "tr": "Kurumsal", "en": "Enterprise" },
+      "price": "₺19.900",
+      "period": { "tr": "/ proje", "en": "/ project" },
+      "note": { "tr": "Kurumsal çözümler", "en": "Enterprise solutions" },
+      "features": {
+        "tr": "Sınırsız sayfa|Özel entegrasyonlar|Öncelikli destek|Performans optimizasyonu|12 ay destek",
+        "en": "Unlimited pages|Custom integrations|Priority support|Performance tuning|12 months support"
+      },
+      "ctaText": { "tr": "Teklif Al", "en": "Get a Quote" },
+      "ctaUrl": "#",
+      "featured": false
+    }
+  ],
+  "category": "pricing",
+  "description": "Fiyatlandırma kartları modülü. Plan adı, fiyat, özellik listesi ve CTA butonlarını responsive grid düzende gösterir. Öne çıkan plan vurgusu (featured + rozet), çok dilli veri ve animasyonlu giriş içerir.",
+  "version": "1.0.0",
+  "icon": "payments"
+}

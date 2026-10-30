@@ -1,0 +1,107 @@
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-logo">
+      <img src="/img/{{logo}}" height="60"   alt="{{web-name}} Logo" />
+    </div>
+    <ul class="menu">
+      {{html}}
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    {{langbar}}
+    <p>&copy; {{web-name}} 2026. @all-rights@.</p>
+  </div>
+</footer>
+<style>
+  .footer {
+    background-color: --bgcolor--;
+    color: --color-- !important;
+    padding: 20px;
+    border-top: 5px solid --bordercolor--;
+  }
+
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-logo img {
+    max-width: 150px;
+  }
+
+  .menu {
+    display: flex;
+    flex-wrap: wrap; /* G3: 7+ sayfalı menü 390 px'te taşıyordu (yatay kaydırma) */
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .modulex-menu__item {
+    margin: 0 15px;
+  }
+
+  .modulex-menu_link {
+    color: --color-- !important;
+  }
+
+  .modulex-menu_link:hover {
+    color: #2980b9;
+    text-decoration: underline;
+  }
+
+  .modulex-menu__link {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #7f8c8d;
+    padding-top: 20px;
+  }
+
+  .footer-bottom p {
+    margin: 0;
+    opacity: 0.75;
+  }
+
+  @media (max-width: 768px) {
+    .footer-top {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .menu {
+      margin-top: 20px;
+    }
+
+    .modulex-menu__item {
+      margin: 6px 10px;
+    }
+  }
+
+  /* W2: mobil tasma kontrolu */
+  @media (max-width: 768px) {
+    [class*="modulex"] {
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+  }
+
+  /* W2: erisilebilirlik — animasyon kapatma */
+  @media (prefers-reduced-motion: reduce) {
+    [class*="modulex"],
+    [class*="modulex"] * {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+</style>

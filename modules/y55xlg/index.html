@@ -1,0 +1,630 @@
+<section class="modulex-dc" id="dc-{{id}}" role="region" aria-label="{{ariaLabel}}" data-dc-root>
+  <header class="modulex-dc-bar">
+    <div class="modulex-dc-id">
+      <a class="modulex-dc-back" href="{{dcBackHref}}">
+        <span class="material-symbols-outlined mx-flip" aria-hidden="true">arrow_back</span>
+        <span class="modulex-dc-backtext">{{backText}}</span>
+      </a>
+      <h1 class="modulex-dc-name" data-dc-name></h1>
+    </div>
+
+    <div class="modulex-dc-nav" role="group" aria-label="{{navLabel}}" data-dc-nav>
+      <button type="button" class="modulex-dc-icon" data-dc-prev aria-label="{{prevText}}" title="{{prevText}}">
+        <span class="material-symbols-outlined mx-flip" aria-hidden="true">chevron_left</span>
+      </button>
+      <span class="modulex-dc-counter" data-dc-counter><bdi dir="ltr" data-dc-counter-n></bdi></span>
+      <button type="button" class="modulex-dc-icon" data-dc-next aria-label="{{nextText}}" title="{{nextText}}">
+        <span class="material-symbols-outlined mx-flip" aria-hidden="true">chevron_right</span>
+      </button>
+    </div>
+
+    <div class="modulex-dc-devices" role="group" aria-label="{{deviceLabel}}">{{dcDevices}}</div>
+
+    <div class="modulex-dc-actions">
+      <a class="modulex-dc-open" href="#" target="_blank" rel="noopener noreferrer" data-dc-open>
+        <span class="material-symbols-outlined" aria-hidden="true">open_in_new</span>
+        <span class="modulex-dc-opentext">{{openText}}</span>
+      </a>
+      <a class="mx-btn mx-btn--primary modulex-dc-request" href="#" data-dc-request>
+        <span>{{requestText}}</span>
+      </a>
+    </div>
+  </header>
+
+  <p class="mx-visually-hidden" aria-live="polite" data-dc-live></p>
+
+  <div class="modulex-dc-stage" data-dc-stage>
+    <div class="modulex-dc-box" data-dc-box dir="ltr">
+      <iframe class="modulex-dc-frame" data-dc-frame title="" sandbox="allow-scripts allow-same-origin allow-forms" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="modulex-dc-loading" data-dc-loading role="status">
+      <span class="modulex-dc-spin" aria-hidden="true"></span>
+      <span>{{loadingText}}</span>
+    </div>
+
+    <div class="modulex-dc-fallback" data-dc-fallback role="alert" hidden>
+      <span class="material-symbols-outlined" aria-hidden="true">web_asset_off</span>
+      <p class="modulex-dc-fbtitle">{{fallbackTitle}}</p>
+      <p class="modulex-dc-fbtext">{{fallbackLong}}</p>
+      <a class="mx-btn mx-btn--primary modulex-dc-fbbtn" href="#" target="_blank" rel="noopener noreferrer" data-dc-open2>
+        <span class="material-symbols-outlined" aria-hidden="true">open_in_new</span>
+        <span>{{openText}}</span>
+      </a>
+    </div>
+
+    <div class="modulex-dc-empty" data-dc-empty hidden>
+      <span class="material-symbols-outlined" aria-hidden="true">devices</span>
+      <p>{{emptyText}}</p>
+    </div>
+  </div>
+
+  <p class="modulex-dc-hint" data-dc-hint>{{fallbackText}}</p>
+  <script type="application/json" id="dc-{{id}}-veri">{{dcVeri}}</script>
+</section>
+
+<style>
+  .modulex-dc {
+    --dc-bg: --bgcolor--;
+    --dc-text: --textcolor--;
+    --dc-surface: --surface--;
+    --dc-surface2: --surface2--;
+    --dc-accent: --accent--;
+    --dc-accent-text: --accentText--;
+    --dc-border: --bordercolor--;
+    --dc-muted: --mutedcolor--;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - var(--mx-demo-bandi-h, 0px));
+    height: calc(100dvh - var(--mx-demo-bandi-h, 0px));
+    min-height: 480px;
+    background: var(--dc-bg);
+    color: var(--dc-text);
+    font-family: var(--mx-font-sans, system-ui, -apple-system, "Segoe UI", sans-serif);
+    line-height: 1.4;
+  }
+  .modulex-dc *,
+  .modulex-dc *::before,
+  .modulex-dc *::after {
+    box-sizing: border-box;
+  }
+  .modulex-dc [hidden] {
+    display: none !important;
+  }
+  .modulex-dc-bar {
+    flex: 0 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px 16px;
+    padding: 8px 16px;
+    border-block-end: 1px solid var(--dc-border);
+    background: var(--dc-surface);
+  }
+  .modulex-dc-id {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-width: 0;
+    flex: 1 1 260px;
+  }
+  .modulex-dc .modulex-dc-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 44px;
+    padding-inline: 4px;
+    color: var(--dc-text) !important;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+  }
+  .modulex-dc .modulex-dc-back:hover {
+    opacity: 0.7;
+  }
+  .modulex-dc-name {
+    margin: 0;
+    min-width: 0;
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.25;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .modulex-dc-nav,
+  .modulex-dc-devices,
+  .modulex-dc-actions {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .modulex-dc-actions {
+    gap: 10px;
+  }
+  .modulex-dc-counter {
+    min-width: 48px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .modulex-dc .modulex-dc-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid color-mix(in srgb, var(--dc-text) 28%, transparent);
+    border-radius: 12px;
+    background: var(--dc-bg);
+    color: var(--dc-text);
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+  }
+  .modulex-dc .modulex-dc-icon:hover {
+    border-color: var(--dc-accent);
+  }
+  .modulex-dc .modulex-dc-dev {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 44px;
+    padding-inline: 14px;
+    border: 1.5px solid color-mix(in srgb, var(--dc-text) 28%, transparent);
+    border-radius: 999px;
+    background: var(--dc-bg);
+    color: var(--dc-text);
+    font: inherit;
+    font-size: 0.88rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  }
+  .modulex-dc .modulex-dc-dev:hover {
+    border-color: var(--dc-accent);
+  }
+  .modulex-dc .modulex-dc-dev[aria-pressed="true"] {
+    background: var(--dc-accent);
+    border-color: var(--dc-accent);
+    color: var(--dc-accent-text);
+  }
+  .modulex-dc .modulex-dc-back:focus-visible,
+  .modulex-dc .modulex-dc-icon:focus-visible,
+  .modulex-dc .modulex-dc-dev:focus-visible,
+  .modulex-dc .modulex-dc-open:focus-visible,
+  .modulex-dc .modulex-dc-request:focus-visible,
+  .modulex-dc .modulex-dc-fbbtn:focus-visible {
+    outline: 2px solid var(--dc-accent);
+    outline-offset: 2px;
+  }
+  .modulex-dc .modulex-dc-open {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 44px;
+    padding-inline: 4px;
+    color: var(--dc-text) !important;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    cursor: pointer;
+  }
+  .modulex-dc .mx-btn--primary {
+    min-height: 44px;
+    background: var(--dc-accent);
+    color: var(--dc-accent-text) !important;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    --mx-color-primary: var(--dc-accent);
+    --mx-color-primary-contrast: var(--dc-accent-text);
+  }
+  .modulex-dc-stage {
+    position: relative;
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 16px;
+    overflow: hidden;
+    background: color-mix(in srgb, var(--dc-text) 8%, var(--dc-bg));
+  }
+  .modulex-dc-box {
+    position: relative;
+    flex: 0 0 auto;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 10px 40px color-mix(in srgb, var(--dc-text) 22%, transparent);
+    transition: width 0.3s ease, height 0.3s ease, border-radius 0.3s ease;
+  }
+  .modulex-dc-box[data-dc-device="tablet"],
+  .modulex-dc-box[data-dc-device="mobile"] {
+    border: 8px solid #1b1b1b;
+    border-radius: 24px;
+  }
+  .modulex-dc-box[data-dc-device="mobile"] {
+    border-radius: 30px;
+  }
+  .modulex-dc-frame {
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    display: block;
+    border: 0;
+    background: #fff;
+    transform-origin: 0 0;
+  }
+  .modulex-dc-loading {
+    position: absolute;
+    inset-block-start: 50%;
+    inset-inline: 0;
+    margin-inline: auto;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    border-radius: 999px;
+    background: var(--dc-surface);
+    border: 1px solid var(--dc-border);
+    font-size: 0.9rem;
+    font-weight: 600;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  .modulex-dc-spin {
+    width: 18px;
+    height: 18px;
+    border: 3px solid var(--dc-border);
+    border-top-color: var(--dc-accent);
+    border-radius: 50%;
+    animation: mxDcSpin 0.8s linear infinite;
+  }
+  @keyframes mxDcSpin {
+    to { transform: rotate(360deg); }
+  }
+  .modulex-dc-fallback,
+  .modulex-dc-empty {
+    position: absolute;
+    inset-block-start: 50%;
+    inset-inline: 0;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: min(440px, calc(100% - 32px));
+    padding: 28px 24px;
+    border: 1px solid var(--dc-border);
+    border-radius: 16px;
+    background: var(--dc-surface);
+    text-align: center;
+    transform: translateY(-50%);
+    animation: mxDcIn 0.3s ease-out both;
+  }
+  @keyframes mxDcIn {
+    from { opacity: 0; transform: translateY(-40%); }
+    to { opacity: 1; transform: translateY(-50%); }
+  }
+  .modulex-dc-fallback .material-symbols-outlined,
+  .modulex-dc-empty .material-symbols-outlined {
+    font-size: 40px;
+    color: var(--dc-accent);
+  }
+  .modulex-dc-fbtitle {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  .modulex-dc-fbtext,
+  .modulex-dc-empty p {
+    margin: 0;
+    font-size: 0.92rem;
+    color: var(--dc-muted);
+  }
+  .modulex-dc-hint {
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 6px 16px;
+    border-block-start: 1px solid var(--dc-border);
+    background: var(--dc-surface);
+    font-size: 0.8rem;
+    color: var(--dc-muted);
+    text-align: center;
+  }
+  @media (max-width: 1024px) {
+    .modulex-dc-devtext {
+      display: none;
+    }
+    .modulex-dc .modulex-dc-dev {
+      min-width: 44px;
+      justify-content: center;
+      padding-inline: 10px;
+    }
+  }
+  @media (max-width: 768px) {
+    .modulex-dc-bar {
+      padding: 8px 12px;
+      gap: 6px 10px;
+    }
+    .modulex-dc-id {
+      flex-basis: 100%;
+    }
+    .modulex-dc-opentext {
+      display: none;
+    }
+    .modulex-dc .modulex-dc-open {
+      min-width: 44px;
+      justify-content: center;
+    }
+    .modulex-dc-stage {
+      padding: 8px;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-dc-box,
+    .modulex-dc .modulex-dc-back,
+    .modulex-dc .modulex-dc-icon,
+    .modulex-dc .modulex-dc-dev {
+      transition: none;
+    }
+    .modulex-dc-spin,
+    .modulex-dc-fallback,
+    .modulex-dc-empty {
+      animation: none;
+    }
+  }
+</style>
+
+<script>
+  /* demo-cerceve — canli demo onizleme: ?t=<slug> ile tema, cihaz gecisi (iframe genisligi sabit + transform:scale ile sigdirma),
+     onceki/sonraki, yeni sekmede ac, yukleme zaman asimi → yedek mesaj. */
+  (function () {
+    /* ---- SAF YARDIMCILAR (vm ile test edilir) ---- */
+    /* cihaz {w,h(0=doldur)}, alan {sw,sh}, bosluk → { scale, w, h (iframe css), boxW, boxH (gorunen kutu) } */
+    function olcekHesapla(c, sw, sh, bosluk) {
+      var aw = Math.max(1, sw - 2 * bosluk);
+      var ah = Math.max(1, sh - 2 * bosluk);
+      var s;
+      if (!(c.h > 0)) {
+        s = Math.min(1, aw / c.w);
+        return { scale: s, w: c.w, h: Math.round(ah / s), boxW: Math.round(c.w * s), boxH: ah };
+      }
+      s = Math.min(1, aw / c.w, ah / c.h);
+      return { scale: s, w: c.w, h: c.h, boxW: Math.round(c.w * s), boxH: Math.round(c.h * s) };
+    }
+
+    /* slug → dizin (yoksa 0); bos listede -1 */
+    function temaIndeksi(liste, slug) {
+      if (!liste || !liste.length) {
+        return -1;
+      }
+      for (var i = 0; i < liste.length; i++) {
+        if (liste[i].slug === slug) {
+          return i;
+        }
+      }
+      return 0;
+    }
+
+    /* dairesel gezinti */
+    function komsu(i, adim, toplam) {
+      if (toplam <= 0) {
+        return -1;
+      }
+      return (i + adim + toplam) % toplam;
+    }
+
+    function sorguTema(arama) {
+      var m = /[?&]t=([^&#]*)/.exec(String(arama || ""));
+      if (!m) {
+        return "";
+      }
+      try {
+        return decodeURIComponent(m[1].replace(/\+/g, " ")).replace(/[^a-zA-Z0-9_.-]/g, "");
+      } catch (e) {
+        return "";
+      }
+    }
+
+    /* "{n}" "{total}" "{name}" doldurur */
+    function doldur(sablon, harita) {
+      return String(sablon == null ? "" : sablon).replace(/\{(\w+)\}/g, function (tam, ad) {
+        return Object.prototype.hasOwnProperty.call(harita, ad) ? String(harita[ad]) : tam;
+      });
+    }
+
+    window.mxDemoCerceveLib = window.mxDemoCerceveLib || {
+      olcekHesapla: olcekHesapla,
+      temaIndeksi: temaIndeksi,
+      komsu: komsu,
+      sorguTema: sorguTema,
+      doldur: doldur
+    };
+
+    /* ---- ARAYUZ ---- */
+    var kok = document.getElementById("dc-{{id}}");
+    if (!kok) {
+      return;
+    }
+    var cfg = {};
+    try {
+      cfg = JSON.parse(document.getElementById("dc-{{id}}-veri").textContent);
+    } catch (e) {
+      cfg = {};
+    }
+    var T = cfg.t || {};
+    var temalar = cfg.themes || [];
+    var cihazlar = cfg.devices || [];
+    var durum = { i: -1, cihaz: "", zamanlayici: null, yuklendi: false };
+
+    function q(sel) {
+      return kok.querySelector(sel);
+    }
+
+    function qa(sel) {
+      return kok.querySelectorAll(sel);
+    }
+
+    function rtlMi() {
+      return document.documentElement.getAttribute("dir") === "rtl";
+    }
+
+    function cihazBul(id) {
+      for (var i = 0; i < cihazlar.length; i++) {
+        if (cihazlar[i].id === id) {
+          return cihazlar[i];
+        }
+      }
+      return cihazlar[0] || null;
+    }
+
+    function yerlestir() {
+      var c = cihazBul(durum.cihaz);
+      var stage = q("[data-dc-stage]");
+      if (!c || !stage) {
+        return;
+      }
+      var cs = window.getComputedStyle(stage);
+      var bosluk = parseFloat(cs.paddingTop) || 0;
+      var kutu = q("[data-dc-box]");
+      /* cerceve (bezel) border'i icerik kutusundan dusulur: tablet/mobil 8px */
+      var bez = c.id === "desktop" || !(c.h > 0) ? 0 : 8;
+      var o = olcekHesapla(c, stage.clientWidth - 2 * bez, stage.clientHeight - 2 * bez, bosluk);
+      kutu.setAttribute("data-dc-device", c.id);
+      kutu.style.width = o.boxW + 2 * bez + "px";
+      kutu.style.height = o.boxH + 2 * bez + "px";
+      var fr = q("[data-dc-frame]");
+      fr.style.width = o.w + "px";
+      fr.style.height = o.h + "px";
+      fr.style.transform = "scale(" + o.scale + ")";
+    }
+
+    function cihazSec(id) {
+      durum.cihaz = id;
+      var d = qa("[data-dc-dev]");
+      for (var i = 0; i < d.length; i++) {
+        d[i].setAttribute("aria-pressed", d[i].getAttribute("data-dc-dev") === id ? "true" : "false");
+      }
+      yerlestir();
+    }
+
+    function yedekGoster(goster) {
+      q("[data-dc-fallback]").hidden = !goster;
+      /* onceki temanin bayat icerigi yedek mesajin arkasinda gorunmesin */
+      q("[data-dc-box]").style.visibility = goster ? "hidden" : "";
+      if (goster) {
+        q("[data-dc-loading]").hidden = true;
+      }
+    }
+
+    function temaYukle(i) {
+      var t = temalar[i];
+      durum.i = i;
+      durum.yuklendi = false;
+      if (durum.zamanlayici) {
+        clearTimeout(durum.zamanlayici);
+      }
+      yedekGoster(false);
+      q("[data-dc-loading]").hidden = false;
+      q("[data-dc-name]").textContent = t.name;
+      var cn = q("[data-dc-counter-n]");
+      cn.textContent = i + 1 + " / " + temalar.length;
+      q("[data-dc-counter]").setAttribute("aria-label", doldur(T.counterAria, { n: i + 1, total: temalar.length }));
+      var fr = q("[data-dc-frame]");
+      fr.setAttribute("title", doldur(T.frameTitle, { name: t.name }));
+      var acik = q("[data-dc-open]");
+      acik.setAttribute("href", t.url);
+      q("[data-dc-open2]").setAttribute("href", t.url);
+      var ist = q("[data-dc-request]");
+      if (cfg.request) {
+        ist.setAttribute("href", cfg.request + "?tema=" + encodeURIComponent(t.slug));
+      } else {
+        ist.hidden = true;
+      }
+      fr.setAttribute("src", t.url);
+      q("[data-dc-live]").textContent = t.name;
+      durum.zamanlayici = setTimeout(function () {
+        if (!durum.yuklendi) {
+          yedekGoster(true);
+          q("[data-dc-live]").textContent = T.fallbackTitle;
+        }
+      }, cfg.timeout);
+      try {
+        var u = new window.URL(window.location.href);
+        u.searchParams.set("t", t.slug);
+        window.history.replaceState(null, "", u.pathname + u.search + u.hash);
+      } catch (e) {
+        /* file:// vb. ortamda sessiz */
+      }
+    }
+
+    function baslat() {
+      if (!temalar.length || !cihazlar.length) {
+        q("[data-dc-empty]").hidden = false;
+        q("[data-dc-loading]").hidden = true;
+        q("[data-dc-box]").hidden = true;
+        q("[data-dc-nav]").hidden = true;
+        q("[data-dc-hint]").hidden = true;
+        return;
+      }
+      var fr = q("[data-dc-frame]");
+      fr.addEventListener("load", function () {
+        /* bos "about:blank" yuklemesi sayilmaz; src atandiktan sonraki load gecerli */
+        if (!fr.getAttribute("src")) {
+          return;
+        }
+        durum.yuklendi = true;
+        q("[data-dc-loading]").hidden = true;
+        yedekGoster(false);
+      });
+      fr.addEventListener("error", function () {
+        yedekGoster(true);
+      });
+      var istenen = sorguTema(window.location.search) || cfg.theme;
+      var baslangic = temaIndeksi(temalar, istenen);
+      var kucuk = window.matchMedia && window.matchMedia("(max-width: 768px)").matches;
+      var ilkCihaz = kucuk ? (cihazBul("mobile") || cihazlar[0]).id : cihazlar[0].id;
+      cihazSec(ilkCihaz);
+      temaYukle(baslangic);
+
+      q("[data-dc-prev]").addEventListener("click", function () {
+        temaYukle(komsu(durum.i, -1, temalar.length));
+      });
+      q("[data-dc-next]").addEventListener("click", function () {
+        temaYukle(komsu(durum.i, 1, temalar.length));
+      });
+      /* yon tuslari: LTR'de ← onceki, → sonraki; RTL'de ters */
+      q("[data-dc-nav]").addEventListener("keydown", function (ev) {
+        var k = ev.key;
+        if (k !== "ArrowLeft" && k !== "ArrowRight") {
+          return;
+        }
+        var ileri = (k === "ArrowRight") !== rtlMi();
+        ev.preventDefault();
+        temaYukle(komsu(durum.i, ileri ? 1 : -1, temalar.length));
+      });
+      var dugmeler = qa("[data-dc-dev]");
+      for (var i = 0; i < dugmeler.length; i++) {
+        dugmeler[i].addEventListener("click", function (ev) {
+          var b = ev.currentTarget;
+          cihazSec(b.getAttribute("data-dc-dev"));
+        });
+      }
+      window.addEventListener("resize", yerlestir);
+      if (window.ResizeObserver) {
+        new window.ResizeObserver(yerlestir).observe(q("[data-dc-stage]"));
+      }
+    }
+
+    baslat();
+  })();
+</script>

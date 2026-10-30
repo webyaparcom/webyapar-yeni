@@ -1,0 +1,39 @@
+{
+  "id": "kisiselveriler",
+  "name": {
+    "tr": "Kişisel Veriler",
+    "en": "Personal Data",
+    "ar": "البيانات الشخصية"
+  },
+  "description": {
+    "tr": "Kişisel verilerin korunması",
+    "en": "Protection of personal data",
+    "ar": "حماية البيانات الشخصية"
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "path": "kisiselveriler",
+  "icon": "shield",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 4,
+  "url": "",
+  "text": {
+    "tr": "<h2>Kişisel Verilerin Korunması</h2><p>6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında veri sorumlusu Webyapar’dır (Gaziantep, Türkiye). Bu site form üzerinden veri toplamaz; WhatsApp ya da e-posta ile ilettiğiniz bilgiler talebinizi yanıtlamak amacıyla işlenir.</p><p>Verilerinize ilişkin başvuru ve haklarınız için info@webyapar.com adresine yazabilirsiniz.</p>",
+    "en": "<h2>Protection of Personal Data</h2><p>Under Law No. 6698 on the Protection of Personal Data the data controller is Webyapar (Gaziantep, Turkey). This site collects no data through forms; details you send by WhatsApp or e-mail are processed to answer your request.</p><p>For requests and rights concerning your data, write to info@webyapar.com.</p>",
+    "ar": "<h2>حماية البيانات الشخصية</h2><p>بموجب القانون التركي رقم 6698 لحماية البيانات الشخصية، فإن جهة التحكم بالبيانات هي «ويب ياپار» (غازي عنتاب، تركيا). لا يجمع هذا الموقع بيانات عبر النماذج، وتُعالَج البيانات التي ترسلها عبر واتساب أو البريد الإلكتروني للرد على طلبك.</p><p>لطلباتك وحقوقك المتعلقة ببياناتك راسلنا على info@webyapar.com.</p>"
+  },
+  "title": {
+    "tr": "Kişisel Veriler",
+    "en": "Personal Data",
+    "ar": "البيانات الشخصية"
+  },
+  "date": "2026-10-30T20:48:16.725Z",
+  "update": "2026-10-30T21:01:05.175Z"
+}
