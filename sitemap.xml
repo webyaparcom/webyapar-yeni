@@ -193,6 +193,576 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://yeni.webyapar.com/tr/saas-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/saas-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/saas-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/saas-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/saas-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/en/saas-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/saas-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/saas-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/saas-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/saas-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/ar/saas-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/saas-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/saas-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/saas-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/saas-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/tr/elektronik-eticaret-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/elektronik-eticaret-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/elektronik-eticaret-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/elektronik-eticaret-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/elektronik-eticaret-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/en/elektronik-eticaret-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/elektronik-eticaret-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/elektronik-eticaret-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/elektronik-eticaret-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/elektronik-eticaret-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/ar/elektronik-eticaret-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/elektronik-eticaret-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/elektronik-eticaret-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/elektronik-eticaret-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/elektronik-eticaret-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/tr/moda-eticaret-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/moda-eticaret-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/moda-eticaret-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/moda-eticaret-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/moda-eticaret-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/en/moda-eticaret-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/moda-eticaret-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/moda-eticaret-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/moda-eticaret-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/moda-eticaret-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/ar/moda-eticaret-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/moda-eticaret-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/moda-eticaret-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/moda-eticaret-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/moda-eticaret-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/tr/haber-rehber-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/haber-rehber-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/haber-rehber-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/haber-rehber-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/haber-rehber-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/en/haber-rehber-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/haber-rehber-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/haber-rehber-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/haber-rehber-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/haber-rehber-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/ar/haber-rehber-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/haber-rehber-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/haber-rehber-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/haber-rehber-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/haber-rehber-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/tr/dernek-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/dernek-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/dernek-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/dernek-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/dernek-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/en/dernek-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/dernek-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/dernek-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/dernek-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/dernek-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/ar/dernek-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/dernek-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/dernek-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/dernek-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/dernek-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/tr/radyo-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/radyo-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/radyo-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/radyo-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/radyo-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/en/radyo-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/radyo-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/radyo-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/radyo-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/radyo-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/ar/radyo-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/radyo-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/radyo-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/radyo-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/radyo-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/tr/is-makinesi-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/is-makinesi-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/is-makinesi-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/is-makinesi-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/is-makinesi-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/en/is-makinesi-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/is-makinesi-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/is-makinesi-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/is-makinesi-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/is-makinesi-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/ar/is-makinesi-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/is-makinesi-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/is-makinesi-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/is-makinesi-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/is-makinesi-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/tr/arac-kiralama-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/arac-kiralama-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/arac-kiralama-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/arac-kiralama-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/arac-kiralama-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/en/arac-kiralama-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/arac-kiralama-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/arac-kiralama-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/arac-kiralama-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/arac-kiralama-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/ar/arac-kiralama-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/arac-kiralama-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/arac-kiralama-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/arac-kiralama-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/arac-kiralama-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/tr/oto-yedek-parca-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/oto-yedek-parca-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/oto-yedek-parca-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/oto-yedek-parca-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/oto-yedek-parca-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/en/oto-yedek-parca-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/oto-yedek-parca-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/oto-yedek-parca-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/oto-yedek-parca-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/oto-yedek-parca-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/ar/oto-yedek-parca-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/oto-yedek-parca-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/oto-yedek-parca-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/oto-yedek-parca-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/oto-yedek-parca-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/tr/dis-ticaret-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/dis-ticaret-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/dis-ticaret-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/dis-ticaret-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/dis-ticaret-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/en/dis-ticaret-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/dis-ticaret-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/dis-ticaret-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/dis-ticaret-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/dis-ticaret-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/ar/dis-ticaret-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/dis-ticaret-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/dis-ticaret-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/dis-ticaret-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/dis-ticaret-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/tr/enerji-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/enerji-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/enerji-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/enerji-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/enerji-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/en/enerji-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/enerji-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/enerji-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/enerji-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/enerji-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/ar/enerji-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/enerji-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/enerji-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/enerji-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/enerji-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/tr/lojistik-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/lojistik-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/lojistik-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/lojistik-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/lojistik-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/en/lojistik-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/lojistik-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/lojistik-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/lojistik-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/lojistik-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/ar/lojistik-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/lojistik-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/lojistik-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/lojistik-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/lojistik-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/tr/cicekci-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/cicekci-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/cicekci-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/cicekci-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/cicekci-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/en/cicekci-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/cicekci-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/cicekci-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/cicekci-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/cicekci-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/ar/cicekci-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/cicekci-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/cicekci-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/cicekci-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/cicekci-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/tr/spor-salonu-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/spor-salonu-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/spor-salonu-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/spor-salonu-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/spor-salonu-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/en/spor-salonu-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/spor-salonu-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/spor-salonu-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/spor-salonu-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/spor-salonu-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/ar/spor-salonu-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/spor-salonu-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/spor-salonu-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/spor-salonu-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/spor-salonu-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/tr/okul-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/okul-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/okul-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/okul-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/okul-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/en/okul-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/okul-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/okul-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/okul-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/okul-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/ar/okul-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/okul-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/okul-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/okul-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/okul-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/tr/ajans-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/ajans-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/ajans-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/ajans-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/ajans-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/en/ajans-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/ajans-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/ajans-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/ajans-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/ajans-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/ar/ajans-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/ajans-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/ajans-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/ajans-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/ajans-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/tr/oto-galeri-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/oto-galeri-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/oto-galeri-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/oto-galeri-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/oto-galeri-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/en/oto-galeri-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/oto-galeri-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/oto-galeri-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/oto-galeri-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/oto-galeri-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/ar/oto-galeri-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/oto-galeri-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/oto-galeri-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/oto-galeri-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/oto-galeri-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/tr/otel-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/otel-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/otel-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/otel-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/otel-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/en/otel-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/otel-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/otel-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/otel-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/otel-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/ar/otel-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/otel-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/otel-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/otel-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/otel-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/tr/hukuk-burosu-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/hukuk-burosu-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/hukuk-burosu-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/hukuk-burosu-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/hukuk-burosu-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/en/hukuk-burosu-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/hukuk-burosu-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/hukuk-burosu-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/hukuk-burosu-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/hukuk-burosu-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://yeni.webyapar.com/ar/hukuk-burosu-web-sitesi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/hukuk-burosu-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/hukuk-burosu-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="ar" href="https://yeni.webyapar.com/ar/hukuk-burosu-web-sitesi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://yeni.webyapar.com/tr/hukuk-burosu-web-sitesi/" />
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://yeni.webyapar.com/tr/portfolyo-web-sitesi/</loc>
         <xhtml:link rel="alternate" hreflang="tr" href="https://yeni.webyapar.com/tr/portfolyo-web-sitesi/" />
         <xhtml:link rel="alternate" hreflang="en" href="https://yeni.webyapar.com/en/portfolyo-web-sitesi/" />

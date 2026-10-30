@@ -1,16 +1,35 @@
 # Webyapar
 
-> Webyapar: 10 sektör için hazır kurumsal, e-ticaret ve galeri web sitesi temaları. Canlı demo, Türkçe · İngilizce · Arapça, mobil uyumlu.
+> Webyapar: 29 sektör için hazır kurumsal, e-ticaret ve galeri web sitesi temaları. Canlı demo, Türkçe · İngilizce · Arapça, mobil uyumlu.
 
 Web: https://yeni.webyapar.com/tr/ · Telefon: 0531 679 10 14 · E-posta: info@webyapar.com · Diller: tr, en, ar (varsayilan: tr)
 
 ## Sayfalar
-- [Webyapar](https://yeni.webyapar.com/tr/): Webyapar: 10 sektör için hazır kurumsal, e-ticaret ve galeri web sitesi temaları.
-- [Temalar](https://yeni.webyapar.com/tr/temalar/): Kurumsal, e-ticaret ve galeri türünde 10 sektör teması; tür ve sektöre göre süzün, canlı demoyu deneyin.
+- [Webyapar](https://yeni.webyapar.com/tr/): Webyapar: 29 sektör için hazır kurumsal, e-ticaret ve galeri web sitesi temaları.
+- [Temalar](https://yeni.webyapar.com/tr/temalar/): Kurumsal, e-ticaret ve galeri türünde 29 sektör teması; tür ve sektöre göre süzün, canlı demoyu deneyin.
 - [Sektörler](https://yeni.webyapar.com/tr/sektorler/): Restoran, klinik, emlak, sanayi, dekorasyon, kuyumcu, gıda, inşaat, güzellik ve portfolyo için hazır web sitesi temaları.
 - [Hizmetler](https://yeni.webyapar.com/tr/hizmetler/): Hazır tema, özel tasarım, e-ticaret kurulumu, yayın ve bakım hizmetleri.
 - [Fiyatlar](https://yeni.webyapar.com/tr/fiyatlar/): Hazır tema, özel tasarım ve e-ticaret kurulumu için teklif al.
 - [İletişim](https://yeni.webyapar.com/tr/iletisim/): Webyapar ile WhatsApp, telefon ya da e-posta üzerinden iletişime geçin.
+- [SaaS web sitesi](https://yeni.webyapar.com/tr/saas-web-sitesi/): Özellikler, fiyatlar, demo talebi ve veri güvenliği; otomatik yenileme ve KVKK bilgisi açık.
+- [Elektronik e-ticaret sitesi](https://yeni.webyapar.com/tr/elektronik-eticaret-sitesi/): Ses, giyilebilir ve bilgisayar ürünleri, sepet ve demo ödeme akışı; 2 yıl garanti ve iade koşulları açık.
+- [Moda e-ticaret sitesi](https://yeni.webyapar.com/tr/moda-eticaret-sitesi/): Giyim ve aksesuar vitrini, sepet ve demo ödeme akışı; iade ve iç giyim istisnası açık yazılı.
+- [Haber ve şehir rehberi web sitesi](https://yeni.webyapar.com/tr/haber-rehber-web-sitesi/): Kategoriler, künye ve haber gönderimi; künye ana sayfadan erişilir, her haberde ilk yayın ve güncelleme tarihi yer alır.
+- [Dernek web sitesi](https://yeni.webyapar.com/tr/dernek-web-sitesi/): Faaliyetler, gönüllü olma, şeffaflık ve bağış bilgisi; üye listesi ve telefonlar yayımlanmaz.
+- [Radyo web sitesi](https://yeni.webyapar.com/tr/radyo-web-sitesi/): Programlar, yayın akışı, reklam talebi ve künye; lisans bilgileri açık.
+- [İş makinesi kiralama web sitesi](https://yeni.webyapar.com/tr/is-makinesi-web-sitesi/): Makine parkı, keşif randevusu ve kiralama koşulları; periyodik kontrol ve operatör belgeleri açık.
+- [Araç kiralama web sitesi](https://yeni.webyapar.com/tr/arac-kiralama-web-sitesi/): Filtreli kiralık araçlar, rezervasyon talebi ve kiralama koşulları; depozito ve iptal baştan açık.
+- [Oto yedek parça web sitesi](https://yeni.webyapar.com/tr/oto-yedek-parca-web-sitesi/): Parça grupları, stok sorma ve garanti-iade bilgisi; OEM ve eşdeğer parça açıkça etiketli.
+- [Dış ticaret web sitesi](https://yeni.webyapar.com/tr/dis-ticaret-web-sitesi/): Ürün grupları, hedef pazarlar, sertifikalar ve teklif talebi; Türkçe, İngilizce ve Arapça birlikte.
+- [Enerji ve GES web sitesi](https://yeni.webyapar.com/tr/enerji-web-sitesi/): GES ve elektrik taahhüt hizmetleri, keşif randevusu ve belgeler; tahminler açıkça varsayım olarak işaretli.
+- [Lojistik web sitesi](https://yeni.webyapar.com/tr/lojistik-web-sitesi/): Hizmetler, teklif talebi ve belgeler; yetki belgesi türleri her teklifte ve belgeler sayfasında açık.
+- [Çiçekçi web sitesi](https://yeni.webyapar.com/tr/cicekci-web-sitesi/): Buketler, aranjmanlar, teslimat penceresi ve sipariş talebi; çabuk bozulan mal için cayma bilgisi açık.
+- [Spor salonu web sitesi](https://yeni.webyapar.com/tr/spor-salonu-web-sitesi/): Dersler, ders programı, üyelik paketleri ve deneme dersi; fesih, dondurma ve yenileme koşulları açık.
+- [Okul web sitesi](https://yeni.webyapar.com/tr/okul-web-sitesi/): Kademeler, önkayıt görüşmesi, akademik takvim ve kurum izin bilgileri; çocuk görseli olmadan güvenli bir anlatım.
+- [Ajans web sitesi](https://yeni.webyapar.com/tr/ajans-web-sitesi/): Hizmetler, örnek işler ve teklif talebi; işlerin görselleri önde, arayüz geri planda.
+- [Oto galeri web sitesi](https://yeni.webyapar.com/tr/oto-galeri-web-sitesi/): Filtreli araç ilanları, ekspertiz randevusu ve satış koşulları; her ilanda yetki belgesi numarası görünür.
+- [Otel web sitesi](https://yeni.webyapar.com/tr/otel-web-sitesi/): Odalar, olanaklar, konaklama talebi ve iptal koşulları tek yerde; belge numarası ve cayma bilgisi açık yazılı.
+- [Hukuk bürosu web sitesi](https://yeni.webyapar.com/tr/hukuk-burosu-web-sitesi/): Çalışma alanları, ön görüşme talebi ve meslek kuralları sakin bir tasarımda; reklam yasağına uygun, sade bir yapı.
 - [Fotoğrafçı portfolyo web sitesi](https://yeni.webyapar.com/tr/portfolyo-web-sitesi/): Kategori filtreli galeri, tam ekran görüntüleyici, çekim paketleri ve rezervasyon: işleriniz ön planda, ürün satan değil sanat gösteren bir site.
 - [Güzellik merkezi web sitesi](https://yeni.webyapar.com/tr/guzellik-merkezi-web-sitesi/): Hizmet listesi ve fiyatlar, uzman ekip, öncesi-sonrası galeri ve randevu: güzellik merkezi için sıcak ve şık bir vitrin.
 - [İnşaat web sitesi](https://yeni.webyapar.com/tr/insaat-web-sitesi/): Proje portföyü, filtreli referanslar, öncesi-sonrası ilerleme galerisi ve teknik tablolar: işinizi görerek anlatın.

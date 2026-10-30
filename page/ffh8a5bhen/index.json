@@ -1,0 +1,43 @@
+{
+  "id": "ffh8a5bhen",
+  "name": {
+    "tr": "Haber ve şehir rehberi web sitesi",
+    "en": "News and city-guide website",
+    "ar": "موقع إلكتروني للأخبار ودليل المدينة"
+  },
+  "description": {
+    "tr": "Kategoriler, künye ve haber gönderimi; künye ana sayfadan erişilir, her haberde ilk yayın ve güncelleme tarihi yer alır.",
+    "en": "Categories, a masthead and story submissions, with the masthead reachable from the home page and every story showing first-publication and update dates.",
+    "ar": "أقسام وبيانات إدارة وإرسال أخبار، مع إتاحة بيانات الإدارة من الرئيسية وظهور تاريخ النشر الأول والتحديث في كل خبر."
+  },
+  "keyword": {
+    "tr": "haber ve şehir rehberi web sitesi, hazır tema, webyapar",
+    "en": "news and city-guide website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني للأخبار ودليل المدينة، قالب جاهز، ويب ياپار"
+  },
+  "path": "haber-rehber-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "y95039",
+      "7t9ton",
+      "sds8b6",
+      "23cmc6",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 8,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Haber ve şehir rehberi web sitesi — Webyapar",
+    "en": "News and city-guide website — Webyapar",
+    "ar": "موقع إلكتروني للأخبار ودليل المدينة — Webyapar"
+  },
+  "date": "2026-10-30T22:40:34.942Z",
+  "update": "2026-10-30T22:40:52.814Z"
+}

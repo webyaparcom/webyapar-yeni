@@ -1,0 +1,43 @@
+{
+  "id": "qmt8lrn9xm",
+  "name": {
+    "tr": "Oto yedek parça web sitesi",
+    "en": "Auto parts website",
+    "ar": "موقع إلكتروني لقطع غيار السيارات"
+  },
+  "description": {
+    "tr": "Parça grupları, stok sorma ve garanti-iade bilgisi; OEM ve eşdeğer parça açıkça etiketli.",
+    "en": "Part groups, stock enquiries and warranty and returns information, with OEM and equivalent parts clearly labelled.",
+    "ar": "مجموعات قطع واستعلام عن المخزون ومعلومات الضمان والإرجاع، مع وسم واضح للقطع OEM والمكافئة."
+  },
+  "keyword": {
+    "tr": "oto yedek parça web sitesi, hazır tema, webyapar",
+    "en": "auto parts website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني لقطع غيار السيارات، قالب جاهز، ويب ياپار"
+  },
+  "path": "oto-yedek-parca-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "q2h9zg",
+      "qd7rrm",
+      "wxuqu5",
+      "6mbcio",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 13,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Oto yedek parça web sitesi — Webyapar",
+    "en": "Auto parts website — Webyapar",
+    "ar": "موقع إلكتروني لقطع غيار السيارات — Webyapar"
+  },
+  "date": "2026-10-30T22:40:34.771Z",
+  "update": "2026-10-30T22:40:52.724Z"
+}

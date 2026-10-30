@@ -1,0 +1,43 @@
+{
+  "id": "8ltjr6dzvb",
+  "name": {
+    "tr": "İş makinesi kiralama web sitesi",
+    "en": "Construction-machinery hire website",
+    "ar": "موقع إلكتروني لتأجير الآليات الإنشائية"
+  },
+  "description": {
+    "tr": "Makine parkı, keşif randevusu ve kiralama koşulları; periyodik kontrol ve operatör belgeleri açık.",
+    "en": "Machine fleet, a survey booking and rental terms, with periodic inspection and operator certificates stated clearly.",
+    "ar": "أسطول آليات وموعد معاينة وشروط تأجير مع وضوح الفحص الدوري وشهادات المشغلين."
+  },
+  "keyword": {
+    "tr": "i̇ş makinesi kiralama web sitesi, hazır tema, webyapar",
+    "en": "construction-machinery hire website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني لتأجير الآليات الإنشائية، قالب جاهز، ويب ياپار"
+  },
+  "path": "is-makinesi-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "zcwdg2",
+      "es9hmp",
+      "utv5ac",
+      "49hli1",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 11,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "İş makinesi kiralama web sitesi — Webyapar",
+    "en": "Construction-machinery hire website — Webyapar",
+    "ar": "موقع إلكتروني لتأجير الآليات الإنشائية — Webyapar"
+  },
+  "date": "2026-10-30T22:40:34.837Z",
+  "update": "2026-10-30T22:40:52.760Z"
+}

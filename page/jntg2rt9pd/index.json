@@ -1,0 +1,43 @@
+{
+  "id": "jntg2rt9pd",
+  "name": {
+    "tr": "Dernek web sitesi",
+    "en": "Association website",
+    "ar": "موقع إلكتروني لجمعية"
+  },
+  "description": {
+    "tr": "Faaliyetler, gönüllü olma, şeffaflık ve bağış bilgisi; üye listesi ve telefonlar yayımlanmaz.",
+    "en": "Activities, volunteering, transparency and donation information, with no member list or phone numbers published.",
+    "ar": "أنشطة وتطوع وشفافية ومعلومات تبرع دون نشر قائمة الأعضاء وأرقام الهواتف."
+  },
+  "keyword": {
+    "tr": "dernek web sitesi, hazır tema, webyapar",
+    "en": "association website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني لجمعية، قالب جاهز، ويب ياپار"
+  },
+  "path": "dernek-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "mzrrrb",
+      "7siki9",
+      "mqaing",
+      "tk6gae",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 9,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Dernek web sitesi — Webyapar",
+    "en": "Association website — Webyapar",
+    "ar": "موقع إلكتروني لجمعية — Webyapar"
+  },
+  "date": "2026-10-30T22:40:34.908Z",
+  "update": "2026-10-30T22:40:52.788Z"
+}

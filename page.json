@@ -8,9 +8,9 @@
         "ar": "القوالب"
       },
       "description": {
-        "tr": "Kurumsal, e-ticaret ve galeri türünde 10 sektör teması; tür ve sektöre göre süzün, canlı demoyu deneyin.",
-        "en": "10 industry themes of the corporate, e-commerce and gallery types; filter by type and industry and try the live demo.",
-        "ar": "10 قوالب لقطاعات من الأنواع المؤسسي والمتجر والمعرض؛ صفِّ حسب النوع والقطاع وجرّب العرض المباشر."
+        "tr": "Kurumsal, e-ticaret ve galeri türünde 29 sektör teması; tür ve sektöre göre süzün, canlı demoyu deneyin.",
+        "en": "29 industry themes of the corporate, e-commerce and gallery types; filter by type and industry and try the live demo.",
+        "ar": "29 قالبًا لقطاعات من الأنواع المؤسسي والمتجر والمعرض؛ صفِّ حسب النوع والقطاع وجرّب العرض المباشر."
       },
       "path": "temalar",
       "icon": "grid_view",
@@ -133,6 +133,557 @@
       }
     },
     {
+      "id": "qsdzkasgvq",
+      "name": {
+        "tr": "SaaS web sitesi",
+        "en": "SaaS website",
+        "ar": "موقع إلكتروني لبرنامج SaaS"
+      },
+      "description": {
+        "tr": "Özellikler, fiyatlar, demo talebi ve veri güvenliği; otomatik yenileme ve KVKK bilgisi açık.",
+        "en": "Features, pricing, a demo request and data security, with auto-renewal and KVKK information stated clearly.",
+        "ar": "ميزات وأسعار وطلب عرض تجريبي وأمن البيانات مع وضوح التجديد التلقائي ومعلومات KVKK."
+      },
+      "path": "saas-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "pnmwyw",
+          "6wo5yn",
+          "j83e3e",
+          "ea4szp",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 5
+    },
+    {
+      "id": "uzk4kv8shg",
+      "name": {
+        "tr": "Elektronik e-ticaret sitesi",
+        "en": "Electronics e-commerce site",
+        "ar": "متجر إلكتروني للإلكترونيات"
+      },
+      "description": {
+        "tr": "Ses, giyilebilir ve bilgisayar ürünleri, sepet ve demo ödeme akışı; 2 yıl garanti ve iade koşulları açık.",
+        "en": "Audio, wearables and computer products with a cart and a demo checkout, with the 2-year warranty and return terms stated clearly.",
+        "ar": "منتجات الصوت والقابلة للارتداء والحواسيب بسلة ودفع تجريبي مع وضوح ضمان السنتين وشروط الإرجاع."
+      },
+      "path": "elektronik-eticaret-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "wmjjvo",
+          "2getpt",
+          "4kp2n7",
+          "29yb2u",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 6
+    },
+    {
+      "id": "fd4rxodqqs",
+      "name": {
+        "tr": "Moda e-ticaret sitesi",
+        "en": "Fashion e-commerce site",
+        "ar": "متجر إلكتروني للموضة"
+      },
+      "description": {
+        "tr": "Giyim ve aksesuar vitrini, sepet ve demo ödeme akışı; iade ve iç giyim istisnası açık yazılı.",
+        "en": "A clothing and accessories storefront with a cart and a demo checkout, with the returns policy and the underwear exception stated clearly.",
+        "ar": "واجهة متجر ملابس وإكسسوارات بسلة وخطوات دفع تجريبية مع وضوح سياسة الإرجاع واستثناء الملابس الداخلية."
+      },
+      "path": "moda-eticaret-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "6454iu",
+          "0utrjy",
+          "ac43lp",
+          "hqw6ya",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 7
+    },
+    {
+      "id": "ffh8a5bhen",
+      "name": {
+        "tr": "Haber ve şehir rehberi web sitesi",
+        "en": "News and city-guide website",
+        "ar": "موقع إلكتروني للأخبار ودليل المدينة"
+      },
+      "description": {
+        "tr": "Kategoriler, künye ve haber gönderimi; künye ana sayfadan erişilir, her haberde ilk yayın ve güncelleme tarihi yer alır.",
+        "en": "Categories, a masthead and story submissions, with the masthead reachable from the home page and every story showing first-publication and update dates.",
+        "ar": "أقسام وبيانات إدارة وإرسال أخبار، مع إتاحة بيانات الإدارة من الرئيسية وظهور تاريخ النشر الأول والتحديث في كل خبر."
+      },
+      "path": "haber-rehber-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "y95039",
+          "7t9ton",
+          "sds8b6",
+          "23cmc6",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 8
+    },
+    {
+      "id": "jntg2rt9pd",
+      "name": {
+        "tr": "Dernek web sitesi",
+        "en": "Association website",
+        "ar": "موقع إلكتروني لجمعية"
+      },
+      "description": {
+        "tr": "Faaliyetler, gönüllü olma, şeffaflık ve bağış bilgisi; üye listesi ve telefonlar yayımlanmaz.",
+        "en": "Activities, volunteering, transparency and donation information, with no member list or phone numbers published.",
+        "ar": "أنشطة وتطوع وشفافية ومعلومات تبرع دون نشر قائمة الأعضاء وأرقام الهواتف."
+      },
+      "path": "dernek-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "mzrrrb",
+          "7siki9",
+          "mqaing",
+          "tk6gae",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 9
+    },
+    {
+      "id": "a1js67djh0",
+      "name": {
+        "tr": "Radyo web sitesi",
+        "en": "Radio website",
+        "ar": "موقع إلكتروني لإذاعة"
+      },
+      "description": {
+        "tr": "Programlar, yayın akışı, reklam talebi ve künye; lisans bilgileri açık. (Demoda ses yayını yoktur.)",
+        "en": "Programmes, a broadcast schedule, an advertising request and a masthead, with licence details open. (The demo has no audio stream.)",
+        "ar": "برامج وجدول بث وطلب إعلان وبيانات إدارة مع ترخيص معلن. (لا يوجد بث صوتي في العرض.)"
+      },
+      "path": "radyo-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "xhmixa",
+          "ce4y1m",
+          "9hgpij",
+          "844zwf",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 10
+    },
+    {
+      "id": "8ltjr6dzvb",
+      "name": {
+        "tr": "İş makinesi kiralama web sitesi",
+        "en": "Construction-machinery hire website",
+        "ar": "موقع إلكتروني لتأجير الآليات الإنشائية"
+      },
+      "description": {
+        "tr": "Makine parkı, keşif randevusu ve kiralama koşulları; periyodik kontrol ve operatör belgeleri açık.",
+        "en": "Machine fleet, a survey booking and rental terms, with periodic inspection and operator certificates stated clearly.",
+        "ar": "أسطول آليات وموعد معاينة وشروط تأجير مع وضوح الفحص الدوري وشهادات المشغلين."
+      },
+      "path": "is-makinesi-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "zcwdg2",
+          "es9hmp",
+          "utv5ac",
+          "49hli1",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 11
+    },
+    {
+      "id": "v9im31r71q",
+      "name": {
+        "tr": "Araç kiralama web sitesi",
+        "en": "Car-rental website",
+        "ar": "موقع إلكتروني لتأجير السيارات"
+      },
+      "description": {
+        "tr": "Filtreli kiralık araçlar, rezervasyon talebi ve kiralama koşulları; depozito ve iptal baştan açık.",
+        "en": "Filterable rental vehicles, a reservation request and rental terms, with deposit and cancellation stated up front.",
+        "ar": "مركبات تأجير قابلة للتصفية وطلب حجز وشروط تأجير مع التأمين والإلغاء بوضوح منذ البداية."
+      },
+      "path": "arac-kiralama-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "e8yrr8",
+          "mqq2ko",
+          "yvvs9p",
+          "mongfu",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 12
+    },
+    {
+      "id": "qmt8lrn9xm",
+      "name": {
+        "tr": "Oto yedek parça web sitesi",
+        "en": "Auto parts website",
+        "ar": "موقع إلكتروني لقطع غيار السيارات"
+      },
+      "description": {
+        "tr": "Parça grupları, stok sorma ve garanti-iade bilgisi; OEM ve eşdeğer parça açıkça etiketli.",
+        "en": "Part groups, stock enquiries and warranty and returns information, with OEM and equivalent parts clearly labelled.",
+        "ar": "مجموعات قطع واستعلام عن المخزون ومعلومات الضمان والإرجاع، مع وسم واضح للقطع OEM والمكافئة."
+      },
+      "path": "oto-yedek-parca-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "q2h9zg",
+          "qd7rrm",
+          "wxuqu5",
+          "6mbcio",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 13
+    },
+    {
+      "id": "z9sua2696j",
+      "name": {
+        "tr": "Dış ticaret web sitesi",
+        "en": "Foreign-trade website",
+        "ar": "موقع إلكتروني للتجارة الخارجية"
+      },
+      "description": {
+        "tr": "Ürün grupları, hedef pazarlar, sertifikalar ve teklif talebi; Türkçe, İngilizce ve Arapça birlikte.",
+        "en": "Product groups, target markets, certificates and a quote request, in Turkish, English and Arabic together.",
+        "ar": "مجموعات منتجات وأسواق مستهدفة وشهادات وطلب عرض سعر بالتركية والإنجليزية والعربية معًا."
+      },
+      "path": "dis-ticaret-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "uypyiq",
+          "vc8p7j",
+          "u94t5d",
+          "wtun6l",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 14
+    },
+    {
+      "id": "ksl9oagb7c",
+      "name": {
+        "tr": "Enerji ve GES web sitesi",
+        "en": "Energy and solar website",
+        "ar": "موقع إلكتروني للطاقة والطاقة الشمسية"
+      },
+      "description": {
+        "tr": "GES ve elektrik taahhüt hizmetleri, keşif randevusu ve belgeler; tahminler açıkça varsayım olarak işaretli.",
+        "en": "Solar and electrical-contracting services, a survey booking and certificates, with estimates clearly marked as assumptions.",
+        "ar": "خدمات الطاقة الشمسية والمقاولات الكهربائية وموعد معاينة وشهادات مع وسم التقديرات بوضوح كافتراضات."
+      },
+      "path": "enerji-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "26bu8g",
+          "7qdhnh",
+          "v2anpf",
+          "iapcew",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 15
+    },
+    {
+      "id": "6jksi4rppw",
+      "name": {
+        "tr": "Lojistik web sitesi",
+        "en": "Logistics website",
+        "ar": "موقع إلكتروني لشركة لوجستية"
+      },
+      "description": {
+        "tr": "Hizmetler, teklif talebi ve belgeler; yetki belgesi türleri her teklifte ve belgeler sayfasında açık.",
+        "en": "Services, a quote request and licences, with authorisation types stated on every quote and on the licences page.",
+        "ar": "خدمات وطلب عرض سعر وتراخيص، مع ذكر أنواع التراخيص في كل عرض وفي صفحة التراخيص."
+      },
+      "path": "lojistik-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "07jnjh",
+          "7trps2",
+          "5s0zg5",
+          "13cczl",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 16
+    },
+    {
+      "id": "omqynn9wyj",
+      "name": {
+        "tr": "Çiçekçi web sitesi",
+        "en": "Florist website",
+        "ar": "موقع إلكتروني لمحل زهور"
+      },
+      "description": {
+        "tr": "Buketler, aranjmanlar, teslimat penceresi ve sipariş talebi; çabuk bozulan mal için cayma bilgisi açık.",
+        "en": "Bouquets, arrangements, delivery windows and an order request, with clear withdrawal information for perishable goods.",
+        "ar": "باقات وتنسيقات وفترات تسليم وطلب شراء مع معلومات عدول واضحة للسلع سريعة التلف."
+      },
+      "path": "cicekci-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "k43ypm",
+          "3nszi0",
+          "15tqcz",
+          "azublu",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 17
+    },
+    {
+      "id": "2pfa2g5ma7",
+      "name": {
+        "tr": "Spor salonu web sitesi",
+        "en": "Gym website",
+        "ar": "موقع إلكتروني لنادٍ رياضي"
+      },
+      "description": {
+        "tr": "Dersler, ders programı, üyelik paketleri ve deneme dersi; fesih, dondurma ve yenileme koşulları açık.",
+        "en": "Classes, a schedule, membership packages and a trial class, with termination, freezing and renewal terms stated clearly.",
+        "ar": "الحصص والجدول وباقات العضوية وحصة تجريبية مع شروط الإنهاء والتجميد والتجديد بوضوح."
+      },
+      "path": "spor-salonu-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "udqpds",
+          "rdyiaw",
+          "cb2a6i",
+          "f709ds",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 18
+    },
+    {
+      "id": "8a5u6m79rs",
+      "name": {
+        "tr": "Okul web sitesi",
+        "en": "School website",
+        "ar": "موقع إلكتروني لمدرسة"
+      },
+      "description": {
+        "tr": "Kademeler, önkayıt görüşmesi, akademik takvim ve kurum izin bilgileri; çocuk görseli olmadan güvenli bir anlatım.",
+        "en": "Levels, a pre-enrolment meeting, the academic calendar and institution permit details, told safely without images of children.",
+        "ar": "المراحل ولقاء التسجيل المسبق والتقويم الأكاديمي وبيانات ترخيص المؤسسة، بسرد آمن دون صور أطفال."
+      },
+      "path": "okul-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "vgnvod",
+          "5al1rg",
+          "swwcd1",
+          "rkeqko",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 19
+    },
+    {
+      "id": "k7qqo500p7",
+      "name": {
+        "tr": "Ajans web sitesi",
+        "en": "Agency website",
+        "ar": "موقع إلكتروني لوكالة"
+      },
+      "description": {
+        "tr": "Hizmetler, örnek işler ve teklif talebi; işlerin görselleri önde, arayüz geri planda.",
+        "en": "Services, sample work and a quote request, with the work up front and the interface in the background.",
+        "ar": "الخدمات وأعمال نموذجية وطلب عرض سعر، مع إبراز الأعمال وإبقاء الواجهة في الخلفية."
+      },
+      "path": "ajans-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "axyjx4",
+          "dxgoea",
+          "noh5s2",
+          "1rn6px",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 20
+    },
+    {
+      "id": "moda9v2azo",
+      "name": {
+        "tr": "Oto galeri web sitesi",
+        "en": "Car dealership website",
+        "ar": "موقع إلكتروني لمعرض سيارات"
+      },
+      "description": {
+        "tr": "Filtreli araç ilanları, ekspertiz randevusu ve satış koşulları; her ilanda yetki belgesi numarası görünür.",
+        "en": "Filterable vehicle listings, an inspection appointment and sales terms; every listing shows its authorisation number.",
+        "ar": "إعلانات مركبات قابلة للتصفية وموعد فحص وشروط البيع؛ ويظهر رقم التفويض في كل إعلان."
+      },
+      "path": "oto-galeri-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "15dem2",
+          "0obm03",
+          "2p320j",
+          "62svzy",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 21
+    },
+    {
+      "id": "qyo0pb8b08",
+      "name": {
+        "tr": "Otel web sitesi",
+        "en": "Hotel website",
+        "ar": "موقع إلكتروني لفندق"
+      },
+      "description": {
+        "tr": "Odalar, olanaklar, konaklama talebi ve iptal koşulları tek yerde; belge numarası ve cayma bilgisi açık yazılı.",
+        "en": "Rooms, facilities, stay requests and cancellation terms in one place, with the licence number and withdrawal information stated clearly.",
+        "ar": "الغرف والمرافق وطلب الإقامة وشروط الإلغاء في مكان واحد، مع رقم الرخصة ومعلومات العدول بوضوح."
+      },
+      "path": "otel-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "1of8xq",
+          "i82c08",
+          "zn20we",
+          "8si0va",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 22
+    },
+    {
+      "id": "9ctzy6z17s",
+      "name": {
+        "tr": "Hukuk bürosu web sitesi",
+        "en": "Law firm website",
+        "ar": "موقع إلكتروني لمكتب محاماة"
+      },
+      "description": {
+        "tr": "Çalışma alanları, ön görüşme talebi ve meslek kuralları sakin bir tasarımda; reklam yasağına uygun, sade bir yapı.",
+        "en": "Practice areas, consultation requests and professional rules in a calm design, with a plain structure that respects the advertising ban.",
+        "ar": "مجالات العمل وطلب الاستشارة وقواعد المهنة بتصميم هادئ وبنية بسيطة تراعي حظر الإعلان."
+      },
+      "path": "hukuk-burosu-web-sitesi",
+      "icon": "web",
+      "category": "js97mgjeat",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "vajy2a",
+          "t51li3",
+          "gnd0bi",
+          "8hgv3k",
+          "zzd4a6"
+        ],
+        "footer": []
+      },
+      "index": 23
+    },
+    {
       "id": "fd89pql7vb",
       "name": {
         "tr": "Fotoğrafçı portfolyo web sitesi",
@@ -159,7 +710,7 @@
         ],
         "footer": []
       },
-      "index": 5
+      "index": 24
     },
     {
       "id": "26gy0i243u",
@@ -188,7 +739,7 @@
         ],
         "footer": []
       },
-      "index": 6
+      "index": 25
     },
     {
       "id": "id5tjdalze",
@@ -217,7 +768,7 @@
         ],
         "footer": []
       },
-      "index": 7
+      "index": 26
     },
     {
       "id": "e4royep1tn",
@@ -246,7 +797,7 @@
         ],
         "footer": []
       },
-      "index": 8
+      "index": 27
     },
     {
       "id": "ftw2vfnqam",
@@ -275,7 +826,7 @@
         ],
         "footer": []
       },
-      "index": 9
+      "index": 28
     },
     {
       "id": "dts41rqjvb",
@@ -304,7 +855,7 @@
         ],
         "footer": []
       },
-      "index": 10
+      "index": 29
     },
     {
       "id": "hsu9rx8r0m",
@@ -333,7 +884,7 @@
         ],
         "footer": []
       },
-      "index": 11
+      "index": 30
     },
     {
       "id": "py91qexy1j",
@@ -362,7 +913,7 @@
         ],
         "footer": []
       },
-      "index": 12
+      "index": 31
     },
     {
       "id": "cbdrpbgx7m",
@@ -391,7 +942,7 @@
         ],
         "footer": []
       },
-      "index": 13
+      "index": 32
     },
     {
       "id": "22swzjv00u",
@@ -420,7 +971,7 @@
         ],
         "footer": []
       },
-      "index": 14
+      "index": 33
     },
     {
       "id": "auxjis3v12",
@@ -445,7 +996,7 @@
         ],
         "footer": []
       },
-      "index": 15
+      "index": 34
     }
   ],
   "desc": []

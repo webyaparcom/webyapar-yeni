@@ -1,0 +1,43 @@
+{
+  "id": "ksl9oagb7c",
+  "name": {
+    "tr": "Enerji ve GES web sitesi",
+    "en": "Energy and solar website",
+    "ar": "موقع إلكتروني للطاقة والطاقة الشمسية"
+  },
+  "description": {
+    "tr": "GES ve elektrik taahhüt hizmetleri, keşif randevusu ve belgeler; tahminler açıkça varsayım olarak işaretli.",
+    "en": "Solar and electrical-contracting services, a survey booking and certificates, with estimates clearly marked as assumptions.",
+    "ar": "خدمات الطاقة الشمسية والمقاولات الكهربائية وموعد معاينة وشهادات مع وسم التقديرات بوضوح كافتراضات."
+  },
+  "keyword": {
+    "tr": "enerji ve ges web sitesi, hazır tema, webyapar",
+    "en": "energy and solar website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني للطاقة والطاقة الشمسية، قالب جاهز، ويب ياپار"
+  },
+  "path": "enerji-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "26bu8g",
+      "7qdhnh",
+      "v2anpf",
+      "iapcew",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 15,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Enerji ve GES web sitesi — Webyapar",
+    "en": "Energy and solar website — Webyapar",
+    "ar": "موقع إلكتروني للطاقة والطاقة الشمسية — Webyapar"
+  },
+  "date": "2026-10-30T22:40:34.718Z",
+  "update": "2026-10-30T22:40:52.682Z"
+}

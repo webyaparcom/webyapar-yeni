@@ -1,0 +1,43 @@
+{
+  "id": "a1js67djh0",
+  "name": {
+    "tr": "Radyo web sitesi",
+    "en": "Radio website",
+    "ar": "موقع إلكتروني لإذاعة"
+  },
+  "description": {
+    "tr": "Programlar, yayın akışı, reklam talebi ve künye; lisans bilgileri açık. (Demoda ses yayını yoktur.)",
+    "en": "Programmes, a broadcast schedule, an advertising request and a masthead, with licence details open. (The demo has no audio stream.)",
+    "ar": "برامج وجدول بث وطلب إعلان وبيانات إدارة مع ترخيص معلن. (لا يوجد بث صوتي في العرض.)"
+  },
+  "keyword": {
+    "tr": "radyo web sitesi, hazır tema, webyapar",
+    "en": "radio website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني لإذاعة، قالب جاهز، ويب ياپار"
+  },
+  "path": "radyo-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "xhmixa",
+      "ce4y1m",
+      "9hgpij",
+      "844zwf",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 10,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Radyo web sitesi — Webyapar",
+    "en": "Radio website — Webyapar",
+    "ar": "موقع إلكتروني لإذاعة — Webyapar"
+  },
+  "date": "2026-10-30T22:40:34.866Z",
+  "update": "2026-10-30T22:40:52.777Z"
+}

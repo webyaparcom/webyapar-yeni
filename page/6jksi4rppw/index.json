@@ -1,0 +1,43 @@
+{
+  "id": "6jksi4rppw",
+  "name": {
+    "tr": "Lojistik web sitesi",
+    "en": "Logistics website",
+    "ar": "موقع إلكتروني لشركة لوجستية"
+  },
+  "description": {
+    "tr": "Hizmetler, teklif talebi ve belgeler; yetki belgesi türleri her teklifte ve belgeler sayfasında açık.",
+    "en": "Services, a quote request and licences, with authorisation types stated on every quote and on the licences page.",
+    "ar": "خدمات وطلب عرض سعر وتراخيص، مع ذكر أنواع التراخيص في كل عرض وفي صفحة التراخيص."
+  },
+  "keyword": {
+    "tr": "lojistik web sitesi, hazır tema, webyapar",
+    "en": "logistics website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني لشركة لوجستية، قالب جاهز، ويب ياپار"
+  },
+  "path": "lojistik-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "07jnjh",
+      "7trps2",
+      "5s0zg5",
+      "13cczl",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 16,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Lojistik web sitesi — Webyapar",
+    "en": "Logistics website — Webyapar",
+    "ar": "موقع إلكتروني لشركة لوجستية — Webyapar"
+  },
+  "date": "2026-10-30T22:40:34.678Z",
+  "update": "2026-10-30T22:40:52.671Z"
+}

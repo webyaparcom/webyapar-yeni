@@ -1,0 +1,43 @@
+{
+  "id": "qyo0pb8b08",
+  "name": {
+    "tr": "Otel web sitesi",
+    "en": "Hotel website",
+    "ar": "موقع إلكتروني لفندق"
+  },
+  "description": {
+    "tr": "Odalar, olanaklar, konaklama talebi ve iptal koşulları tek yerde; belge numarası ve cayma bilgisi açık yazılı.",
+    "en": "Rooms, facilities, stay requests and cancellation terms in one place, with the licence number and withdrawal information stated clearly.",
+    "ar": "الغرف والمرافق وطلب الإقامة وشروط الإلغاء في مكان واحد، مع رقم الرخصة ومعلومات العدول بوضوح."
+  },
+  "keyword": {
+    "tr": "otel web sitesi, hazır tema, webyapar",
+    "en": "hotel website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني لفندق، قالب جاهز، ويب ياپار"
+  },
+  "path": "otel-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "1of8xq",
+      "i82c08",
+      "zn20we",
+      "8si0va",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 22,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Otel web sitesi — Webyapar",
+    "en": "Hotel website — Webyapar",
+    "ar": "موقع إلكتروني لفندق — Webyapar"
+  },
+  "date": "2026-10-30T22:40:34.534Z",
+  "update": "2026-10-30T22:40:52.563Z"
+}

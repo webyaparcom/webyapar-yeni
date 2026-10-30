@@ -1,0 +1,43 @@
+{
+  "id": "qsdzkasgvq",
+  "name": {
+    "tr": "SaaS web sitesi",
+    "en": "SaaS website",
+    "ar": "موقع إلكتروني لبرنامج SaaS"
+  },
+  "description": {
+    "tr": "Özellikler, fiyatlar, demo talebi ve veri güvenliği; otomatik yenileme ve KVKK bilgisi açık.",
+    "en": "Features, pricing, a demo request and data security, with auto-renewal and KVKK information stated clearly.",
+    "ar": "ميزات وأسعار وطلب عرض تجريبي وأمن البيانات مع وضوح التجديد التلقائي ومعلومات KVKK."
+  },
+  "keyword": {
+    "tr": "saas web sitesi, hazır tema, webyapar",
+    "en": "saas website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني لبرنامج SaaS، قالب جاهز، ويب ياپار"
+  },
+  "path": "saas-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "pnmwyw",
+      "6wo5yn",
+      "j83e3e",
+      "ea4szp",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 5,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "SaaS web sitesi — Webyapar",
+    "en": "SaaS website — Webyapar",
+    "ar": "موقع إلكتروني لبرنامج SaaS — Webyapar"
+  },
+  "date": "2026-10-30T22:40:35.061Z",
+  "update": "2026-10-30T22:40:52.872Z"
+}
