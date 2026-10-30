@@ -1,0 +1,43 @@
+{
+  "id": "k7qqo500p7",
+  "name": {
+    "tr": "Ajans web sitesi",
+    "en": "Agency website",
+    "ar": "موقع إلكتروني لوكالة"
+  },
+  "description": {
+    "tr": "Hizmetler, örnek işler ve teklif talebi; işlerin görselleri önde, arayüz geri planda.",
+    "en": "Services, sample work and a quote request, with the work up front and the interface in the background.",
+    "ar": "الخدمات وأعمال نموذجية وطلب عرض سعر، مع إبراز الأعمال وإبقاء الواجهة في الخلفية."
+  },
+  "keyword": {
+    "tr": "ajans web sitesi, hazır tema, webyapar",
+    "en": "agency website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني لوكالة، قالب جاهز، ويب ياپار"
+  },
+  "path": "ajans-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "axyjx4",
+      "dxgoea",
+      "noh5s2",
+      "1rn6px",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 20,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Ajans web sitesi — Webyapar",
+    "en": "Agency website — Webyapar",
+    "ar": "موقع إلكتروني لوكالة — Webyapar"
+  },
+  "date": "2026-10-30T22:40:34.570Z",
+  "update": "2026-10-30T22:40:52.594Z"
+}

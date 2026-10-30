@@ -1,0 +1,43 @@
+{
+  "id": "2pfa2g5ma7",
+  "name": {
+    "tr": "Spor salonu web sitesi",
+    "en": "Gym website",
+    "ar": "موقع إلكتروني لنادٍ رياضي"
+  },
+  "description": {
+    "tr": "Dersler, ders programı, üyelik paketleri ve deneme dersi; fesih, dondurma ve yenileme koşulları açık.",
+    "en": "Classes, a schedule, membership packages and a trial class, with termination, freezing and renewal terms stated clearly.",
+    "ar": "الحصص والجدول وباقات العضوية وحصة تجريبية مع شروط الإنهاء والتجميد والتجديد بوضوح."
+  },
+  "keyword": {
+    "tr": "spor salonu web sitesi, hazır tema, webyapar",
+    "en": "gym website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني لنادٍ رياضي، قالب جاهز، ويب ياپار"
+  },
+  "path": "spor-salonu-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "udqpds",
+      "rdyiaw",
+      "cb2a6i",
+      "f709ds",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 18,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Spor salonu web sitesi — Webyapar",
+    "en": "Gym website — Webyapar",
+    "ar": "موقع إلكتروني لنادٍ رياضي — Webyapar"
+  },
+  "date": "2026-10-30T22:40:34.621Z",
+  "update": "2026-10-30T22:40:52.628Z"
+}

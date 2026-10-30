@@ -1,0 +1,43 @@
+{
+  "id": "8a5u6m79rs",
+  "name": {
+    "tr": "Okul web sitesi",
+    "en": "School website",
+    "ar": "موقع إلكتروني لمدرسة"
+  },
+  "description": {
+    "tr": "Kademeler, önkayıt görüşmesi, akademik takvim ve kurum izin bilgileri; çocuk görseli olmadan güvenli bir anlatım.",
+    "en": "Levels, a pre-enrolment meeting, the academic calendar and institution permit details, told safely without images of children.",
+    "ar": "المراحل ولقاء التسجيل المسبق والتقويم الأكاديمي وبيانات ترخيص المؤسسة، بسرد آمن دون صور أطفال."
+  },
+  "keyword": {
+    "tr": "okul web sitesi, hazır tema, webyapar",
+    "en": "school website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني لمدرسة، قالب جاهز، ويب ياپار"
+  },
+  "path": "okul-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "vgnvod",
+      "5al1rg",
+      "swwcd1",
+      "rkeqko",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 19,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Okul web sitesi — Webyapar",
+    "en": "School website — Webyapar",
+    "ar": "موقع إلكتروني لمدرسة — Webyapar"
+  },
+  "date": "2026-10-30T22:40:34.605Z",
+  "update": "2026-10-30T22:40:52.615Z"
+}

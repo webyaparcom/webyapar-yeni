@@ -1,0 +1,458 @@
+{
+  "name": "Tema Galerisi",
+  "description": "Webyapar «Temalar» vitrini: tür × sektör filtre çipleri, arama ve sıralama (MxFiltre; ?tur=&sektor=&q=&sort= bağlantıda kalır), masaüstü + mobil ekran görüntülü kartlar, «dahil olanlar» ikonları ve iki eylem (Demoyu gör → demo-cerceve ?t=<slug>, Bu temayı iste). Veri data[] içinde (tema-set/demolar.json'dan doldurulur); görsel yoksa nötr yer tutucu. TR/EN/AR, çoğul tablolu sonuç sayısı.",
+  "version": "1.0.0",
+  "icon": "grid_view",
+  "category": "demo",
+  "tags": [
+    "tema",
+    "vitrin",
+    "filtre",
+    "demo",
+    "rtl"
+  ],
+  "desing": {
+    "max": "1240px",
+    "bgcolor": "var(--mx-site-bg, #ffffff)",
+    "textcolor": "var(--mx-site-text, #1b1b1b)",
+    "surface": "var(--mx-site-surface, #f6f6f4)",
+    "surface2": "var(--mx-site-surface-2, #ececea)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+    "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+    "demoPage": "demo",
+    "ctaHref": "iletisim",
+    "defaultSort": "yeni",
+    "urlState": true,
+    "title": {
+      "tr": "Hazır temalar",
+      "en": "Ready-made themes",
+      "ar": "القوالب الجاهزة"
+    },
+    "subtitle": {
+      "tr": "Sektörünüze uygun temayı canlı deneyin, beğendiğinizi isteyin.",
+      "en": "Try the theme that fits your industry live, then request the one you like.",
+      "ar": "جرّب القالب المناسب لقطاعك مباشرةً، ثم اطلب القالب الذي يعجبك."
+    },
+    "searchLabel": {
+      "tr": "Tema ara",
+      "en": "Search themes",
+      "ar": "ابحث عن قالب"
+    },
+    "searchPh": {
+      "tr": "Tema, sektör veya tür ara…",
+      "en": "Search theme, industry or type…",
+      "ar": "ابحث عن قالب أو قطاع أو نوع…"
+    },
+    "sortLabel": {
+      "tr": "Sırala",
+      "en": "Sort by",
+      "ar": "ترتيب حسب"
+    },
+    "sortNew": {
+      "tr": "En yeni",
+      "en": "Newest",
+      "ar": "الأحدث"
+    },
+    "sortName": {
+      "tr": "Ad (A–Z)",
+      "en": "Name (A–Z)",
+      "ar": "الاسم (أ–ي)"
+    },
+    "sortSector": {
+      "tr": "Sektör (A–Z)",
+      "en": "Industry (A–Z)",
+      "ar": "القطاع (أ–ي)"
+    },
+    "sortType": {
+      "tr": "Tür",
+      "en": "Type",
+      "ar": "النوع"
+    },
+    "typeGroupLabel": {
+      "tr": "Tür",
+      "en": "Type",
+      "ar": "النوع"
+    },
+    "sectorGroupLabel": {
+      "tr": "Sektör",
+      "en": "Industry",
+      "ar": "القطاع"
+    },
+    "allText": {
+      "tr": "Tümü",
+      "en": "All",
+      "ar": "الكل"
+    },
+    "resetText": {
+      "tr": "Filtreleri temizle",
+      "en": "Clear filters",
+      "ar": "مسح عوامل التصفية"
+    },
+    "resultCount": {
+      "tr": {
+        "one": "{n} tema",
+        "other": "{n} tema"
+      },
+      "en": {
+        "one": "{n} theme",
+        "other": "{n} themes"
+      },
+      "ar": {
+        "zero": "لا توجد قوالب",
+        "one": "قالب واحد",
+        "two": "قالبان",
+        "few": "{n} قوالب",
+        "many": "{n} قالبًا",
+        "other": "{n} قالب"
+      }
+    },
+    "pagesText": {
+      "tr": {
+        "one": "{n} sayfa",
+        "other": "{n} sayfa"
+      },
+      "en": {
+        "one": "{n} page",
+        "other": "{n} pages"
+      },
+      "ar": {
+        "zero": "بلا صفحات",
+        "one": "صفحة واحدة",
+        "two": "صفحتان",
+        "few": "{n} صفحات",
+        "many": "{n} صفحة",
+        "other": "{n} صفحة"
+      }
+    },
+    "emptyTitle": {
+      "tr": "Eşleşen tema yok",
+      "en": "No matching themes",
+      "ar": "لا توجد قوالب مطابقة"
+    },
+    "emptyText": {
+      "tr": "Aramanızı değiştirin ya da filtreleri temizleyin.",
+      "en": "Change your search or clear the filters.",
+      "ar": "غيّر بحثك أو امسح عوامل التصفية."
+    },
+    "includedTitle": {
+      "tr": "Dahil olanlar",
+      "en": "What's included",
+      "ar": "ما يتضمنه القالب"
+    },
+    "demoText": {
+      "tr": "Demoyu gör",
+      "en": "View demo",
+      "ar": "شاهد العرض"
+    },
+    "requestText": {
+      "tr": "Bu temayı iste",
+      "en": "Request this theme",
+      "ar": "اطلب هذا القالب"
+    },
+    "newTabText": {
+      "tr": "(yeni sekmede açılır)",
+      "en": "(opens in a new tab)",
+      "ar": "(يفتح في علامة تبويب جديدة)"
+    },
+    "shotAltDesktop": {
+      "tr": "{name} — masaüstü ekran görüntüsü",
+      "en": "{name} — desktop screenshot",
+      "ar": "{name} — لقطة شاشة لسطح المكتب"
+    },
+    "shotAltMobile": {
+      "tr": "{name} — mobil ekran görüntüsü",
+      "en": "{name} — mobile screenshot",
+      "ar": "{name} — لقطة شاشة للجوال"
+    },
+    "types": [
+      {
+        "id": "kurumsal",
+        "name": {
+          "tr": "Kurumsal",
+          "en": "Corporate",
+          "ar": "مؤسسي"
+        }
+      },
+      {
+        "id": "e-ticaret",
+        "name": {
+          "tr": "E-ticaret",
+          "en": "E-commerce",
+          "ar": "تجارة إلكترونية"
+        }
+      },
+      {
+        "id": "galeri",
+        "name": {
+          "tr": "Galeri",
+          "en": "Gallery",
+          "ar": "معرض"
+        }
+      }
+    ],
+    "sectors": [
+      {
+        "id": "restoran",
+        "name": {
+          "tr": "Restoran",
+          "en": "Restaurant",
+          "ar": "مطعم"
+        }
+      },
+      {
+        "id": "emlak",
+        "name": {
+          "tr": "Emlak",
+          "en": "Real estate",
+          "ar": "عقارات"
+        }
+      },
+      {
+        "id": "klinik",
+        "name": {
+          "tr": "Klinik",
+          "en": "Clinic",
+          "ar": "عيادة"
+        }
+      },
+      {
+        "id": "guzellik",
+        "name": {
+          "tr": "Güzellik",
+          "en": "Beauty",
+          "ar": "تجميل"
+        }
+      },
+      {
+        "id": "insaat",
+        "name": {
+          "tr": "İnşaat",
+          "en": "Construction",
+          "ar": "مقاولات"
+        }
+      },
+      {
+        "id": "sanayi",
+        "name": {
+          "tr": "Sanayi",
+          "en": "Industry",
+          "ar": "صناعة"
+        }
+      },
+      {
+        "id": "dekor",
+        "name": {
+          "tr": "Dekorasyon",
+          "en": "Interior decor",
+          "ar": "ديكور"
+        }
+      },
+      {
+        "id": "gida",
+        "name": {
+          "tr": "Gıda",
+          "en": "Food",
+          "ar": "أغذية"
+        }
+      },
+      {
+        "id": "kuyumcu",
+        "name": {
+          "tr": "Kuyumcu",
+          "en": "Jewelry",
+          "ar": "مجوهرات"
+        }
+      },
+      {
+        "id": "portfolyo",
+        "name": {
+          "tr": "Portfolyo",
+          "en": "Portfolio",
+          "ar": "معرض أعمال"
+        }
+      }
+    ],
+    "featureDefs": [
+      {
+        "id": "randevu",
+        "icon": "event_available",
+        "name": {
+          "tr": "Randevu",
+          "en": "Booking",
+          "ar": "حجز مواعيد"
+        }
+      },
+      {
+        "id": "sepet",
+        "icon": "shopping_cart",
+        "name": {
+          "tr": "Sepet",
+          "en": "Cart",
+          "ar": "سلة التسوق"
+        }
+      },
+      {
+        "id": "galeri",
+        "icon": "photo_library",
+        "name": {
+          "tr": "Galeri",
+          "en": "Gallery",
+          "ar": "معرض صور"
+        }
+      },
+      {
+        "id": "harita",
+        "icon": "map",
+        "name": {
+          "tr": "Harita",
+          "en": "Map",
+          "ar": "خريطة"
+        }
+      },
+      {
+        "id": "whatsapp",
+        "icon": "chat",
+        "name": {
+          "tr": "WhatsApp",
+          "en": "WhatsApp",
+          "ar": "واتساب"
+        }
+      },
+      {
+        "id": "qr-menu",
+        "icon": "qr_code_2",
+        "name": {
+          "tr": "QR menü",
+          "en": "QR menu",
+          "ar": "قائمة QR"
+        }
+      },
+      {
+        "id": "alerjen",
+        "icon": "no_food",
+        "name": {
+          "tr": "Alerjen bilgisi",
+          "en": "Allergen info",
+          "ar": "معلومات الحساسية"
+        }
+      },
+      {
+        "id": "filtre",
+        "icon": "filter_alt",
+        "name": {
+          "tr": "Proje filtresi",
+          "en": "Project filter",
+          "ar": "تصفية المشاريع"
+        }
+      },
+      {
+        "id": "odeme-demo",
+        "icon": "credit_card",
+        "name": {
+          "tr": "Demo ödeme",
+          "en": "Demo checkout",
+          "ar": "دفع تجريبي"
+        }
+      }
+    ]
+  },
+  "data": [
+    {
+      "slug": "ornek-restoran",
+      "name": {
+        "tr": "Örnek Restoran",
+        "en": "Sample Restaurant",
+        "ar": "مطعم نموذجي"
+      },
+      "sector": "restoran",
+      "type": "kurumsal",
+      "url": "",
+      "shotDesktop": "",
+      "shotMobile": "",
+      "features": [
+        "randevu",
+        "qr-menu",
+        "alerjen",
+        "galeri",
+        "harita",
+        "whatsapp"
+      ],
+      "modules": [
+        "menu-liste",
+        "randevu-formu",
+        "galeri-masonry"
+      ],
+      "pages": 5,
+      "date": "2026-10-30",
+      "summary": {
+        "tr": "Menü, alerjen rozetleri ve masa rezervasyonu olan kurgusal restoran sitesi.",
+        "en": "A fictional restaurant site with a menu, allergen badges and table booking.",
+        "ar": "موقع مطعم افتراضي يضم قائمة طعام وشارات الحساسية وحجز الطاولات."
+      }
+    },
+    {
+      "slug": "ornek-insaat",
+      "name": {
+        "tr": "Örnek İnşaat",
+        "en": "Sample Construction",
+        "ar": "شركة مقاولات نموذجية"
+      },
+      "sector": "insaat",
+      "type": "kurumsal",
+      "url": "",
+      "shotDesktop": "",
+      "shotMobile": "",
+      "features": [
+        "filtre",
+        "galeri",
+        "harita",
+        "whatsapp"
+      ],
+      "modules": [
+        "proje-kart-filtre",
+        "galeri-masonry",
+        "onceki-sonra"
+      ],
+      "pages": 6,
+      "date": "2026-10-29",
+      "summary": {
+        "tr": "Proje portföyü, filtreli referanslar ve ilerleme galerisi olan kurgusal inşaat sitesi.",
+        "en": "A fictional construction site with a project portfolio, filtered references and a progress gallery.",
+        "ar": "موقع مقاولات افتراضي يضم محفظة مشاريع ومراجع قابلة للتصفية ومعرض تقدّم الأعمال."
+      }
+    },
+    {
+      "slug": "ornek-dekor",
+      "name": {
+        "tr": "Örnek Dekor Mağazası",
+        "en": "Sample Decor Store",
+        "ar": "متجر ديكور نموذجي"
+      },
+      "sector": "dekor",
+      "type": "e-ticaret",
+      "url": "",
+      "shotDesktop": "",
+      "shotMobile": "",
+      "features": [
+        "sepet",
+        "odeme-demo",
+        "galeri",
+        "whatsapp"
+      ],
+      "modules": [
+        "eticaret-urun-vitrin",
+        "odeme-demo",
+        "galeri-masonry"
+      ],
+      "pages": 8,
+      "date": "2026-10-28",
+      "summary": {
+        "tr": "Sepet ve demo ödeme akışıyla uçtan uca denenebilen kurgusal e-ticaret sitesi.",
+        "en": "A fictional online store you can try end to end with a cart and a demo checkout.",
+        "ar": "متجر إلكتروني افتراضي يمكن تجربته من البداية إلى النهاية مع سلة وعملية دفع تجريبية."
+      }
+    }
+  ]
+}

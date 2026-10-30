@@ -1,0 +1,47 @@
+{
+  "name": "Hero 1",
+  "desing": {
+    "max": "1200px",
+    "gradient": "linear-gradient(135deg, #1e3046 0%, #2a4560 50%, #152a3d 100%)",
+    "overlay": "linear-gradient(135deg, rgba(30, 48, 70, 0.88) 0%, rgba(21, 42, 61, 0.82) 100%)",
+    "title_accent": "linear-gradient(135deg, #DE6D26, #e88a4a)",
+    "btn_primary_bg": "#DE6D26",
+    "btn_primary_color": "#ffffff",
+    "stat_accent": "#DE6D26",
+    "shape1": "linear-gradient(135deg, rgba(222, 109, 38, 0.4), rgba(222, 109, 38, 0.12))",
+    "shape2": "linear-gradient(135deg, rgba(42, 69, 96, 0.55), rgba(30, 48, 70, 0.25))",
+    "shape3": "linear-gradient(135deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.04))",
+    "title": {
+      "tr": "Kurumsal Çözümlerle Yanınızdayız",
+      "en": "We Stand With You Through Corporate Solutions"
+    },
+    "description": {
+      "tr": "Profesyonel ekibimizle markanıza özel web, dijital ve kurumsal hizmetler sunuyoruz.",
+      "en": "Our professional team delivers web, digital and corporate services tailored to your brand."
+    },
+    "badge": {
+      "tr": "Güvenilir Kurumsal Partner",
+      "en": "Trusted Corporate Partner"
+    },
+    "image": "",
+    "alt": {
+      "tr": "Kurumsal tanıtım",
+      "en": "Corporate intro"
+    },
+    "btn1": {
+      "tr": "Keşfet",
+      "en": "Explore"
+    },
+    "btn1_url": "urunler",
+    "btn2": {
+      "tr": "İletişim",
+      "en": "Contact"
+    },
+    "btn2_url": "iletisim",
+    "stats": "150+|Proje|50+|Müşteri|10+|Yıl Deneyim"
+  },
+  "category": "hero",
+  "description": "Gradient hero: istatistikler, CTA, görsel alanı. Metinler cok dilli (tr/en); renkler --gradient--, --btn_primary_bg-- ile markaya uyumlanır. Buton URL pathnext (urunler, iletisim).",
+  "version": "1.1.0",
+  "icon": "hero"
+}

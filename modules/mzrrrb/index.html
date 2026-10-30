@@ -1,0 +1,315 @@
+<section class="modulex-hero">
+  <div class="modulex-hero-bg"></div>
+  <div class="modulex-hero-overlay"></div>
+  
+  <div class="modulex-hero-container">
+    <div class="modulex-hero-content">
+      <div class="modulex-hero-badge">{{badge}}</div>
+      <h1 class="modulex-hero-title">{{title}}</h1>
+      <p class="modulex-hero-desc">{{description}}</p>
+      
+      <div class="modulex-hero-actions">
+        {{buttons}}
+      </div>
+      
+      <div class="modulex-hero-stats">
+        {{stats}}
+      </div>
+    </div>
+    
+    <div class="modulex-hero-visual">
+      <div class="modulex-hero-visual-inner">
+        <div class="modulex-hero-visual-shape modulex-hero-visual-shape-1"></div>
+        <div class="modulex-hero-visual-shape modulex-hero-visual-shape-2"></div>
+        <div class="modulex-hero-visual-shape modulex-hero-visual-shape-3"></div>
+        <img src="{{image}}" alt="{{alt}}" class="modulex-hero-image" loading="eager" fetchpriority="high" decoding="async" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .modulex-hero {
+    width: 100%;
+    min-height: 700px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: --gradient--;
+  }
+
+  .modulex-hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    opacity: 0.3;
+  }
+
+  .modulex-hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: --overlay--;
+  }
+
+  .modulex-hero-container {
+    position: relative;
+    z-index: 2;
+    max-width: --max--;
+    margin: 0 auto;
+    padding: 80px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .modulex-hero-content {
+    color: #fff;
+  }
+
+  .modulex-hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    color: #fff;
+  }
+
+  .modulex-hero-title {
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin: 0 0 20px;
+    color: #fff;
+    letter-spacing: -1px;
+  }
+
+  .modulex-hero-title span {
+    background: --title_accent--;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .modulex-hero-desc {
+    font-size: 18px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 0 0 32px;
+    max-width: 540px;
+  }
+
+  .modulex-hero-actions {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+  }
+
+  .modulex-hero-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 32px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+    border: none;
+  }
+
+  /* G3: css.css'teki «a:link, a:visited, a:hover, a:active {color:#000}» (0,1,1) sınıf kuralını (0,1,0) eziyordu → düğme metni siyah çıkıyordu */
+  .modulex-hero-btn-primary,
+  a.modulex-hero-btn-primary:link,
+  a.modulex-hero-btn-primary:visited,
+  a.modulex-hero-btn-primary:hover,
+  a.modulex-hero-btn-primary:active {
+    background: --btn_primary_bg--;
+    color: --btn_primary_color--;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .modulex-hero-btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .modulex-hero-btn-secondary,
+  a.modulex-hero-btn-secondary:link,
+  a.modulex-hero-btn-secondary:visited,
+  a.modulex-hero-btn-secondary:hover,
+  a.modulex-hero-btn-secondary:active {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+  }
+
+  .modulex-hero-btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-3px);
+  }
+
+  .modulex-hero-stats {
+    display: flex;
+    gap: 40px;
+  }
+
+  .modulex-hero-stat {
+    text-align: left;
+  }
+
+  .modulex-hero-stat-number {
+    font-size: 36px;
+    font-weight: 800;
+    color: --stat_accent--;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .modulex-hero-stat-label {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
+  }
+
+  .modulex-hero-visual {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modulex-hero-visual-inner {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .modulex-hero-visual-shape {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.3;
+  }
+
+  .modulex-hero-visual-shape-1 {
+    width: 300px;
+    height: 300px;
+    background: --shape1--;
+    top: -50px;
+    right: -50px;
+  }
+
+  .modulex-hero-visual-shape-2 {
+    width: 200px;
+    height: 200px;
+    background: --shape2--;
+    bottom: -30px;
+    left: -30px;
+  }
+
+  .modulex-hero-visual-shape-3 {
+    width: 150px;
+    height: 150px;
+    background: --shape3--;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .modulex-hero-image {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  }
+
+  /* AN5: süs amaçlı sonsuz "float" döngüsü kaldırıldı — şekiller durağan */
+
+  @media (max-width: 1024px) {
+    .modulex-hero-container {
+      grid-template-columns: 1fr;
+      gap: 40px;
+      padding: 60px 20px;
+    }
+
+    .modulex-hero-title {
+      font-size: 40px;
+    }
+
+    .modulex-hero-visual {
+      order: -1;
+    }
+
+    .modulex-hero-visual-inner {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .modulex-hero {
+      min-height: auto;
+    }
+
+    .modulex-hero-title {
+      font-size: 32px;
+    }
+
+    .modulex-hero-desc {
+      font-size: 16px;
+    }
+
+    .modulex-hero-actions {
+      flex-direction: column;
+    }
+
+    .modulex-hero-btn {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .modulex-hero-stats {
+      gap: 24px;
+    }
+
+    .modulex-hero-stat-number {
+      font-size: 28px;
+    }
+  }
+
+  /* W2: mobil tasma kontrolu */
+  @media (max-width: 768px) {
+    [class*="modulex"] {
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+  }
+
+  /* W2: erisilebilirlik — animasyon kapatma */
+  @media (prefers-reduced-motion: reduce) {
+    [class*="modulex"],
+    [class*="modulex"] * {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+</style>

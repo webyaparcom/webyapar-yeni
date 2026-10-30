@@ -1,0 +1,148 @@
+<section class="modulex-values">
+  <div class="modulex-values-container">
+    <div class="modulex-values-header">
+      <div class="modulex-values-badge">{{badge}}</div>
+      <h2 class="modulex-values-title">{{title}}</h2>
+      <p class="modulex-values-desc">{{description}}</p>
+    </div>
+    <div class="modulex-values-grid">
+      {{html}}
+    </div>
+  </div>
+</section>
+
+<style>
+  .modulex-values {
+    width: 100%;
+    padding: 72px 20px;
+    background: --bgcolor--;
+    box-sizing: border-box;
+  }
+
+  .modulex-values-container {
+    max-width: --max--;
+    margin: 0 auto;
+  }
+
+  .modulex-values-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .modulex-values-badge {
+    display: inline-block;
+    padding: 6px 18px;
+    background: --badgebg--;
+    color: --badgecolor--;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+
+  /* Rozet bos birakilirsa (metin yok) bos pil cizilmesin */
+  .modulex-values-badge:empty {
+    display: none;
+  }
+
+  .modulex-values-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: --titlecolor--;
+    margin: 0 0 12px;
+  }
+
+  .modulex-values-desc {
+    font-size: 16px;
+    color: --textcolor--;
+    max-width: 640px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  .modulex-values-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .modulex-values-card {
+    background: --cardbg--;
+    border-radius: 14px;
+    padding: 28px 22px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(27, 58, 107, 0.08);
+    border: 1px solid rgba(27, 58, 107, 0.06);
+    animation: modulexValuesIn 0.55s ease both;
+    transition: transform 0.28s ease, box-shadow 0.28s ease;
+  }
+
+  .modulex-values-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 32px rgba(46, 107, 255, 0.14);
+  }
+
+  @keyframes modulexValuesIn {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .modulex-values-icon {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto 16px;
+    border-radius: 50%;
+    background: rgba(46, 107, 255, 0.12);
+    color: --accent--;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modulex-values-icon .material-symbols-outlined {
+    font-size: 28px;
+    line-height: 1;
+  }
+
+  .modulex-values-card-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: --titlecolor--;
+    margin: 0 0 10px;
+  }
+
+  .modulex-values-card-text {
+    font-size: 14px;
+    line-height: 1.65;
+    color: --textcolor--;
+    margin: 0;
+  }
+
+  @media (max-width: 1024px) {
+    .modulex-values-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .modulex-values {
+      padding: 48px 14px;
+    }
+
+    .modulex-values-grid {
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+
+    .modulex-values-title {
+      font-size: 28px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-values-card {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+</style>

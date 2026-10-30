@@ -1,0 +1,43 @@
+{
+  "id": "moda9v2azo",
+  "name": {
+    "tr": "Oto galeri web sitesi",
+    "en": "Car dealership website",
+    "ar": "موقع إلكتروني لمعرض سيارات"
+  },
+  "description": {
+    "tr": "Filtreli araç ilanları, ekspertiz randevusu ve satış koşulları; her ilanda yetki belgesi numarası görünür.",
+    "en": "Filterable vehicle listings, an inspection appointment and sales terms; every listing shows its authorisation number.",
+    "ar": "إعلانات مركبات قابلة للتصفية وموعد فحص وشروط البيع؛ ويظهر رقم التفويض في كل إعلان."
+  },
+  "keyword": {
+    "tr": "oto galeri web sitesi, hazır tema, webyapar",
+    "en": "car dealership website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني لمعرض سيارات، قالب جاهز، ويب ياپار"
+  },
+  "path": "oto-galeri-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "15dem2",
+      "0obm03",
+      "2p320j",
+      "62svzy",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 21,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Oto galeri web sitesi — Webyapar",
+    "en": "Car dealership website — Webyapar",
+    "ar": "موقع إلكتروني لمعرض سيارات — Webyapar"
+  },
+  "date": "2026-10-30T22:40:34.557Z",
+  "update": "2026-10-30T22:40:52.575Z"
+}

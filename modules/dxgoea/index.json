@@ -1,0 +1,75 @@
+{
+  "name": "Kurumsal Değerler 1",
+  "desing": {
+    "max": "1200px",
+    "bgcolor": "#F5F8FC",
+    "accent": "#2E6BFF",
+    "titlecolor": "#1B3A6B",
+    "textcolor": "#475569",
+    "cardbg": "#ffffff",
+    "badgebg": "#2E6BFF",
+    "badgecolor": "#ffffff",
+    "badge": {
+      "tr": "Değerlerimiz",
+      "en": "Our Values"
+    },
+    "title": {
+      "tr": "Enerji altyapısında güvenilir duruş",
+      "en": "Trusted stance in energy infrastructure"
+    },
+    "description": {
+      "tr": "Projelerimizi ilkelerimiz, deneyimimiz ve kalite anlayışımızla yürütüyoruz.",
+      "en": "We deliver projects with principle, experience and quality."
+    }
+  },
+  "data": [
+    {
+      "icon": "balance",
+      "name": {
+        "tr": "İlkeli",
+        "en": "Principled"
+      },
+      "description": {
+        "tr": "İş güvenliği, mevzuat ve sözleşme taahhütlerine bağlı çalışırız.",
+        "en": "We work bound to safety, regulations and commitments."
+      }
+    },
+    {
+      "icon": "engineering",
+      "name": {
+        "tr": "Deneyimli",
+        "en": "Experienced"
+      },
+      "description": {
+        "tr": "Saha ekiplerimiz iletim, dağıtım ve yenilenebilir projelerde tecrübelidir.",
+        "en": "Field teams experienced in transmission, distribution and renewables."
+      }
+    },
+    {
+      "icon": "verified",
+      "name": {
+        "tr": "Kaliteli",
+        "en": "Quality-driven"
+      },
+      "description": {
+        "tr": "Malzeme seçimi, test ve devreye alma süreçlerinde kaliteyi önceliklendiririz.",
+        "en": "We prioritize quality in materials, testing and commissioning."
+      }
+    },
+    {
+      "icon": "visibility",
+      "name": {
+        "tr": "Vizyonlu",
+        "en": "Visionary"
+      },
+      "description": {
+        "tr": "Sürdürülebilir enerji altyapısına uzun vadeli katkı hedefleriz.",
+        "en": "We aim for long-term contribution to sustainable energy infrastructure."
+      }
+    }
+  ],
+  "category": "values",
+  "description": "Kurumsal değer kartları (MLA tarzı dört sütun). Rakam yok; ikon, başlık ve kısa açıklama. Animasyon, mobil tek sütun ve prefers-reduced-motion destekler.",
+  "version": "1.0.0",
+  "icon": "diamond"
+}

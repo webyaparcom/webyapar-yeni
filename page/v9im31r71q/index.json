@@ -1,0 +1,43 @@
+{
+  "id": "v9im31r71q",
+  "name": {
+    "tr": "Araç kiralama web sitesi",
+    "en": "Car-rental website",
+    "ar": "موقع إلكتروني لتأجير السيارات"
+  },
+  "description": {
+    "tr": "Filtreli kiralık araçlar, rezervasyon talebi ve kiralama koşulları; depozito ve iptal baştan açık.",
+    "en": "Filterable rental vehicles, a reservation request and rental terms, with deposit and cancellation stated up front.",
+    "ar": "مركبات تأجير قابلة للتصفية وطلب حجز وشروط تأجير مع التأمين والإلغاء بوضوح منذ البداية."
+  },
+  "keyword": {
+    "tr": "araç kiralama web sitesi, hazır tema, webyapar",
+    "en": "car-rental website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني لتأجير السيارات، قالب جاهز، ويب ياپار"
+  },
+  "path": "arac-kiralama-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "e8yrr8",
+      "mqq2ko",
+      "yvvs9p",
+      "mongfu",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 12,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Araç kiralama web sitesi — Webyapar",
+    "en": "Car-rental website — Webyapar",
+    "ar": "موقع إلكتروني لتأجير السيارات — Webyapar"
+  },
+  "date": "2026-10-30T22:40:34.794Z",
+  "update": "2026-10-30T22:40:52.735Z"
+}

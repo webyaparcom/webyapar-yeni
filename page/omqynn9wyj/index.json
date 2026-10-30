@@ -1,0 +1,43 @@
+{
+  "id": "omqynn9wyj",
+  "name": {
+    "tr": "Çiçekçi web sitesi",
+    "en": "Florist website",
+    "ar": "موقع إلكتروني لمحل زهور"
+  },
+  "description": {
+    "tr": "Buketler, aranjmanlar, teslimat penceresi ve sipariş talebi; çabuk bozulan mal için cayma bilgisi açık.",
+    "en": "Bouquets, arrangements, delivery windows and an order request, with clear withdrawal information for perishable goods.",
+    "ar": "باقات وتنسيقات وفترات تسليم وطلب شراء مع معلومات عدول واضحة للسلع سريعة التلف."
+  },
+  "keyword": {
+    "tr": "çiçekçi web sitesi, hazır tema, webyapar",
+    "en": "florist website, ready-made theme, webyapar",
+    "ar": "موقع إلكتروني لمحل زهور، قالب جاهز، ويب ياپار"
+  },
+  "path": "cicekci-web-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "k43ypm",
+      "3nszi0",
+      "15tqcz",
+      "azublu",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 17,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Çiçekçi web sitesi — Webyapar",
+    "en": "Florist website — Webyapar",
+    "ar": "موقع إلكتروني لمحل زهور — Webyapar"
+  },
+  "date": "2026-10-30T22:40:34.659Z",
+  "update": "2026-10-30T22:40:52.656Z"
+}

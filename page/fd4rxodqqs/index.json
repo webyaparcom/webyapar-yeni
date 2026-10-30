@@ -1,0 +1,43 @@
+{
+  "id": "fd4rxodqqs",
+  "name": {
+    "tr": "Moda e-ticaret sitesi",
+    "en": "Fashion e-commerce site",
+    "ar": "متجر إلكتروني للموضة"
+  },
+  "description": {
+    "tr": "Giyim ve aksesuar vitrini, sepet ve demo ödeme akışı; iade ve iç giyim istisnası açık yazılı.",
+    "en": "A clothing and accessories storefront with a cart and a demo checkout, with the returns policy and the underwear exception stated clearly.",
+    "ar": "واجهة متجر ملابس وإكسسوارات بسلة وخطوات دفع تجريبية مع وضوح سياسة الإرجاع واستثناء الملابس الداخلية."
+  },
+  "keyword": {
+    "tr": "moda e-ticaret sitesi, hazır tema, webyapar",
+    "en": "fashion e-commerce site, ready-made theme, webyapar",
+    "ar": "متجر إلكتروني للموضة، قالب جاهز، ويب ياپار"
+  },
+  "path": "moda-eticaret-sitesi",
+  "icon": "web",
+  "category": "js97mgjeat",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "6454iu",
+      "0utrjy",
+      "ac43lp",
+      "hqw6ya",
+      "zzd4a6"
+    ],
+    "footer": []
+  },
+  "index": 7,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Moda e-ticaret sitesi — Webyapar",
+    "en": "Fashion e-commerce site — Webyapar",
+    "ar": "متجر إلكتروني للموضة — Webyapar"
+  },
+  "date": "2026-10-30T22:40:34.974Z",
+  "update": "2026-10-30T22:40:52.829Z"
+}

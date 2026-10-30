@@ -1,0 +1,60 @@
+{
+  "name": "SSS Akordeon 1",
+  "desing": {
+    "max": "900px",
+    "bgcolor": "#ffffff",
+    "cardbg": "#f8fafc",
+    "bordercolor": "#e2e8f0",
+    "titlecolor": "#1e293b",
+    "textcolor": "#475569",
+    "accent": "#DE6D26",
+    "badge": {
+      "tr": "SSS",
+      "en": "FAQ"
+    },
+    "title": {
+      "tr": "Sıkça Sorulan Sorular",
+      "en": "Frequently Asked Questions"
+    },
+    "description": {
+      "tr": "Merak ettiğiniz soruların cevaplarını burada bulabilirsiniz.",
+      "en": "Find answers to the most common questions here."
+    }
+  },
+  "data": [
+    {
+      "question": {
+        "tr": "Hizmetleriniz hangi şehirleri kapsıyor?",
+        "en": "Which cities do your services cover?"
+      },
+      "answer": {
+        "tr": "Tüm Türkiye genelinde hizmet veriyoruz; uzaktan projelerde dünya genelinde çalışabiliyoruz.",
+        "en": "We serve all of Turkey and work worldwide on remote projects."
+      }
+    },
+    {
+      "question": {
+        "tr": "Proje teslim süresi ne kadar?",
+        "en": "How long does project delivery take?"
+      },
+      "answer": {
+        "tr": "Kapsama göre değişmekle birlikte standart projeler 2-4 hafta içinde teslim edilir.",
+        "en": "Depending on scope, standard projects are delivered within 2-4 weeks."
+      }
+    },
+    {
+      "question": {
+        "tr": "Destek hizmeti sunuyor musunuz?",
+        "en": "Do you offer support services?"
+      },
+      "answer": {
+        "tr": "Evet, teslim sonrasında 7/24 teknik destek ve bakım paketlerimiz mevcuttur.",
+        "en": "Yes, we provide 24/7 technical support and maintenance packages after delivery."
+      }
+    }
+  ],
+  "category": "faq",
+  "description": "SSS akordeon modülü. Soru-cevap listesini tek seferde bir açık olacak şekilde akordeon düzende gösterir. Çok dilli veri, animasyonlu açılış, mobil uyum ve erişilebilirlik (aria-expanded) desteği içerir.",
+  "version": "1.0.0",
+  "icon": "quiz"
+}
